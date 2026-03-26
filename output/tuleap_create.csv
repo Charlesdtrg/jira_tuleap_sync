@@ -1,0 +1,2584 @@
+﻿"titre","status","ads_d_appartenance","lien_ticket_jira","s__v__rit___dp_roc","bloc","version_corrective_111","sprint_de_correction_1","description_du_bug","version_de_roc"
+"[ROC] Version 9.4.1 non fonctionnelle","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3520","Bloquant","","","","Bonjour,
+
+L'installation de la version 9.4.1 n'est fonctionnelle qu'en mode ""debug"".
+
+Si on enlève le mode ""debug"", les front NP et DR sont inaccessibles (page blanche erreur 500 sur PICSEL).
+
+ ","V9.4.1"
+"[MOE][Connexion Volontaire] - Envoi de mail systématique","En cours de résolution et de qualification","DP ROC","ROC-3512","Mineur","MinDefConnect","V9.5.0","Sprint V9.5","Lorsque je me connecte avec un volontaire, je reçois systématiquement un mail indiquant que l'acte de candidature a été pris en compte. ","V9.4.1"
+"[LOGS] roc-back-acces.log du serveur back trop volumineux","En cours de résolution et de qualification","DP ROC","ROC-3511","Majeur","Environnement","","Sprint V9.5","Le /var/log du serveur back était plein à 77% alors que la migration C1DR a eu lieu le 3 mars.
+
+Les fichiers de logs roc-back_acces.log sont très volumineux (plus de 2Go pour le plus gros) :
+
+roc-back_access.log : 1 775 273 322 octets
+roc-back_access.log-20260222 : 646 205 octets
+roc-back_access.log-20260301 : 976 900 octets 
+roc-back_access.log-20260308 : 1 527395 601 octets
+roc-back_access.log-20260315 :  2 757 734 772 octets
+
+ 
+
+Les logs anonymisés seront déposés sur RESANA dans Ressources\\logs pour pb acces.log","V8.3.6"
+"[MOE][Gestion][Créer un groupe] Valider création groupe réserviste ko","En cours de résolution et de qualification","DP ROC","ROC-3500","Bloquant","Droits","","Sprint V9.5","ENV INTEGRATION
+
+En tant que REF 8595_utilisateur, je vais dans le menu Gestion/Gerer un groupe, j'arrive sur la page Gestion groupe réservistes
+
+Je clique sur Créer un groupe, j'ajoute un réserviste et je clique sur Créer le groupe pour le valider or rien ne se passe , je reste sur la page actuelle (url : //front-dr.integration.roc.fr.capgemini.com/interne/groupe-reserviste/creation)
+
+!image-2026-03-19-14-15-11-166.png!","V9.4.0"
+"[MOE][Compétences] Modifier compétences transverses - Candidat ko","En cours de résolution et de qualification","DP ROC","ROC-3499","Bloquant","Compétences","","Sprint V9.5","Env Integration
+
+Création d'un compte candidat en cliquant sur ""Je suis volontaire"" du site Internet, jusqu'à la saisie des informations personnelles validées. Ce qui entraine la connexion automatique à mon compte avec un message ""Vous êtes désormais dans l'espace candidat. Soyez attentif à vos e-mails, ils vous guideront pas-à-pas tout au long de votre processus d'engagement."" et les 2 blocs ""Données personnelles"" et ""Engagement"".
+
+Si je clique sur le bloc ""Données personnelles"" j'ai un message d'erreur ""Une erreur est survenue.
+
+!image-2026-03-19-11-38-37-416.png!
+
+ 
+
+!image-2026-03-19-11-39-53-162.png!","V9.4.0"
+"[MOE][Gestion] erreur sur la création d'un pilote avec un AO","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3497","Majeur","Comptes","","","Titre : [MOE][Gestion] erreur sur la création d'un pilote
+
+ 
+
+Configuration : V9.5 Intégration
+
+ 
+
+Identifiant : AO
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/utilisateurs/pilotes/ajout]
+
+ 
+
+Descriptif :
+
+Lorsque l'AO souhaite créer un pilote, une erreur sur la page apparait .
+
+Résultat attendu :
+
+la création du pilote 
+
+Résultat obtenu :
+
+erreur sur la page
+
+ 
+
+ 
+
+!image-2026-03-19-10-38-17-011.png!","V9.5.0"
+"[MOE][Contrat] Contre signature - Télécharger l'ESR signé par le réserviste ko","En cours de résolution et de qualification","DP ROC","ROC-3496","Bloquant","Contrat","","Sprint V9.5","Env Intégration, [53554_reserviste.roc@getnada.com  adr2.ssa|mailto:53554_reserviste.roc@getnada.com]
+
+Je me connecte en tant qu'ADR, je vais sur le bloc contrat et je choisis un contrat à l'étape Contresignature.
+
+Quand je clique sur ""Télécharger l'ESR signé par le réserviste"" j'ai une message d'erreur alors que le réserviste à envoyé son ESR signé
+
+!image-2026-03-19-10-34-52-786.png!
+
+ 
+
+!image-2026-03-19-10-35-34-125.png!
+
+ ","V9.4.0"
+"[MOE][Création emploi] Manque bloc fonctionnel ""mobilité interne pour RO1","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3495","Majeur","Candidature","","","Titre : [MOE][Création emploi] Manque bloc fonctionnel ""mobilité interne pour RO1
+
+ 
+
+Configuration : V9.5 Intégration
+
+ 
+
+Identifiant : RO1
+
+ 
+
+Descriptif :
+
+Lorsque le RO1 souhaite candidater un poste temporaire, le bloc fonctionnel ""mobilité interne"" ne s'affiche pas
+
+Résultat attendu :
+
+le bloc fonctionnel ""mobilité interne""  s'affiche 
+
+Résultat obtenu :
+
+le bloc fonctionnel ""mobilité interne"" ne s'affiche pas
+
+ 
+
+!image-2026-03-19-10-28-57-947.png!","V9.5.0"
+"[MOE][Contrats] Accès contrat cotés réservistes","En cours de résolution et de qualification","DP ROC","ROC-3491","Bloquant","","","Sprint V9.5","À la suite de la validation de l’hypothèse de reconduction par l’ADR, le réserviste est bloqué par une erreur quand il tente d’accéder à ses contrats.
+
+52809_reserviste.roc@getnada.com","V9.5.0"
+"flux RoX : Erreur ""More than one result was found"" ","En cours de résolution et de qualification","DP ROC","ROC-3488","Majeur","","V8.3.8","Sprint V9.5","Lors de l'exécution du flux RoX le 17/03 pour CTO, j'ai à nouveau l'erreur suivante :
+
+ 
+
+    ""Erreur d'import : Erreur non repertoriee empechant l'import dans ROC :
+
+{*}More than one result was found for query although one row or none was expected.{*}""
+
+ 
+
+Voir log en PJ.
+
+PS : Je ne peux communiquer le fichier de données cause données réelles.","V8.3.5"
+"[MOE][Compétences] Modifier compétences transverses - réserviste ko","En cours de résolution et de qualification","DP ROC","ROC-3487","Majeur","Compétences","","Sprint V9.5","Env Intégration
+
+En tant que réserviste RO1 258368_reserviste.roc@getnada.com, je vais dans Mes données personnelles, onglet Compétences transverses
+
+Je rajoute deux compétences en cliquant dans le liste Permis de conduire, puis en supprime une seule et je clique sur Valider les modifications.
+
+J'ai un message ""Vos compétences ont bien été mises à jour"", mais je ne vois plus la compétence rajoutée d'affichée
+
+!image-2026-03-18-15-59-37-343.png!
+
+ 
+
+Idem si je rafraichis l'écran
+
+ ","V7.4.0"
+"[MOE][Contrat] Demande de modification du NPJA ko","En cours de résolution et de qualification","DP ROC","ROC-3486","Bloquant","Contrat","","Sprint V9.5","En tant que REF 
+
+8595_utilisateur
+
+Je vais sur le bloc Contrat, Contrat actif. Je clique sur un contrat et clique sur ""Demande de modification du NPJA"".
+
+Je renseigne le motif et l'adresse email de l'autorité de rattachement [adr2.aae@getnada.com|mailto:adr2.aae@getnada.com] puis je clique sur Valider
+
+Une erreur s'affiche :
+
+!image-2026-03-18-14-33-24-573.png!
+
+!image-2026-03-18-14-34-41-416.png!
+
+ ","V9.4.0"
+"[CRON] PB sur compte rendu CTO PROD","En cours de résolution et de qualification","DP ROC","ROC-3483","Majeur","Flux","","Sprint V9.5","Un flux CTO a été déposé sur le point de montage en PROD.
+
+Le fichier a bien été traité. 
+
+Il y a bien les 2 fichiers de compte rendu :
+ * 20260317_DR_ROC_ROx_F.csv
+ * rapport_importROx_CTO_2026-03-17.xlsx
+
+Néanmoins le rapport au format Excel est vide et il est impossible de l'ouvrir.
+
+De plus, ce fichier n'a pas été reçu sur la messagerie technique.","V8.3.6"
+"[MOE][Déclaration/Modification] Demande d'ouverture pour RO2 KO","En cours de résolution et de qualification","DP ROC","ROC-3475","Bloquant","Comptes","","Sprint V9.5","Je vais sur le site Internet roc, et je clique sur Création Compte puis demande d'ouverture de compte pour la réserve de disponibilité RO2. J'arrive sur le formulaire front-np.integration.roc.fr.capgemini.com/reserviste/ro2/creation-compte
+
+Je saisie les informations et clique sur Valider, et là j'ai un message d'erreur suivant : 
+
+{""type"":""https://tools.ietf.org/html/rfc2616#section-10"",""title"":""An error occurred"",""status"":400,""detail"":""ro2.demande_compte.erreur.conflit"",""class"":""App\\\\Exception\\\\WSException"",""trace"":[\\{""namespace"":"""",""short_class"":"""",""class"":"""",""type"":"""",""function"":"""",""file"":""/var/www/html/roc-back/src/Exception/WSException.php"",""line"":151,""args"":[]},\\{""namespace"":""App\\\\Exception"",""short_class"":""WSException"",""class"":""App\\\\Exception\\\\WSException"",""type"":""::"",""function"":""erreur"",""file"":""/var/www/html/roc-back/src/Service/Ro2Service.php"",""line"":157,""args"":[]},\\{""namespace"":""App\\\\Service"",""short_class"":""Ro2Service"",""class"":""App\\\\Service\\\\Ro2Service"",""type"":""->"",""function"":""demandeCompteRo2"",""file"":""/var/www/html/roc-back/src/Controller/WSUtilisateurController.php"",""line"":1329,""args"":[]},\\{""namespace"":""App\\\\Controller"",""short_class"":""WSUtilisateurController"",""class"":""App\\\\Controller\\\\WSUtilisateurController"",""type"":""->"",""function"":""wsPostUtilisateurs"",""file"":""/var/www/html/roc-back/vendor/symfony/http-kernel/HttpKernel.php"",""line"":181,""args"":[]},\\{""namespace"":""Symfony\\\\Component\\\\HttpKernel"",""short_class"":""HttpKernel"",""class"":""Symfony\\\\Component\\\\HttpKernel\\\\HttpKernel"",""type"":""->"",""function"":""handleRaw"",""file"":""/var/www/html/roc-back/vendor/symfony/http-kernel/HttpKernel.php"",""line"":76,""args"":[]},\\{""namespace"":""Symfony\\\\Component\\\\HttpKernel"",""short_class"":""HttpKernel"",""class"":""Symfony\\\\Component\\\\HttpKernel\\\\HttpKernel"",""type"":""->"",""function"":""handle"",""file"":""/var/www/html/roc-back/vendor/symfony/http-kernel/Kernel.php"",""line"":208,""args"":[]},\\{""namespace"":""Symfony\\\\Component\\\\HttpKernel"",""short_class"":""Kernel"",""class"":""Symfony\\\\Component\\\\HttpKernel\\\\Kernel"",""type"":""->"",""function"":""handle"",""file"":""/var/www/html/roc-back/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php"",""line"":35,""args"":[]},\\{""namespace"":""Symfony\\\\Component\\\\Runtime\\\\Runner\\\\Symfony"",""short_class"":""HttpKernelRunner"",""class"":""Symfony\\\\Component\\\\Runtime\\\\Runner\\\\Symfony\\\\HttpKernelRunner"",""type"":""->"",""function"":""run"",""file"":""/var/www/html/roc-back/vendor/autoload_runtime.php"",""line"":29,""args"":[]},\\{""namespace"":"""",""short_class"":"""",""class"":"""",""type"":"""",""function"":""require_once"",""file"":""/var/www/html/roc-back/public/index.php"",""line"":8,""args"":[[""string"",""/var/www/html/roc-back/vendor/autoload_runtime.php""]]}]}
+
+!image-2026-03-17-11-16-38-643.png!
+
+ 
+
+!image-2026-03-17-11-17-11-319.png!
+
+ 
+
+!image-2026-03-17-11-18-14-550.png!","V9.4.0"
+"[MOE][Volontaire] impossible de se connecter avec un candidat sur MDC","En cours de résolution et de qualification","DP ROC","ROC-3473","Bloquant","Volontariat","V9.5.0","Sprint V9.5","Titre : [MOE][Volontaire] impossible de se connecter avec un candidat sur MDC
+
+Configuration : V9.5.0  Intégration
+
+Identifiant : candidat - 264032_candidat.roc@getnada.com et d'autres candidat volontaire
+
+URL :   [https://mdc.integration.roc.fr.capgemini.com/auth/realms/HELISS/login-actions/registration?execution=b0ce5cc9-1bd6-4143-a46b-f8bb6f555a91&client_id=int-roc-internet&tab_id=ausmFUCoBEY]
+
+ 
+
+Descriptif :
+
+Sur MDC , impossible de s'enregistrer ou de se connecter avec un candidat/ volontaire.
+
+Résultat attendu :
+
+connexion réussi
+
+Résultat obtenu :
+
+connexion impossible
+
+ 
+
+ 
+
+!image-2026-03-17-10-36-18-826.png!
+
+ 
+
+ 
+
+!image-2026-03-17-10-35-58-480.png!
+
+ 
+
+ 
+
+!image-2026-03-17-10-34-58-841.png!
+
+ 
+
+!image-2026-03-17-10-34-37-012.png!","V9.5.0"
+"[MOE][ENGAGEMENT]  une erreur est survenue sur le processus d'engagement","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3464","Mineur","Volontariat","","","Titre : [[MOE][ENGAGEMENT]  une erreur est survenue sur le processus d'engagement
+
+Configuration : V9.5.0
+
+Identifiant : Volontaire  199434_candidat.roc@getnada.com 
+
+ 
+
+URL :   [https://front-np.integration.roc.fr.capgemini.com/candidat/processus-candidature]
+
+ 
+
+Descriptif :
+
+Lorsque je me connecte sur un volontaire, je clique sur engagement avec redirection sur le processus d'engagement.
+
+sans erreur sur la page
+
+Résultat obtenu :
+
+une erreur est survenue
+
+ 
+
+!image-2026-03-16-16-23-08-159.png!","V9.5.0"
+"[MOE][Volontaire] erreur 500 sur la création de volontaire","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3462","Bloquant","Volontariat","","","Titre : [MOE][Volontaire] erreur 500 sur la création de volontaire
+
+Configuration : V9.4.1
+
+Identifiant : volontaire
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/gestion-engagement/creer-poste-mobilite-interne?temporalite=1]
+
+ 
+
+Descriptif :
+
+Lorsque je souhaite faire la création d'un volontaire
+
+Résultat attendu :
+
+Création du volontaire continu
+
+Résultat obtenu :
+
+erreur 500
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/f147ea]
+
+ 
+
+!image-2026-03-16-15-37-28-390.png!","V9.4.1"
+"[MOE][Paramètrage] pas d'export de tous les référentiels","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3456","Mineur","Paramétrage","","","Titre : [MOE][Paramètrage] pas d'export de tous les référentiels
+
+ 
+
+Configuration : V9.5.0  Integration
+
+ 
+
+Identifiant :  AF
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/admin/qualite]
+
+ 
+
+Descriptif :
+
+Dans le bloc ""Espace qualité"", sur les extractions, quand on clique sur export de tous les référentiels, un dossier compressé est téléchargé mais rien dedans.
+
+Résultat attendu :
+
+export référentiel avec les données.
+
+Résultat obtenu :
+
+pas d'export référentiels","V9.5.0"
+"[MOE][Gestion][Mes droits] Tranferts compte référent_Validation création compte de transfert KO","En cours de résolution et de qualification","DP ROC","ROC-3451","Bloquant","Comptes","","Sprint V9.5","En tant que REF je vais dans menu Mon compte / Mes droits et je clique sur ""Transférer mon compte, mes droits et mes fonctions"", je sélectionne un email non connu dans Roc.
+
+Suite au transfert l'email saisie reçoit un lien de création de compte, je saisie les informations et clique sur valider
+
+A ce moment je suis déconnectée, la charte utilisateur aurait dû s'afficher
+
+ 
+
+Jdd : [trans.compte.ref@free.fr|https://mailpit.integration.roc.fr.capgemini.com/search?q=trans.compte.ref%40free.fr]","V9.4.0"
+"[MOE][Contrat] Sortie processus_Absent dans Suivi candidature suite Réactivation","En cours de résolution et de qualification","DP ROC","ROC-3450","Bloquant","Candidature","","Sprint V9.5","En tant qu'AF je vais dans le menu Contrat/Mobilité puis Sortie de processus, cliquer sur une candidature puis sur réactivé candidature.
+
+Si je reviens sur le tableau des candidatures, je ne trouve pas la candidature réactivée
+
+jdd : candidat : [232757_candidat.roc@getnada.com|https://mailpit.integration.roc.fr.capgemini.com/search?q=232757_candidat.roc%40getnada.com]","V9.4.0"
+"[MOE][Contrat] Sortie processus_Réactiver une candidature_Connexion candidat KO","En cours de résolution et de qualification","DP ROC","ROC-3448","Bloquant","Comptes","","Sprint V9.5","En tant qu'AF
+
+Dans le menu Contrat/Mobilité puis Sortie de processus, cliquer sur une candidature puis sur réactivé candidature.
+
+Le candidat reçoi bien le mail de reprise du processus d'engagement mais celui-ci ne peut pas se connecter à son compte
+
+jdd : candidat : 
+
+[232757_candidat.roc@getnada.com|https://mailpit.integration.roc.fr.capgemini.com/search?q=232757_candidat.roc%40getnada.com]","V9.4.0"
+"[MOE][Gestion][Mes droits] Dans liste des droits actuels  l'affiliation créé n'apparait pas","En cours de résolution et de qualification","DP ROC","ROC-3446","Majeur","Droits","V9.4.1","Sprint V9.5","Dans un premier temps en tant qu'AF j'ai créé une affiliation sur l'utilisateur REF [16507_utilisateur.roc@getnada.com.|mailto:16507_utilisateur.roc@getnada.com.] L'utilisateur affilié est le 5135_utilisateur.
+
+Quand je me connecte avec ce dernier et que je vais dans le menu Gestion / Mes droits, je dois retrouver dans la liste des droits actuels sur mon compte une ligne affilié sur... qui fait référence à la nouvelle affiliation qui a été attribuée, or elle n'apparait pas","V9.4.0"
+"[MOE][Alertes]Etape 2_Création alerte immédiate Btn Suivant KO([ErreurWS] Erreur Serveur sur webservice) sans saisie ","En cours de résolution et de qualification","DP ROC","ROC-3443","Bloquant","Alertes","V9.4.1","Sprint V9.5","En tant qu'AF si je créer une alerte immediate (bloc Alerte), et qu'à l'étape 2 je clique sur suivant sans renseigner les champs j'obtiens une erreur 
+h1. [ErreurWS] Erreur Serveur sur webservice
+
+!image-2026-03-12-15-57-59-583.png!
+
+!image-2026-03-12-15-58-26-696.png!
+
+ 
+
+ 
+
+[P. DR - FO|https://front-dr.integration.roc.fr.capgemini.com/_profiler/37e814?panel=logger]","V9.4.0"
+"[MOE][ALERTE] pas possible de consulter une alerte pour REF/PIL","En cours de résolution et de qualification","DP ROC","ROC-3442","Majeur","Alertes","V9.5.0","Sprint V9.5","Titre : [MOE][ALERTE] pas possible de consulter une alerte pour REF/PIL
+
+Configuration : V9.5  Integration
+
+Identifiant : REF/PIL
+
+ 
+
+URL : [https://front-dr.integration.roc.fr.capgemini.com/interne/alertes] 
+
+Descriptif :
+
+Lorsque je créée une alerte immédiat par AF et que je dois consulter l'alerte par un REF/PIL, impossible de trouver l'alerte immédiat dans la section recherche de mes alertes
+
+ 
+
++la recherche:+
+
+titre : TEST AF
+
+ville : Nantes
+
+date de lancement: 30/03/2026
+
+ 
+
+Résultat attendu :
+
+ouvrir le document de l'alerte immédiat
+
+Résultat obtenu :
+
+""Aucune alerte trouvée""
+
+ 
+
+!image-2026-03-12-15-22-27-974.png!
+
+ 
+
+Recherche avec REF/PIL
+
+ 
+
+!image-2026-03-12-15-19-45-236.png!","V9.5.0"
+"[MOE][Paramètrage] erreur sur le paramètrage de mail ","En cours de résolution et de qualification","DP ROC","ROC-3440","Majeur","Paramétrage","V9.5.0","Sprint V9.5","Titre :[MOE][Paramètrage] erreur sur le paramètrage de mail 
+
+Configuration : V9.5 Integration
+
+Identifiant : AF
+
+ 
+
+URL :   [https://www.reservistes.defense.gouv.fr/candidat/creation-compte]
+
+Descriptif :
+
+Lorsque je suis avec l'AF et je suis dans les paramètrage fonctionnel, je modifie un mail (notification), je clique sur valider
+
+Résultat attendu :
+
+la modification est validé
+
+Résultat obtenu :
+
+erreur sur la page
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/1a043a]
+
+ 
+
+!image-2026-03-12-11-33-35-157.png!
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-12-11-32-19-914.png!","V9.5.0"
+"[MOE][ACTIVITE] Erreur 500 sur les activité à clôturer","En cours de résolution et de qualification","DP ROC","ROC-3431","Majeur","Activités","V9.5.0","Sprint V9.5","Titre : [MOE][ACTIVITE] Erreur 500 sur les activité à clôturer
+
+Configuration : V9.5 Intégration
+
+Identifiant : REF 119_utilisateur
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/_profiler/e6cd96?panel=request]
+
+ 
+
+Descriptif :
+
+Dans le tableau des activité et dans l'onglet à clôturer, prendre une activité et mettre un mail valideur en cliquant sur valider, ensuite le mail avec le lien et clique sur le lien, mettre un mail valideur et cliquer sur Valider  reprise
+
+ 
+
+Résultat attendu :
+
+recevoir un autre mail de confirmation
+
+Résultat obtenu :
+
+erreur 500
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/e6cd96]
+
+ 
+
+!image-2026-03-11-15-31-23-485.png!
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-11-15-31-05-352.png!
+
+ 
+
+ ","V9.5.0"
+"[MOE][Connexion]Impossible de se connecter en tant que RO1","En cours de résolution et de qualification","DP ROC","ROC-3424","Bloquant","","V9.4.1","Sprint V9.5","ROC v9.4.0 open api 8.0.8 . sur /v8/api/utilisateurs on a 413 envoyé par PAPI
+
+FRONT NP (se connecter en tant que RO1) -> PAPI NP -> BACK DR -> PAPI NP (413) payload too large
+
+ 
+
+voici le curl qu'on a joué
+
+ 
+{code:java}
+curl \\
+  --compressed \\
+  --request GET \\
+  --url 'https://zspapi21-2np-lbext.picsel.defense.gouv.fr/in/ressources-humaines/roc-synchro-release/v8/api/utilisateurs?type=ro1&email=8462_reserviste.roc@getnada.com' \\
+  --header 'MinArm-PEM-Authorization: Bearer eyJ4NXQiOiJNemxsWVRBell6QTVOamRrWkRsa04yRmhaalExTTJSaVpXWmlORFF3WXpkak1HRXhOVE16TkEiLCJraWQiOiJOekl5WTJZek0yUXdZV1ZtTVdFME5ESmxOR0l6TTJSak16WXdaRGsxWldJMU5HSmpNR1E1TmpSbE5ESTBaR1UwT0RJM1lXVTJNbVUyTmpkak5qZ3lNd19SUzI1NiIsInR5cCI6ImF0K2p3dCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkLm5vaXNldHRlIiwiYXV0IjoiQVBQTElDQVRJT04iLCJiaW5kaW5nX3R5cGUiOiJyZXF1ZXN0IiwiaXNzIjoiaHR0cHM6XC9cL05QTEJHVFdTVkMyNzBWLnBpY3NlbC5kZWZlbnNlLmdvdXYuZnI6NDQzXC9vYXV0aDJcL3Rva2VuIiwiYXVkIjoiaHlLN1lCM1RRamQzY1VLOElCVmNGeUkzVHJBYSIsIm5iZiI6MTc3MzIyMDMyMiwiYXpwIjoiaHlLN1lCM1RRamQzY1VLOElCVmNGeUkzVHJBYSIsInNjb3BlIjoiZGVmYXVsdCIsInJlYWxtIjp7InNpZ25pbmdfdGVuYW50IjoiY2FyYm9uLnN1cGVyIn0sImV4cCI6MTc3MzIyMzkyMiwiaWF0IjoxNzczMjIwMzIyLCJiaW5kaW5nX3JlZiI6IjdkNjY2ZmQ1MTQ3NzY2NWFkZGU1NWQ5NDExOTk5M2U4IiwianRpIjoiMmE3M2I3YWYtZDU3MS00ZDYyLTk2ZDItMTA5OWY0OTgwNjMyIn0.apigG5G8KxWsDDGFLNdBzwvnfxnRCbZsWALAcy-VNpasgMkBxghssloon8VBcg6esFnkEaBLZC7dCNk4xyU4pOpkFYNyKEP2WQx1ZEFIoaXwfDU5huthVSOZp3uG6ylhpAHXSUI3lSR_YpVl8tTehD1BPnB5TAZjXEkIgbz2x53a-ztvaJEps83ZZaTlcrOA0eCDyF0RXffns2Vc2ESvBPJE9Om3_O0iG16gxnRJUAvzMXJGWcYmDdh-dHIopiFOdbECQKONDX6dKkU2pCHdxiypIo4dK62wXB58TJ-Rxrza-OutYpjCr08iBcArhM14Oezu5_yEX8asBe_BoJl1aB46Lqf_yxMo8XBHZ2uc28cdtrdqjIb9_LY7kZDGG8BLrFkEZk7cVS7WM9z3kJw_2-w_p-GUpP6u4gFYO2AXvuxkLVa0gqqBNO31USK-yYu0HPnPqntIVvg4ETLegyvukM5Fm_He4zn-K-H4-sB32rLzm5Oo-le-v0ZJLnUCLat7' \\
+  --header 'MinArm-Application-Consumer: ReleaseApplication' \\
+  --header 'Accept: application/json' \\
+  --header 'ROC-Env: helissng' \\
+  --header 'X-ROC-Referer: NP' \\
+  --header 'Content-Type: application/json' \\
+  --header 'User-Agent: Symfony HttpClient (Curl)' \\
+  --header 'Accept-Encoding: gzip'
+ 
+{code}
+ 
+
+*Investigation de l'équipe PAPI :*
+
+Content-Length: 1269632 > 500 ko   (1.269.632 b, donc 1.2M)
+
+canal data = 500ko, canal fichier 8Mo
+
+les données sont retournées en ""pretty print"", prend plus de place
+
+ 
+
+P.I : sur ROC v9.3.1 on n'a pas de soucis
+
+nous avons également besoin de logs sur frontnp lorsqu'on a ce genre d'erreur de PAPI","V9.4.0"
+"[MOE][ACTIVITE] anomalie sur l'affichage des onglets de l'activité","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3423","Mineur","Activités","","","Titre : [MOE][ACTIVITE] anomalie sur l'affichage des onglets de l'activité
+
+Configuration : V9.5
+
+Identifiant : REF 3481_utilisateur
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/activites/creer/brouillon]
+
+ 
+
+Descriptif :
+
+Sur le tableau d'activité, les onglets sont en dessous du tableau
+
+Résultat attendu :
+
+les onglets sont au dessus du tableau
+
+Résultat obtenu :
+
+les onglets sont en dessous du tableau
+
+ 
+
+!image-2026-03-11-11-20-54-197.png!
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-11-11-20-15-643.png!","V9.5.0"
+"[MOE][Données personnelles] une erreur est survenue au clique sur les données personnelles du volontaire","En cours de résolution et de qualification","DP ROC","ROC-3422","Majeur","Volontariat","V9.5.0","Sprint V9.5","Titre : [MOE][Données personnelles] une erreur est survenue au clique sur les données personnelles du volontaire
+
+Configuration : V9.5
+
+Identifiant : volontaire-240839_candidat.roc@getnada.com
+
+URL :   [https://front-np.integration.roc.fr.capgemini.com/candidat/accueil-choix-bloc]
+
+ 
+
+Descriptif :
+
+Sur le compte du volontaire avec 2 blocs : ""Données personnelles"" et ""Engagement"", au clique sur les données personnelles
+
+Résultat attendu :
+
+Accès aux données personnelles
+
+Résultat obtenu :
+
+une erreur est survenue
+
+ 
+
+ 
+
+!image-2026-03-11-10-38-58-396.png!","V9.5.0"
+"[MOE][Contrat] Retour termes _Date début ESR erronée_Réserviste","En cours de résolution et de qualification","DP ROC","ROC-3420","Majeur","Contrat","","Sprint V9.5","Env INTEGRATION / réserviste : [208924_reserviste.roc@getnada.com|mailto:208924_reserviste.roc@getnada.com]
+
+En tant que réserviste, je suis à l'étape Retour termes
+
+!image-2026-03-10-15-53-11-663.png!
+
+Avant d'accepter le terme je regarde les données de l'Hypothèse de reconduction.
+
+Or pour un contrat qui se termine le 07/02/2026, la date de début de l'ESR est 08/02 de 2024 (au lieu de 2026)
+
+!image-2026-03-10-15-54-05-850.png!","V9.4.0"
+"[MOE][Gestion] pas d'affichage pour FPM pour REF/PIL","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3419","Mineur","","","","Titre : [MOE][Gestion] pas d'affichage pour FPM pour REF/PIL
+
+Configuration : V9.4 Integration
+
+Identifiant :  REF/PIL  3481_utilisateur
+
+baptiste.poiron@wavestone.com
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/gestion-formations-premilitaires]
+
+ 
+
+Descriptif :
+
+Suite à la création d'une FPM, dans le tableau pas de visibilité sur la FPM créé
+
+Résultat attendu :
+
+Affichage de la FPM
+
+Résultat obtenu :
+
+Pas de visibilité
+
+ 
+
+ 
+
+!image-2026-03-10-15-52-18-107.png!","V9.5.0"
+"[MOE][Calendrier] impossible de créer une activité avec les réservistes disponible","En cours de résolution et de qualification","DP ROC","ROC-3418","Majeur","Calendrier","","Sprint V9.5","Titre : [MOE][Calendrier] impossible de créer une activité avec les réservistes disponible
+
+Configuration : V9.4 Integration
+
+Identifiant :
+
+baptiste.poiron@wavestone.com
+
+URL :  [https://front-dr.integration.roc.fr.capgemini.com/interne/calendrier/disponibilites-periode?pfIds=&unitesIds=]
+
+ 
+
+Descriptif :
+
+Dans le calendrier, clique sur la disponibilité par période, lorsque je mets des date de début et de fin avec des réserviste disponible, impossible de cliquer sur le bouton ""Créer une activité avec les réservistes disponibles"".
+
+Résultat attendu :
+
+création de l'activité avec les réservistes disponible
+
+Résultat obtenu :
+
+impossible de faire la création de l'activité avec les réservistes disponible
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-10-12-15-44-698.png!","V9.5.0"
+"[MOE][Activité-Signer]erreur 403 sur la demande signature","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3416","Majeur","Activités","","","Titre : [MOE][Activité-Signer]erreur 403 sur la demande signature
+
+ 
+
+Configuration : V9.4
+
+Identifiant : AF, REF, PIL
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/activites/enaro/signature/en-attente]
+
+ 
+
+Descriptif :
+
+Lorsque je suis dans le tableau activité , onglet à signer je clique sur une demande signature avec le choix de l'ATS et le clique sur le bouton valider, ensuite je reçois un mail , je clique sur le lien
+
+Résultat attendu :
+
+Redirection sur la signature de l'ATS
+
+Résultat obtenu :
+
+une erreur 403
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/922d12]
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-10-11-40-51-053.png!","V9.5.0"
+"[MOE][Gestion-Espace Qualité] Export des candidatures en cours KO","En cours de résolution et de qualification","DP ROC","ROC-3414","Bloquant","Extraction","","Sprint V9.5","En tant qu'AF si je vais sur le bloc ""Espace Qualité"" et que je clique sur Export des candidatures en cours bouton ""Téléchargement.csv"" , j'ai une erreur :
+
+!image-2026-03-10-11-15-23-915.png!","V9.4.0"
+"[MOE][Gestion-Espace Qualité] Export des candidatures KO","En cours de résolution et de qualification","DP ROC","ROC-3413","Bloquant","Extraction","","Sprint V9.5","En tant qu'AF si je vais sur le bloc ""Espace qualité"" et que je clique sur Export des candidatures, j'ai une erreur : [front-dr.integration.roc.fr.capgemini.com|https://front-dr.integration.roc.fr.capgemini.com/interne/admin/extractions-massives/candidatures] https://front-dr.integration.roc.fr.capgemini.com/interne/admin/extractions-massives/candidatures
+
+!image-2026-03-10-11-09-50-617.png!","V9.4.0"
+"[MOE][Gestion des emplois]erreur 500 sur l'engagement temporaire et permanent","En cours de résolution et de qualification","DP ROC","ROC-3409","Bloquant","Emploi","V9.4.1","Sprint V9.5","Titre : [MOE][Gestion des emplois]erreur 500 sur l'engagement temporaire et permanente
+
+Configuration : V9.4
+
+Identifiant : AF
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/poste/creer/modele]
+
+ 
+
+Descriptif :
+
+Connecter avec l'AF, lorsque je veux créé un poste sur l'engagement temporaire ou permanent  pour un R01 , je coche l'une des deux cases et je clique sur le bouton Valider
+
+ 
+
+Résultat attendu :
+
+La création du poste continu
+
+Résultat obtenu :
+
+erreur 500
+
+ 
+
+https://front-dr.integration.roc.fr.capgemini.com/_profiler/336b16
+
+ 
+
+ 
+
+!image-2026-03-10-10-37-46-125.png!
+
+ 
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-10-10-37-19-608.png!","V9.5.0"
+"Erreur 403 (""access denied"") lors de la modification de ses données personnelles","En cours de résolution et de qualification","DP ROC","ROC-3406","Bloquant","Perso","V9.5.0","Sprint V9.5","Sur picsel release, en v9.4.0, et en connectant avec un compte de référent ou encore le 4512_utilisateur, suite clic sur le nom de l'utilisateur (en haut à droite), j'ai une erreur 403.
+
+Dans la log Symfony du front DR, j'ai une erreur Access denied comme suit : 
+
+ 
+
+[2026-03-09 17:19:11] request.ERROR: Uncaught PHP Exception Symfony\\Component\\HttpKernel\\Exception\\AccessDeniedHttpException: """"
+
+at CheckAccessSubscriber.php line 47 {""exception"":""[object] (Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\AccessDeniedHttpException(code: 0):  
+
+at /var/www/html/roc-front/src/Security/EventSubscriber/CheckAccessSubscriber.php:47)""} ","V9.4.0"
+"[MOE][Connexion] erreur 500 à la connexion avec l'AT","En cours de résolution et de qualification","DP ROC","ROC-3392","Bloquant","Connexion","","Sprint V9.5","Titre : [MOE] erreur 500 à la connexion avec l'AT
+
+Configuration : V9.3.0
+
+Identifiant :  Login : admin_technique
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/AT/login]
+
+Descriptif :
+
+Impossible de se connecter via MDC et connexion ROC avec l'administrateur technique
+
+Résultat attendu :
+
+Connexion OK
+
+Résultat obtenu :
+
+Erreur 500, login fail
+
+ 
+
+ 
+
+!image-2026-03-02-10-33-38-662.png!
+
+ 
+
+ 
+
+!image-2026-03-02-10-34-14-221.png!
+
+ 
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/540709?panel=request]
+
+ 
+
+ ","V9.4.0"
+"[MOE] [Activité] REF - Affichage macro activité KO","En cours de résolution et de qualification","DP ROC","ROC-3388","Bloquant","Activités","V9.4.1","Sprint V9.5","Utilisateur : 3481_utilisateur
+
+En suivant les étapes de la TNR ici : https://jira-ci.fr.capgemini.com/jira/browse/ROC-253
+Ou en suivant ces étapes :
+ # Créer une activité RO1
+ # Remplir les champs obligatoire et cliquer sur suivant
+ # Cocher le bouton radio macro activité - Oui
+ # Entrer un titre de macro activité et cliquer sur suivant
+ # Continuer jusqu'à la publication
+ # Après publication, aller dans l'onglet à convoquer
+ # Chercher la macro activité nouvellement créé
+ # Cliquer dessus dans le tableau
+!image-2026-03-06-16-50-32-011.png|width=369,height=138!  
+!image-2026-03-06-16-51-12-737.png|width=369,height=108!
+!image-2026-03-06-16-53-11-231.png|width=375,height=116!","V9.4.0"
+"[MOE] [Activité] AF - Activité à clôturer code autorité KO","En cours de résolution et de qualification","DP ROC","ROC-3381","Bloquant","Activités","V9.4.0","Sprint V9.5","Identifiant : 4512_utilisateur
+
+URL : [https://front-dr.integration.roc.fr.capgemini.com/interne/activites/designer/liste]
+ # Je me connecte en tant que AF
+ # Je vais dans le bloc activité --> A clôturer
+ # Je clique sur une activité
+ # J'ajoute un réserviste
+!image-2026-03-06-14-12-32-647.png|width=353,height=103!
+ # Je renseigne un code autorité
+ # J'enregistre OU valide et dans les 2 cas j'obtiens une erreur 500
+!image-2026-03-06-14-13-54-452.png|width=388,height=114!","V9.4.0"
+"Envoi de mail non conditionné par son statut","En cours de résolution et de qualification","DP ROC","ROC-3380","Majeur","","V8.3.7","Sprint V9.5","Contexte :
+
+Les investigation autour de l'envoi de mails en PPROD au RO2 a révélé que le statut Actif/Inactif d'un e-mail paramétrable n'était jamais récupéré (aucun getter n'a été trouvé dans le code) ce qui implique que l'envoi d'un mail n'est pas conditionné par son statut.
+
+Résultat attendu :
+
+L'envoi d'un doit être conditionné par son statut, c'est à dire :
+ * Un mail ""Actif"" doit pouvoir être envoyé si ses conditions d'envoi sont remplies ;
+ * Un mail ""Inactif"" ne doit pas être envoyé même si toutes les autres conditions d'envoi sont remplies.","V8.3.5"
+"[MOE][Contrat] Etape Retour Terme Perte de connexion du réserviste-Err getUniteVille() on null","En cours de résolution et de qualification","DP ROC","ROC-3375","Bloquant","Contrat","V9.4.0","Sprint V9.5","Sur l'env INTEGRATION, en tant qu'ADR j'ai initié le renouvellement du contrat du réserviste 196758_reserviste.roc@getnada.com
+
+Celui-ci a pu se connecter à son compte pour l'étape Avis réserviste pour le renouvellement
+
+Puis je suis passée aux étapes suivantes : Avis FE avec avis favorable (REF) et Hypothèse du réserviste avec le profil ADR.
+
+Quand je suis revenu sur le site np avec le réserviste ou que j'essaie de me reconnecter avec le réserviste, j'ai l'erreur suivante : Erreur getUniteVille() on null
+
+!image-2026-03-06-11-14-08-219.png!
+
+ 
+
+!image-2026-03-06-11-15-51-145.png!
+
+ 
+
+Piste plausible ancien contrat ? ","V9.4.0"
+"[MOE] [Activité] AF - Enregistrement activité KO","En cours de résolution et de qualification","DP ROC","ROC-3374","Majeur","Activités","V9.4.1","Sprint V9.5","Identifiant : 4512_utilisateur
+
+URL : [https://front-dr.integration.roc.fr.capgemini.com/interne/activites/creer/modele]
+ # Je me connecte en tant que AF
+ # Je vais dans le bloc activité --> Créer une activité
+ # Je clique sur nouvelle activité prioritaire RO1
+ # Je remplis les champs obligatoires en retenant le sous titre
+ # Je clique sur le bouton enregistrer en bas du premier onglet de la page de création
+ # Message de succès, je retourne sur la page de création d'activité et vais dans l'onglet en cours de création
+ # Je remarque que le nombre n'a pas changé et je ne retrouve pas mon activité
+ # Pareil pour l'étape 2 et 3 de la création de l'activité, aucun enregistrement ne se fait.","V9.4.0"
+"[MOE] [Activité] AF - Tri date début et date fin non fonctionnel asc et dsc","En cours de résolution et de qualification","DP ROC","ROC-3372","Mineur","Activités","V9.5.0","Sprint V9.5","Identifiant : 4512_utilisateur
+
+URL : [https://front-dr.integration.roc.fr.capgemini.com/interne/activites/creer/modele]
+ # Je me connecte en tant que AF
+ # Je vais dans le bloc activité --> Créer une activité
+ # Je tri la colonne date de début en asc, le tri n'est pas le bon
+!image-2026-03-06-10-33-50-855.png|width=465,height=192!
+ # Je tri la colonne date de début en dsc, le tri n'est pas le bon
+!image-2026-03-06-10-34-42-376.png|width=463,height=190!
+ # Je tri la colonne date de fin en asc, le tri n'est pas le bon
+!image-2026-03-06-10-36-25-942.png|width=450,height=189!
+ # Je tri la colonne date de fin en dsc, le tri n'est pas le bon
+!image-2026-03-06-10-37-08-652.png|width=449,height=188!","V9.4.0"
+"La page du Swagger ne se charge plus","En cours de résolution et de qualification","DP ROC","ROC-3365","Majeur","","LIVRAISON HORS VERSION","Sprint V9.4","Une erreur survient au moment du chargement de la page du swagger. Par conséquent, nous ne pouvons plus générer de rapport spectral","V9.3.0"
+"[MOE][ACTIVITE] Une erreur est survenue sur une activité en demandant la signature","En cours de résolution et de qualification","DP ROC","ROC-3364","Bloquant","Activités","V9.4.0","Sprint V9.4","Titre : [MOE][ACTIVITE] Une erreur est survenue sur une activité en demandant la signature
+
+Configuration : V9.3.1 integration 
+
+Identifiant :  AF
+
+URL :   https://front-dr.integration.roc.fr.capgemini.com/interne/activites/signer/liste
+
+Descriptif :
+
+Dans le tableau activité , l'onglet ""A signer"", je prends une activité pour une demande signature , je choisi l'ATS, je confirme et redirection le tableau avec un message ""Une erreur est survenue "" 
+
+Résultat attendu :
+
+un message qui valide 
+
+Résultat obtenu :
+
+Une erreur est survenue 
+
+ 
+
+(Pas de trace de signature avec l'ATS)
+
+ 
+
+Pas d'erreur dans le Profiler
+
+ 
+
+!image-2026-03-05-17-24-35-653.png!","V9.4.0"
+"[MOE][ACTIVITE] erreur 500 au clique sur activité d'un RO1","En cours de résolution et de qualification","DP ROC","ROC-3363","Bloquant","Activités","V9.4.0","Sprint V9.4","Titre : [MOE][ACTIVITE] erreur 500 au clique sur activité d'un RO1
+
+Configuration : V9.3.1
+
+Identifiant :  RO1  marie.c@mail.com
+
+URL :   [https://front-np.integration.roc.fr.capgemini.com/reserviste/mes-activites/1971607/inscription]
+
+ 
+
+Descriptif :
+
+Lorsque je suis connecté avec un RO1 pour m'inscrire sur activité qui me sont proposé, lors du clique sur l'activité une erreur 500 apparait
+
+Résultat attendu :
+
+enregistrement sur la convocation de l'activité 
+
+Résultat obtenu :
+
+une erreur 500
+
+ 
+
+[https://front-np.integration.roc.fr.capgemini.com/_profiler/c71baa]
+
+ 
+
+!image-2026-03-05-16-58-20-023.png!
+
+ 
+
+ 
+
+ ","V9.4.0"
+"[MOE][Candidature] ""une erreur est survenue"" sur le bouton candidater","En cours de résolution et de qualification","DP ROC","ROC-3361","Bloquant","Candidature","V9.4.0","Sprint V9.5","Titre : [MOE] ""une erreur est survenue"" sur le bouton candidater""
+
+Configuration : V9.3.1 intégration
+
+Identifiant : volontaire
+
+URL :   [https://front-np.integration.roc.fr.capgemini.com/candidat/choix-emploi/validation/emploi/12209]
+
+ 
+
+Descriptif :
+
+Aprés la création d'un volontaire, lorsqu'un candidat souhaite faire le choix de l'offre d'emploi, il navigue pour prendre une offre et sur une offre d'emploi quand il clique sur le bouton candidater
+
+Résultat attendu :
+
+le volontaire poursuit l'engagement
+
+Résultat obtenu :
+
+""une erreur est survenue""
+
+ 
+
+!image-2026-03-05-16-02-35-696.png!","V9.4.0"
+"[MOE][Donnée personnelle]erreur 500 sur les donnèes personnelles avec l'AT","En cours de résolution et de qualification","DP ROC","ROC-3360","Mineur","Comptes","V9.4.0","Sprint V9.5","Titre : [MOE] erreur 500 sur les donnèes personnelles avec l'AT
+
+Configuration : V9.3.0
+
+Identifiant :  Login : admin_technique
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/AT/login]
+
+Descriptif :
+
+Suite à la connexion de l'administrateur technique, au clique sur les données personnel, une erreur apparait. 
+
+Résultat attendu :
+
+les données personnel s'affiche
+
+Résultat obtenu :
+
+Erreur 500","V9.4.0"
+"[MOE] [Contrat] Mail Valideur ATM - Lien demande de validation de renouvellement KO - ATM","En cours de résolution et de qualification","DP ROC","ROC-3358","Bloquant","Contrat","V9.4.0","Sprint V9.5","Je suis à l'étape Validation ATM d'un renouvellement de contrat ESR. Le réserviste est 2385_reserviste.roc@getnada.com, l'E-mail du validateur ATM est romain@capgemini.com
+
+Quand je vais dans la messagerie du valideur j'ai le mail suivant :
+!image-2026-03-05-11-12-11-665.png!
+ 
+ 
+Et quand je clique sur le lien, j'ai l'erreur suivante :
+!image-2026-03-05-11-13-26-286.png!
+ 
+!image-2026-03-05-11-14-08-995.png!
+ 
+[P. DR - FO|https://front-dr.integration.roc.fr.capgemini.com/_profiler/15123b?panel=logger]","V9.4.0"
+"[MOE][gestion des emplois] Manque les onglets du tableau","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3357","Mineur","Emploi","","","Titre : [MOE][gestion des emplois] Manque les onglets du tableau
+
+Configuration : intégration V9.3.1
+
+Identifiant : AF
+
+URL :  [https://front-dr.integration.roc.fr.capgemini.com/interne/gestion-engagement/liste-postes/en-cours-creation-validation]
+
+ 
+
+Descriptif :
+
+Manque les onglets du tableau  ""En cours de création/Validation
+
+Résultat attendu :
+
+les onglets apparaissent
+
+Résultat obtenu :
+
+Manque les onglets du tableau
+
+ 
+
+!image-2026-03-05-11-01-15-757.png!","V9.4.0"
+"[MOE][Correspondant sécurité] pas de création de CS","En cours de résolution et de qualification","DP ROC","ROC-3355","Majeur","Droits","V9.4.0","Sprint V9.4","Titre : [MOE][Correspondant sécurité] pas de création de CS
+
+ 
+
+Configuration : INTEGRATION V9.3.1
+
+ 
+
+Identifiant : REF ET PIL
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/unite/officier-securite]
+
+Descriptif :
+
+Sur la création d'un correspondant de sécurité, remplir tous les champs et cliquer sur le bouton creer, un message s'affiche "" Le correspondant de sécurité a bien été créé. Un e-mail lui a été envoyé à ce sujet.
+
+ 
+
+Résultat attendu :
+
+Mail reçu à la création
+
+Résultat obtenu :
+
+Pas de mail reçu à la création
+
+ 
+
+!image-2026-03-04-16-14-22-949.png!","V9.4.0"
+"[MOE] [Contrat] Validation ATM - Non renouvellement ESR KO - ADR","En cours de résolution et de qualification","DP ROC","ROC-3353","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que ADR (adr2.ssa), je vais dans le bloc contrat ""Contrat en cours de renouvellement""
+ # Je choisis un contrat à l'étape du workflow ""Validation ATM""
+!image-2026-03-04-16-05-28-503.png|width=541,height=253!
+ # Je clique sur le bouton ""Non renouvellement d'ESR""
+
+J'obtiens :
+
+!image-2026-03-04-16-02-15-393.png|width=458,height=381!
+
+!image-2026-03-04-16-02-34-013.png|width=451,height=134!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/cc2b31]","V9.4.0"
+"[MOE] [Contrat] Validation ATM - Non renouvellement ESR KO - Réserviste","En cours de résolution et de qualification","DP ROC","ROC-3351","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que réserviste (2385_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+ # Mon contrat est à l'étape du workflow ""Validation ATM""
+!image-2026-03-04-15-50-25-602.png|width=403,height=217!
+ # Je clique sur le bouton ""Non renouvellement""
+
+J'obtiens :
+
+!image-2026-03-04-15-49-51-789.png|width=460,height=400!
+
+!image-2026-03-04-15-51-43-463.png|width=463,height=142!
+
+[https://front-np.integration.roc.fr.capgemini.com/_profiler/db1ffc]","V9.4.0"
+"[MOE][Utilisateur]Une erreur s'est produite sur le changement d'un utilisateur","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3350","Mineur","","","","Titre : [Création compte Candidat] Des données saisies dans MDC Internet ne sont pas reprises dans la page ""Création du compte candidat""
+
+Configuration : V9.3.1
+
+Identifiant : AF - 10446_utilisateur
+
+ 
+
+Descriptif :
+
+Lorsque je me connecte avec l'AF, sur la page d'accueil je souhaite changer de rôle, je clique en haut à droite et je clique sur l'ADR
+
+Résultat attendu :
+
+Changement de rôle OK
+
+Résultat obtenu :
+
+Une erreur 500 sur la page
+
+ 
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/61c6c2?panel=request]
+
+ 
+
+ 
+
+!image-2026-03-04-15-29-46-302.png!","V9.4.0"
+"[MOE] [Contrat] Retour termes - Mauvaise date de fin du nouvel ESR - NP","En cours de résolution et de qualification","DP ROC","ROC-3349","Majeur","Contrat","V9.4.1","Sprint V9.5","# En tant que réserviste (59482_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+!image-2026-03-04-15-17-06-143.png|width=440,height=233!
+ # Mon contrat est à l'étape ""Retour termes"" du workflow
+ # Je clique sur ""Revoir la durée""
+
+La date de fin du nouvel ESR renseigné est inférieur d'une année :
+
+!image-2026-03-04-15-16-37-247.png|width=480,height=428!","V9.4.0"
+"[MOE] [Contrat] Retour Termes - Mauvais affichage du champ corps - NP","En cours de résolution et de qualification","DP ROC","ROC-3348","Mineur","Contrat","V9.4.0","Sprint V9.5","# En tant que réserviste (59482_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+ # Mon contrat est à l'étape ""Retour termes"" du workflow !image-2026-03-04-15-11-08-563.png|width=429,height=206!
+ # Je clique sur ""Revoir la durée""
+
+Dans le champ ""Corps"", le corps n'est pas correctement affiché :
+
+!image-2026-03-04-15-11-48-491.png|width=466,height=52!","V9.4.0"
+"[MOE] [Contrat] Retour termes - Accepter les termes KO - NP - Reserviste","En cours de résolution et de qualification","DP ROC","ROC-3346","Bloquant","Contrat","V9.4.0","Sprint V9.4","# En tant que réserviste (59482_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+ # Mon contrat est à l'étape du workflow ""Retour termes""
+!image-2026-03-04-11-28-26-349.png|width=404,height=213!
+ # Je clique sur le bouton ""Accepter les termes""
+
+J'obtiens :
+
+!image-2026-03-04-12-15-29-440.png|width=440,height=383!
+
+!image-2026-03-04-12-16-03-169.png|width=441,height=140!
+
+[https://front-np.integration.roc.fr.capgemini.com/_profiler/572ef2]","V9.4.0"
+"[MOE] [Contrat] Retour termes - Non renouvellement ESR KO - DR","En cours de résolution et de qualification","DP ROC","ROC-3345","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que ADR (adr2.ssa), je vais dans le bloc contrat ""Contrat en cours de renouvellement""
+ # Je choisis un contrat à l'étape du workflow ""Retour termes""
+!image-2026-03-04-11-28-26-349.png|width=447,height=236!
+ # Je clique sur le bouton ""Non renouvellement d'ESR""
+
+J'obtiens :
+
+!image-2026-03-04-11-27-55-889.png|width=477,height=349!
+
+!image-2026-03-04-11-29-07-306.png|width=478,height=145!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/fe96f5]
+
+ ","V9.4.0"
+"[MOE] [Contrat] Hypothèse - Envoie hypothèse KO - DR","En cours de résolution et de qualification","DP ROC","ROC-3343","Bloquant","Contrat","V9.4.0","Sprint V9.4","# En tant que ADR (adr2.ssa), je vais dans le bloc contrat ""Contrat en cours de renouvellement""
+ # Je choisis un contrat à l'étape du workflow ""Hypothèse""
+!image-2026-03-04-10-32-11-168.png|width=437,height=169!
+ # Je clique sur le bouton ""Initier un nouveau contrat ESR""
+ # J'arrive sur la nouvelle page puis je descends tout en bas pour cliquer sur le bouton ""Envoyer l'hypothèse au réserviste""
+
+!image-2026-03-04-11-04-11-476.png|width=500,height=220!
+
+!image-2026-03-04-11-08-33-148.png|width=499,height=144!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/13c1f2]
+
+ ","V9.4.0"
+"[MOE] [Contrat] Hypothèse - Mauvais affichage du champ corps DR","En cours de résolution et de qualification","DP ROC","ROC-3341","Mineur","Contrat","V9.4.0","Sprint V9.4","# En tant que ADR (adr2.ssa), je vais dans le bloc contrat ""Contrat en cours de renouvellement""
+ # Je choisis un contrat à l'étape du workflow ""Hypothèse""
+!image-2026-03-04-10-32-11-168.png|width=275,height=106,thumbnail!
+ # Je clique sur le bouton ""Initier un nouveau contrat ESR""
+
+Dans le champ ""Corps"", le corps n'est pas correctement affiché :
+
+!image-2026-03-04-10-37-23-748.png|width=423,height=51!","V9.4.0"
+"[MOE] [Contrat] Hypothèse/Initier - Non renouvellement d'un contrat ESR KO DR","En cours de résolution et de qualification","DP ROC","ROC-3339","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que ADR (adr2.ssa), je vais dans le bloc contrat ""Contrat en cours de renouvellement""
+ # Je choisis un contrat à l'étape du workflow ""Hypothèse"" !image-2026-03-04-10-32-11-168.png|width=344,height=133!
+ # Je clique sur le bouton ""Non renouvellement"" je complète les champs obligatoire
+
+J'obtiens l'erreur :
+
+!image-2026-03-04-10-30-24-818.png|width=512,height=401!
+
+!image-2026-03-04-10-31-03-367.png|width=511,height=153!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/48ba37?panel=exception&type=request]
+
+ ","V9.4.0"
+"[MOE] [Contrat] Avis FE Avis défavorable d'un contrat ESR KO DR","En cours de résolution et de qualification","DP ROC","ROC-3337","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que REF (10184_utilisateur), je vais dans le bloc contrat ""En renouvellement""
+ # Je choisis un contrat avec le workflow se situant à l'étape ""Avis FE""
+ # Je clique sur le bouton radio ""Avis favorable"" et je valide mon avis
+
+J'obtiens l'erreur :
+
+!image-2026-03-03-17-20-53-872.png|width=431,height=287!
+
+!image-2026-03-03-17-21-14-417.png|width=431,height=129!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/22359f]
+
+ ","V9.4.0"
+"[MOE] [Contrat] Avis FE Avis favorable d'un contrat ESR KO DR","En cours de résolution et de qualification","DP ROC","ROC-3336","Bloquant","Contrat","V9.4.0","Sprint V9.4","# En tant que REF (10184_utilisateur), je vais dans le bloc contrat ""En renouvellement""
+ # Je choisis un contrat avec le workflow se situant à l'étape ""Avis FE""
+ # Je clique sur le bouton radio ""Avis favorable"" et je valide mon avis
+
+J'obtiens l'erreur :
+
+!image-2026-03-03-17-16-54-088.png|width=385,height=341!
+
+!image-2026-03-03-17-17-38-353.png|width=423,height=124!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/6e1f8d]
+
+ ","V9.4.0"
+"[MOE] Une erreur s'est produite sur l'ajout d'un utilisateur","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3335","Mineur","","","","Titre : [MOE] Une erreur s'est produite sur l'ajout d'un utilisateur
+
+Configuration : V9.3.1
+
+Identifiant : AF
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/utilisateurs/gestionnaire/ajout]
+
+ 
+
+Descriptif :
+
+Sur la gestion des utilisateurs, cliquer sur ajouter utilisateur et mettre toutes les informations et cliquer valider.
+
+Résultat attendu :
+
+Ajout de l'utilisateur est OK
+
+Résultat obtenu :
+
+Une pop up apparait ""Une erreur s'est produite""
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/d6e1a0]
+
+ 
+
+ 
+
+ 
+
+!image-2026-03-03-17-14-31-219.png!","V9.4.0"
+"[MOE] [Contrat] Avis FE_Non renouvellement de mon contrat ESR KO NP","En cours de résolution et de qualification","DP ROC","ROC-3334","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant que réserviste (7465_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+ # Le workflow se situe à l'étape ""Avis FE""
+ # Je clique sur le bouton ""Non renouvellement"" je complète les champs obligatoire
+
+J'obtiens l'erreur :
+
+!image-2026-03-03-16-44-49-361.png|width=371,height=371!
+
+[https://front-np.integration.roc.fr.capgemini.com/_profiler/3c68f5]
+
+!image-2026-03-03-16-45-54-492.png|width=370,height=114!","V9.4.0"
+"[MOE] [Contrat] Avis réserviste_Non renouvellement de mon contrat ESR KO NP","En cours de résolution et de qualification","DP ROC","ROC-3333","Bloquant","Contrat","V9.4.1","Sprint V9.5","# En tant que réserviste (7465_reserviste.roc@getnada.com), je vais dans le bloc contrat ""Mon ESR""
+ # Le workflow se situe à l'étape ""Avis réserviste""
+ # Je clique sur le bouton ""Je ne souhaite pas renouveler mon contrat""
+
+J'obtiens cette erreur :
+
+[https://front-np.integration.roc.fr.capgemini.com/_profiler/aefa22?panel=http_client&type=request]
+
+!image-2026-03-03-16-35-40-017.png|width=514,height=176!","V9.4.0"
+"[MOE][Gestion] une erreur 500 sur le flux candidat","En cours de résolution et de qualification","DP ROC","ROC-3332","Bloquant","","V9.4.0","Sprint V9.5","Titre :[MOE] une erreur 500 sur le flux candidat 
+
+Configuration : V9.3.1
+
+Identifiant :
+
+ 
+
+URL :   [https://www.reservistes.defense.gouv.fr/candidat/creation-compte]
+
+Descriptif :
+
+Dans les suivi de candidatures, gestion flux candidat rejeté, mettre un nom de candidat et la date de naissance, ensuite cliquer le bouto rechercher
+
+ 
+
+Résultat attendu :
+
+le candidat est affiché
+
+Résultat obtenu :
+
+erreur 500
+
+ 
+
+https://front-dr.integration.roc.fr.capgemini.com/_profiler/43d07c
+
+ 
+
+!image-2026-03-03-16-12-42-032.png!","V9.4.0"
+"[MOE] [Contrat] Erreur téléVersement ESR_ADR","En cours de résolution et de qualification","DP ROC","ROC-3331","Majeur","Contrat","V9.4.0","Sprint V9.4","# En tant qu'ADR (adr2.aae), je clique dans le tableau des contrats sur un contrat d'un réserviste.
+ # Je descends jusqu'au tableau des ESR et je clique sur le bouton ""Téléverser un ESR valide"" en dessous du tableau
+!image-2026-03-04-16-17-12-711.png|width=574,height=223!
+ # Je rentre toutes les informations requises puis clique sur ""Valider""
+
+J'obtiens une erreur :
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/f0ace0?panel=exception&type=request]
+
+!image-2026-03-03-15-50-45-381.png|width=510,height=148!","V9.4.0"
+"[MOE] [Contrat] Erreur téléChargement ESR_Profil ADR","En cours de résolution et de qualification","DP ROC","ROC-3330","Bloquant","Contrat","V9.4.0","Sprint V9.4","# En tant qu'ADR (adr2.aae), je clique dans le tableau des contrats sur un contrat d'un réserviste.
+ # Je descends jusqu'au tableau des ESR et je clique sur le bouton ""Télécharger"" dans la colonne ""Télécharger""
+
+!image-2026-03-03-15-43-06-481.png|width=543,height=112!
+
+J'obtiens une erreur sur le nouvel onglet ouvert
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/1d600e?panel=logger]
+
+[https://back-dr.integration.roc.fr.capgemini.com/_profiler/5527f7]
+
+!image-2026-03-03-15-44-18-094.png|width=490,height=142!","V9.4.0"
+"[MOE] une erreur 404 sur le refus d'une offre d'emploi","En cours de résolution et de qualification","DP ROC","ROC-3327","Majeur","","V9.4.0","Sprint V9.4","Titre : [MOE] une erreur 404 sur le refus d'une offre d'emploi
+
+Configuration : V9.3.1
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/postes/validation-externe-poste/bee03046ddb57cb92ba7165b4558d3e7/501/408]
+
+ 
+
+Descriptif :
+
+Suite à une offre d'emploi créé par l'AF, une demande de validation de l'offre d'emploi est envoyé par mail, clique sur lien du mail et clique sur le refus de validation
+
+Résultat attendu :
+
+Dans le tableau de gestion des emplois, l'offre d'emploi est à refusé
+
+Résultat obtenu :
+
+une erreur 404 (Not found)
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/8b1754.]
+
+ 
+
+ 
+
+!image-2026-03-03-15-28-25-677.png!","V9.4.0"
+"[MOE] [Contrat] Validation lors du non renouvellement d'un contrat ESR KO_Profil ADR","En cours de résolution et de qualification","DP ROC","ROC-3325","Bloquant","Contrat","V9.4.0","Sprint V9.5","# En tant qu'ADR (adr2.aae) je clique sur un contrat à renouveler d'un réserviste
+ # Je clique sur le bouton ""Non renouvellement d'ESR""
+ # Je sélectionne une raison puis je clique sur ""Valider"" et j'ai une pop up ""Une erreur s'est produite"" :
+
+!image-2026-03-03-14-50-56-994.png|width=366,height=337!
+
+!image-2026-03-03-14-51-40-895.png|width=381,height=112!
+
+https://front-dr.integration.roc.fr.capgemini.com/_profiler/6f0a1b","V9.4.0"
+"[MOE] [Contrat] Renouvellement contrat ESR_Initier KO","En cours de résolution et de qualification","DP ROC","ROC-3321","Bloquant","Contrat","V9.4.0","Sprint V9.4","En tant qu'ADR (adr2.aae), je veux initialiser le renouvellement d'un contrat ESR d'un réserviste en cliquant sur le bouton ""Initier le renouvellement du contrat ESR"", j'ai une erreur :  !image-2026-03-03-14-32-38-731.png|width=522,height=51!","V9.4.0"
+"[MOE] [Gestion des emplois] Erreur 500 sur le tri de la colonne Date limite de Candidature","En cours de résolution et de qualification","DP ROC","ROC-3317","Mineur","Emploi","","Sprint V9.5","En tant qu'AF,
+ # Je vais dans l'onglet ""Gestion des emplois""
+ # Je tri la colonne ""Date limite de Candidature"" en asc et en desc
+
+On a deux erreurs 500 sur POST et GET lors des deux types de tri : 
+
+!image-2026-03-03-11-34-03-381.png|width=536,height=143!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/c46938]
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/a3db9e]
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/a3db9e]
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/81a111]","V9.4.0"
+"[MOE] [Gestion des emplois] Problème de filtre sur la colonne Date limite de Candidature","En cours de résolution et de qualification","DP ROC","ROC-3316","Majeur","Emploi","V9.4.0","Sprint V9.4","En tant qu'AF,
+ # Je vais dans l'onglet ""Gestion des emplois""
+ # Je remplis le champ filtre de la colonne ""Date limite de Candidature""
+
+Lorsque l'on filtre une date il ne devrait pas y avoir les emplois où il n'y a pas de date.
+!image-2026-03-03-11-20-54-830.png|width=503,height=201!","V9.4.0"
+"[MOE] [Gestion des emplois] Problème de filtre sur la colonne Emploi","En cours de résolution et de qualification","DP ROC","ROC-3315","Mineur","Emploi","V9.4.0","Sprint V9.4","En tant qu'AF,
+ # Je vais dans l'onglet ""Gestion des emplois""
+ # Je remplis le champ filtre de la colonne ""Emploi""
+
+Dès qu'il y a une valeur écrite dans le filtre, les lignes où il n'y a pas d'emploi ne devraient pas apparaître peu importe la valeur dans le filtre. !image-2026-03-03-11-16-21-496.png|width=528,height=195!","V9.4.0"
+"[MOE] une erreur 500 sur l'engagement d'un spécialiste","En cours de résolution et de qualification","DP ROC","ROC-3314","Mineur","Candidature","V9.4.0","Sprint V9.4","Titre : [MOE] une erreur 500 sur l'engagement d'un spécialiste
+
+Configuration : V9.3.1
+
+ 
+
+ 
+
+URL :  [https://front-dr.integration.roc.fr.capgemini.com/interne/admin/gestion-engagement/designation-specialiste]
+
+ 
+
+Descriptif :
+
+Lorsque je clique dans l'engagement d'un spécialiste , je clique sur un volontaire et je mets le mail ensuite je clique sur Valider.
+
+Résultat attendu :
+
+Un mail est envoyé sans message d'erreur.
+
+Résultat obtenu :
+
+une erreur 500.
+
+ 
+
+ 
+
+!image-2026-03-02-17-26-58-541.png!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/bc6568]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ","V9.4.0"
+"[MOE][Volontariat] Tableau Suivi des volontaires et candidats_AF/A_ADS/ADR_Bouton Export ko SI FILTRE","En cours de résolution et de qualification","DP ROC","ROC-3313","Bloquant","Candidature","V9.4.0","Sprint V9.4"," 
+
+je suis connectée en tant qi'AF, et je suis sru le tableau de ""Suivi des volontaires et des candidats"". Je fais une recherche avec 2 filtres (TER et Weekend) et je clique sur Rechercher
+
+Si je clique sur le bouton Export, j'ai l'erreur suivante : 
+
+!image-2026-03-02-17-24-45-368.png!
+
+ 
+
+remarque je n'ai pas d'erreur d'export si je n'applique pas de filtre 
+
+ 
+
+Vu avec Antonin , j'ai une erreur dans le Profiler
+
+ 
+
+https://front-dr.integration.roc.fr.capgemini.com/interne/suivi-volontaires-candidats/totaux?couleurUniforme%5B%5D=302&age=16-72&periodesDisponibilite%5B%5D=2&candidature=&nbJoursDispo=
+
+ 
+
+!image-2026-03-05-15-10-34-353.png!","V9.4.0"
+"[MOE] erreur 500 sur le bouton VIP de l'engagement","En cours de résolution et de qualification","DP ROC","ROC-3312","Mineur","Candidature","V9.4.0","Sprint V9.4","Titre : [MOE] erreur 500 sur le bouton VIP
+
+Configuration : V9.3.1
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/modifier-candidat/295351/vip]
+
+ 
+
+Descriptif :
+
+Sur l'engagement, sur le processus d'engagement d'un volontaire, je souhaite le mettre en VIP en cliquant sur bouton radio VIP de la colonne de gauche.
+
+Résultat attendu :
+
+Le volontaire est passé en ""VIP""
+
+Résultat obtenu :
+
+erreur 500
+
+ 
+
+!image-2026-03-02-17-10-18-466.png!
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/3633ac]
+
+ 
+
+ 
+
+ ","V9.4.0"
+"[MOE][Volontariat] Tableau Vivier des volontaires_REF/PIL_Bouton Export ko si filtres","En cours de résolution et de qualification","DP ROC","ROC-3311","Bloquant","Candidature","V9.4.0","Sprint V9.4","Je suis connecté en tant que REF et suis dans le bloc Vivier des volontaires.
+
+Quand je clique sur le bouton Export après avoir appliqué des filtres sinon pas d'erreur
+
+!image-2026-03-02-17-13-03-245.png!
+
+j'ai cette page  !image-2026-03-02-17-12-05-838.png!","V9.4.0"
+"[MOE][Données perso candidat] Bouton Retour en erreur profil REF/PIL/A_ADS/ADR","En cours de résolution et de qualification","DP ROC","ROC-3310","Mineur","Candidature","V9.4.0","Sprint V9.5","En tant que REF je vais sur le bloc Vivier des volontaires. Je fais une recherche et clique sur un volontaire, j'arrive sur sa page d'engagement. 
+
+Je clique sur l'incoe ""crayon"" pour arriver sur ses données perso.
+
+Quand je clique sur le bouton Retour,
+
+!image-2026-03-02-16-50-37-508.png!
+
+j'ai une erreur
+
+!image-2026-03-02-16-51-17-933.png!","V9.4.0"
+"Dépassement de mémoire sur le front NP PICSEL prerelease en 9.3.1","En cours de résolution et de qualification","DP ROC","ROC-3309","Majeur","","V9.4.1","Sprint V9.5","Suite déploiement de la 9.3.1 sur PICSEL, nous avons des erreurs de type ""allowed memory size exhausted"" toutes les 5 minutes sur le front NP PICSEL pre-release comme suit.
+
+Cette erreur est bloquante car bloque l'affichage de la page d'accueil (écran blanc).
+
+ 
+
+[2026-03-02 16:20:03] php.CRITICAL: Fatal Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+
+{""exception"":""[object] (Symfony\\\\Component\\\\ErrorHandler\\\\Error\\\\OutOfMemoryError(code: 0): *Error: Allowed memory size of 1073741824 bytes exhausted* (tried to allocate 262144 bytes) at /var/www/html/roc-front/var/cache/prod/Container6TkCGrV/App_KernelProdContainer.php:8710)""}
+
+[2026-03-02 16:25:14] php.CRITICAL: Fatal Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+
+{""exception"":""[object] (Symfony\\\\Component\\\\ErrorHandler\\\\Error\\\\OutOfMemoryError(code: 0): *Error: Allowed memory size of 1073741824 bytes exhausted* (tried to allocate 262144 bytes) at /var/www/html/roc-front/var/cache/prod/Container6TkCGrV/App_KernelProdContainer.php:8710)""}
+
+[2026-03-02 16:30:04] php.CRITICAL: Fatal Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+
+{""exception"":""[object] (Symfony\\\\Component\\\\ErrorHandler\\\\Error\\\\OutOfMemoryError(code: 0): *Error: Allowed memory size of 1073741824 bytes exhausted* (tried to allocate 262144 bytes) at /var/www/html/roc-front/var/cache/prod/Container6TkCGrV/App_KernelProdContainer.php:8710)""}
+
+A noter que des vidages de cache avec la commande cache:clear comme suit revèle l'existence d'un répertoire ""pro_"" ! :
+
+ 
+
+{color:#000000}[sysadm@FRONTNP1PNT147V roc-front]$  sudo -u apache php bin/console cache:clear{color}
+
+ 
+
+{color:#000000} // Clearing the cache for the prod environment with debug false{color}
+
+{color:#000000}PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/roc-front/var/cache/pro_/ContainerBymTfHy/App_KernelProdContainer.php on line 8710{color}
+
+{color:#000000}PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/roc-front/vendor/composer/ClassLoader.php on line 425{color}
+
+ 
+
+ ","V9.3.1"
+"[MOE][Processus engagement] Bouton Retour va une étape après et non retour arrière profil AF","En cours de résolution et de qualification","DP ROC","ROC-3308","Mineur","Candidature","V9.4.0","Sprint V9.5","En tant qu'AF si je vais sur Suivi des volontaires et candidats puis je clique sur un candidat j'arrive sur sa page Processus d'engagement
+
+!image-2026-03-02-16-29-21-957.png!
+
+Quand je clique sur Retour je suis dirigée vers les données du candidat au lieu de revenir sur le tableau du Suivi des candidatures","V9.4.0"
+"[MOE][Processus Engagement] suivi des volontaires et des candidats_Filtres KO ","En cours de résolution et de qualification","DP ROC","ROC-3304","Majeur","Candidature","V9.4.0","Sprint V9.4","En tant qu'AF je suis sur le bloc ""Suivi des volontaires et des candidats"" et je teste toutes les valeurs du filtre niveau d'étude or quand je clique sur Rechercher aucun résultat n'apparait alors que sans filtre j'ai 47 lignes","V9.3.1"
+"[MOE][Processus Engagement] La page processus d'engagement du candidat est en erreur","En cours de résolution et de qualification","DP ROC","ROC-3303","Bloquant","Candidature","V9.4.0","Sprint V9.4","En tant qu'AF je clique sur le bloc Suivi des candidatures et des candidats, je filtre sur TER puis je sélectionne un candidat qui est positionné sur une offre.
+
+Je devrais arriver sur sa page [Processus d'engagement - Réservistes des armées|https://front-dr.isoprod.roc.fr.capgemini.com/interne/engager/engagement/processus-candidature/256956] [https://front-dr.isoprod.roc.fr.capgemini.com/interne/engager/engagement/processus-candidature/256956]
+
+OR j'ai une erreur  !image-2026-03-02-15-22-38-502.png!","V9.3.1"
+"[MOE] une erreur est survenue sur un refus dans le bloc ""contrôle dossier""","En cours de résolution et de qualification","DP ROC","ROC-3302","Majeur","Candidature","V9.4.0","Sprint V9.4","Titre : [MOE] une erreur est survenue sur un refus dans le bloc ""contrôle dossier""
+
+Configuration : V9.3.1
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/processus-candidature/candidature/296438/etape/controle-dossier]
+
+ 
+
+Descriptif :
+
+Lorsque l'AF est sur l'engagement et souhaite faire un refus sur le contrôle de dossier d'un volontaire, au clique sur le bouton valider 
+
+Résultat attendu :
+
+Le processus d'engagement se termine
+
+Résultat obtenu :
+
+un message apparait ""une erreur est survenue""
+
+ 
+
+ 
+
+!image-2026-03-02-15-06-31-881.png!","V9.4.0"
+"[MOE][Activités] Clic sur Activités modèle KO","En cours de résolution et de qualification","DP ROC","ROC-3299","Bloquant","Activités","V9.4.0","Sprint V9.4","En tant qu'AF, après avoir créé une activité prio RO1 en tant que modèle, si je clique sur le modèle, j'ai une erreur :
+
+!image-2026-03-02-11-34-32-940.png!
+
+ 
+
+!image-2026-03-02-11-31-58-020.png!
+
+!image-2026-03-02-11-32-35-685.png!","V9.4.0"
+"[MOE][Activités] Créé activité RO1 - Etape 3 - Nbr réservistes concerné en erreur","En cours de résolution et de qualification","DP ROC","ROC-3298","Mineur","Activités","V9.4.1","Sprint V9.5","En tant qu'AF quand je suis à l'étape 3 de la création d'une activité réseviste RO1 [(Je crée une activité - Réservistes des armées|https://front-dr.integration.roc.fr.capgemini.com/interne/activites/creer/reservistes/2091707]), le champs Nombre de réservistes concerné est en erreur
+
+!image-2026-03-02-11-16-52-287.png!","V9.4.0"
+"[MOE] erreur 500 à la connexion avec l'AT","En cours de résolution et de qualification","DP ROC","ROC-3296","Bloquant","Connexion","V9.4.0","Sprint V9.4","Titre : [MOE] erreur 500 à la connexion avec l'AT
+
+Configuration : V9.3.0
+
+Identifiant :  Login : admin_technique
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/AT/login]
+
+Descriptif :
+
+Impossible de se connecter via MDC et connexion ROC avec l'administrateur technique
+
+Résultat attendu :
+
+Connexion OK
+
+Résultat obtenu :
+
+Erreur 500, login fail
+
+ 
+
+ 
+
+!image-2026-03-02-10-33-38-662.png!
+
+ 
+
+ 
+
+!image-2026-03-02-10-34-14-221.png!
+
+ 
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/540709?panel=request]
+
+ 
+
+ ","V9.4.0"
+"[MOE][Activités] AF Activités en cours de création KO","En cours de résolution et de qualification","DP ROC","ROC-3295","Bloquant","Activités","V9.4.0","Sprint V9.4","Env INTEGRATION :  En tant qu'AF, quand je clique sur Activités/Activités en cours de création, j'ai un bug  
+
+!image-2026-03-02-10-31-11-626.png!
+
+!image-2026-03-02-10-31-45-666.png!","V9.3.1"
+"[MOE] [Volontariat] Motif d'alerte modifiable alors qu'il ne devrait pas","En cours de résolution et de qualification","DP ROC","ROC-3291","Mineur","Volontariat","V9.4.0","Sprint V9.4","Le solution apportée dans le ticket ROC-3146 ne visait qu'à solutionner le bloc ""Entretien en unité"", ce ticket a pour but de faire une correction sur l'ensemble des blocs de volontariat affecté par cette anomalie.","V9.4.0"
+"[Volontariat]impossible de valider l'ESR sur nouvelle fiches de poste","En cours de résolution et de qualification","DP ROC","ROC-3289","Bloquant","Volontariat","V9.4.0","Sprint V9.4","{+}*Titre :*{+}[Volontariat]impossible de valider l'ESR sur nouvelle fiches de poste
+
+*+Configuration:+*
+
+PPROD v8.3.5
+
++*Rôle:*+ delREF: 13815_utilisateur
+
+ 
+{+}*URL :*{+}[https://pprod-reservistes.intradef.gouv.fr/interne/processus-candidature/candidature/288606/etape/creation-esr/creation|https://roc-front-dr-rel.picsel.defense.gouv.fr/interne/mon-compte/mes-droits]
+
+ 
+
+*+Descriptif :+*
+
+cas présent uniquement sur les nouvelles fiche de poste que ce soit pour un nouveau candidat ou déjà présent dans la base
+
+en tant que delREF je sélectionne mon candidat qui a choisit une fiche de poste qu'il vient de créer et qui a fait tout le parcours , toute les cases sont verte, reste a faire la ""création de l'ESR""
+
+je clique sur création de l'ESR
+
+je remplit le formulaire
+
+je clique sur valider
+
+ 
+ 
+
++*Résultat obtenue:*+
+
+Une erreur est survenue 
+
+ 
+
+*+Résultat attendu:+*
+passage a la deuxième étape de la génération de l'ESR
+ 
+*+information supplémentaires:+*
+ce cas précis n'a pas pu être jouée en PPROD car il implique la création d'une fiche de poste donc envoi de mail bloqué a ce moment
+ 
+cas fonctionnel en 8.3.3","V8.3.5"
+"[Activité]modification date pas prise en compte","En cours de résolution et de qualification","DP ROC","ROC-3286","Majeur","Activités","","Sprint V9.5","*Titre* : [Activité]modification date pas prise en compte
+
+*Configuration* : PPROD V8.3.5
+
+*Identifiant* :
+
+delREF: 13815_utilisateur
+
+ 
+
+ 
+
+
+*Descriptif* :
+en tant que defREF
+je me connecte a mon compte
+je clique sur le bloque fonctionnel ""Activité""
+je sélectionne l'onglet ""a clôturer""
+
+je sélectionne une activité
+
+je modifie la date de début en commençant un jour plus tôt (ex: 04/02 au 06/02 au lieu de 05/02 au 06/02
+je clique sur enregistrer afin que la modification soit bien pris en compte
+
+je clique sur valider
+
+dans le menu je clique sur ""Activité"" puis sur ""A signer""
+
+je recherche l'activité
+
+*dans le tableau la date de début n'est pas modifié, elle est toujours au 05/02*
+
+je clique sur l'activité
+
+dans le tableau je vois bien que les date ont été modifié
+
+je me connecte en tant qu'ATS
+
+j'ouvre l'ENARO de l’activité en question
+
+les données sont correcte
+
+l'ATS valide et signe
+
+je me connecte en tant que delREF
+
+dans le menu je clique sur ""Activité"" puis sur ""Activité passées""
+
+*dans le tableau la date de début n'est pas modifié, elle est toujours au 05/02*
+
+j'ouvre l'activité
+
+*dans ""Durée"" l'activité est noté du 05/02 au 06/02 au lieu du 04/02 au 06/02*
+
+j'ouvre l'ENARO de l’activité en question
+
+les données sont correcte
+
+je me connecte en tant que RO1
+
+je vais dans mes activité passées
+
+je recherche l'activité
+
+l'activité est noté du 05/02 au 06/02 au lieu du 04/02 au 06/02
+
+j'ouvre l'activité 
+
+une cartouche ""Service fait refusé"" est présente *( normal?)*
+
+*dans ""Durée"" l'activité est noté du 05/02 au 06/02 au lieu du 04/02 au 06/02*
+
+je télécharge l'ordre de convocation
+
+*l'activité est noté du 05/02 au 06/02 au lieu du 04/02 au 06/02*
+
+je clique sur le calendrier
+
+*l'activité est noté du 05/02 au 06/02 au lieu du 04/02 au 06/02*
+
+ ","V8.3.5"
+"[Calendrier] création /affichage Indisponibilité","En cours de résolution et de qualification","DP ROC","ROC-3282","Majeur","Calendrier","","Sprint V9.5","*Titre* : [Calendrier] création /affichage Indisponibilité
+
+*Configuration* : PPROD V8.3.5
+
+*Identifiant* :
+
+RO1: 244318_reserviste
+
+*URL* :  [https://pprod-reservistes.cloud.defense.gouv.fr/reserviste/calendrier]
+
+ 
+
+la vidéo sera plus parlante je pense
+
+ 
+{*}Descriptif partie 1{*}:
+en tant que RO1
+je me connecte a mon compte
+je clique sur ""calendrier""
+je créé une indisponibilité pour le 04/05
+je créé une disponibilité le 05/05
+je créé une indisponibilité le 06/05
+
+
+*Résultat obtenu* :
+
+dans le calendrier je dois voir:
+
+un rond rouge sur le 04/05
+
+un rond vert sur le 05/05
+
+un rond vert sur le 06/05
+
+ 
+
+*Résultat attendu* :
+
+dans le calendrier je dois voir:
+
+un rond rouge sur le 04/05
+
+un rond vert sur le 05/05
+
+un rond rouge sur le 06/05
+
+ 
+{*}Descriptif partie 2{*}:
+après avoir mit mes dispo et indispo
+je clique sur ""Accueil""
+je reviens sur mon calendrier
+
+
+*Résultat obtenu* :
+
+les cartouche qui été déjà fausse le sont encore plus
+
+rouge/vert/vert  (déjà fausse ça devrait être rouge/vert/rouge)
+
+devient rouge/rouge/vert
+
+ 
+
+*Résultat attendu* :
+
+rouge/vert/rouge
+
+ 
+ ","V8.3.5"
+"[MOE] le champ ne respecte pas le fait qu'on puisse avoir plus de 255 caractères","En cours de résolution et de qualification","DP ROC","ROC-3280","Majeur","Candidature","V9.4.0","Sprint V9.4"," 
+
+!image-2026-02-25-15-53-52-988.png!
+
+ 
+
+ 
+
+on remonte la donnée dans le formulaire de l'ESR et quand on enregistre l'ESR, son champ contrat_esr_emploi a une limite à 255 caractères","V9.3.1"
+"PB erreur fatale PHP","En cours de résolution et de qualification","DP ROC","ROC-3276","Majeur","","V9.4.0","Sprint V9.5","Plusieurs erreurs fatales apparaissent dans les logs de la PPROD (Pb de mémoire allouée): 
+
+Erreur fatale :
+
+[2026-02-24T00:05:04.889065+01:00] php.CRITICAL: Fatal Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 8192 bytes) \\{""exception"":""[object] (Symfony\\\\Component\\\\ErrorHandler\\\\Error\\\\OutOfMemoryError(code: 0): Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 8192 bytes) at /var/www/html/roc-back/vendor/doctrine/orm/src/Mapping/PropertyAccessors/RawValuePropertyAccessor.php:56)""} []
+
+ou encore
+
+[2026-02-24 23:40:22] php.CRITICAL: Fatal Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 2621440 bytes) \\{""exception"":""[object] (Symfony\\\\Component\\\\ErrorHandler\\\\Error\\\\OutOfMemoryError(code: 0): Error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 2621440 bytes) at /var/www/html/roc-back/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/StringTable.php:48)""}
+
+ ","V8.3.4"
+"[Activités] Erreur de génération de PDF - onglet ""A convoquer""","En cours de résolution et de qualification","DP ROC","ROC-3271","Mineur","Activités","V9.4.0","Sprint V9.4","*URL* : [https://front-dr.dev.roc.local/interne/activites/designer/detail/2364805]
+
+*Identifiants / rôle* : 19213 / Référent
+
+*Descriptif* :
+
+Avec le profil référent, cliquer sur le bloc Activité, puis ""A convoquer"", choisir une activité et cliquer sur le bouton Convoquer pour envoyer une convocation multiple à tous les participants.
+
+*Résultat obtenu* : Il ne se passe rien.
+
+!image-2026-02-20-14-15-46-483.png|width=682,height=333!
+
+*Erreur obtenue suite à l'action* :
+
+!image-2026-02-20-14-18-02-930.png|width=705,height=366!
+
+*Lié au twig* :
+
+!image-2026-02-20-14-18-56-921.png|width=782,height=420!","V9.3.0"
+"[MOE] manque le fil d'ariane sur ROC DR","En cours de résolution et de qualification","DP ROC","ROC-3259","Mineur","","V9.4.0","Sprint V9.4","Titre : [MOE] manque le fil d'ariane sur ROC DR
+
+ 
+
+Configuration : Recette V9.3.0  et Integration V9.3.0
+
+ 
+
+Descriptif :
+
+Lors de la navigation sur le front DR sur les pages engagement et autres, il manque le fil d'ariane.
+
+Vu avec Arnaud, le code a été commenté pour le fil d'ariane.
+
+[https://frrns-ci-gitlab01.corp.capgemini.com/rocpr35/roc-front/-/commit/b737e53ce2af0fa968e7e08b5a4…|https://frrns-ci-gitlab01.corp.capgemini.com/rocpr35/roc-front/-/commit/b737e53ce2af0fa968e7e08b5a4a59530e0a6763?page=2#1c09d9020d50cde39ef23519b533324d11034221]
+
+ 
+
+Résultat attendu :
+
+il ne manque pas le fil d'ariane.
+
+ 
+
+Résultat obtenu :
+
+il manque le fil d'ariane.
+
+ 
+
+!image-2026-02-19-10-35-59-395.png!
+
+ 
+
+!image-2026-02-19-10-36-56-356.png!
+
+ ","V9.3.0"
+"[AT] Pouvoir modifier le corps et le grade","En cours de résolution et de qualification","DP ROC","ROC-3243","Mineur","","V9.3.1","Sprint V9.4","Dans le formulaire de modification des données personnes, il manque le corps et le grade dans les champs possible. 
+
+*Action:* Pourvoir modifier le corps et le grade et de l'administrateur technique ","V9.3.0"
+"[Données Perso] La modification de l'adresse mail + numéro de téléphone d'un réserviste entraine une erreur navigateur","En cours de résolution et de qualification","DP ROC","ROC-3237","Majeur","Perso","V9.4.0","Sprint V9.4","PICSEL V8.3.3 DR
+
+Connecté au 4512
+ * Cliquer sur gestion des utilisateurs
+ * Rechercher l'utilisateur 18634_utilisateur
+ * Cliquer sur ce profil
+ * Modifier son adresse mail : passer de [18634_utilisateur.roc@getnada.com|mailto:18634_utilisateur.roc@getnada.com] à [18634_utilisateur.roc@|mailto:18634_utilisateur.roc@getnada.com]intradef.gouv.fr 
+ * Modifier le numéro de téléphone en mettant un 06XXX au hasard 
+ * Cliquer sur valider 
+
+Résultat attendu : les modifications s'enregistrent et on est rebasculés sur l'écran de gestion des utilisateurs avec message de succès
+
+Résultat obtenu : erreur navigateur (voir PJ) 
+
+ 
+
+Note : Je mets en PJ la console quand je fais F12, j'ai un peu insisté sur la validation ce qui explique le nombre d'erreur (j'ai appuyé à de nombreuses reprises sur Valider)","V8.3.3"
+"[Connexion]-problème de connexion avec l'ADR","En cours de résolution et de qualification","DP ROC","ROC-3235","Majeur","Connexion","V9.4.0","Sprint V9.3","Lors de la connexion avec un ADR, la connexion est refusée pour raison de time out.
+
+Lors de la requête de connexion, 3 patchs sur la route utilisateurs sont réalisés. Le dernier inclue dans le body de la requête :
+ 
+{{""body"" => ""{""objet"":""\\{\\""utilisateur_id\\"":10446,\\""autorite_unites\\"":[{\\""ref_unite_id\\"":4584},\\{\\""ref_unite_id\\"":4585},\\{\\""ref_unite_id\\"":4613},\\{\\""ref_unite_id\\"":4615},\\{\\""ref_unite_id\\"":4617}...}}
+
+Avec autour de 720 ref_unite_id.
+
+De cela en résulte un nombre de requête doctrine important (environs 800) ce qui fait atteindre ce seuil de 30 secondes pour le time out.
+
+Attendu : L'utilisateur ADR doit pouvoir se connecter sans timeout.","V9.3.0"
+"[MOE][Contrat] Template  ESR pour SSA Spécialiste problème syntaxique ","En cours de résolution et de qualification","DP ROC","ROC-3234","Mineur","Contrat","V9.3.0","Sprint V9.3","Erreur de placement du texte "", pour la fonction de"" qui est aussi en double.
+
+J'ai mis un point rouge là où il doit être placé cf l'US [ROC-2943] [Contrat] Afficher l'adresse intradef de l'ATM et pouvoir annuler la demande - Jira CI
+
+!image-2026-02-12-17-34-27-997.png!
+
+Corriger aussi pour le template ESR d'un réserviste SSA Droit commun","V9.3.0"
+"[MOE][Contrat] En cours de renouvellement Erreur sur clic de la ligne","En cours de résolution et de qualification","DP ROC","ROC-3232","Bloquant","Contrat","V9.4.0","Sprint V9.4","Erreur quand je clique en tant qu'ADR : 5601_utilisateur sur un contrat en cour de renouvellement
+
+[https://front-dr.integration.roc.fr.capgemini.com/interne/mes-contrats/reserviste/190899]
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/efbd5b?panel=logger]
+
+!image-2026-02-12-16-01-17-343.png!
+
+!image-2026-02-12-16-00-41-461.png!
+
+!image-2026-02-12-16-00-19-416.png!","V9.3.0"
+"[MOE][ANO] Bloc en trop ""Questions Générales"" sur l'accueil du volontaire","En cours de résolution et de qualification","DP ROC","ROC-3231","Mineur","Candidature","V9.3.0","Sprint V9.3","Titre : [MOE][ANO] Bloc en trop ""Questions Générales"" sur l'accueil du volontaire
+
+Configuration : Integration V9.3.0
+
+Identifiant :
+
+ 
+
+Descriptif :
+
+Suite au parcours de volontariat et aux informations complémentaires,je suis redirigé sur l'accueil avec 3 blocs au lieu de 2.
+
+Résultat attendu :
+
+2 Blocs fonctionnel - Données personnelles et Engagement.
+
+Résultat obtenu :
+
+3 Blocs fonctionnel - Données personnelles , Questions Générales et Engagement.","V9.3.0"
+"[ROC] PB envoi message suite pb pdf contrat_esr","Corrigé en production","DP ROC","ROC-3229","Majeur","Contrat","V8.3.4","Sprint V9.3","Bonjour,
+
+Suite aux pb de messagerie rencontrés, nous avons réalisé une investigation sur l'environnement de PPROD et sur celui de qualification.
+
+La même erreur revient très souvent :
+
+2026-02-11 17:08:03] app.CRITICAL: [MailHandler] Impossible d'envoyer l'email a l'adresse '174570_candidat.roc@getnada.com' : Handling ""Symfony\\Component\\Mailer\\Messenger\\SendEmailMessage"" failed: Unable to open path ""/var/www/html/roc-back/var/cache/contrat_esr_axxxxxx_cxxxxxx.pdf"".
+
+Sur conseils de Mr Lime nous avons vérifié :
+ * les droits et permissions sur /var/www/html/roc-back/var/cache : OK
+ * L’utilisateur avec lequel sont lancés les crons, et particulièrement celui envoyant les courriels : OK.
+
+Par contre nous avons vu que ces fichiers doivent s'enregistrer sur 
+
+/var/www/html/roc-back/var/cache/PROD/contrat_esr_axxxxxx_cxxxxxx.pdf 
+
+et non 
+
+/var/www/html/roc-back/var/cache/contrat_esr_axxxxxx_cxxxxxx.pdf","V8.3.2"
+"[MOE][Volontariat] Validation données personnelles d'un nouveau volontaire en erreur","En cours de résolution et de qualification","DP ROC","ROC-3228","Bloquant","Volontariat","V9.3.0","Sprint V9.3","BUG env INT : a la validation des données personnelles à la création d'un new volontaire et.roc@getnada.com
+
+[(403 Forbidden)|https://front-np.integration.roc.fr.capgemini.com/candidat/modifier-donnees]
+
+!image-2026-02-12-12-33-40-788.png!","V9.3.0"
+"[MOE] Le bloc fonctionnel ""Communication"" n'est plus disponible","En cours de résolution et de qualification","DP ROC","ROC-3227","Bloquant","Communication","V9.3.0","Sprint V9.3","Titre :[MOE] Le bloc fonctionnel ""Communication"" n'est plus disponible
+
+Configuration : Integration V9.3.0
+
+ 
+
+Descriptif :
+
+Lorsque je me connecte avec un AO, Del AO,  REF, PIL, ADR le bloque fonctionnel ""Communication"" n'est plus disponible, pour l'AF le Bloc Communication est disponible, j'ai regardé dans le paramètrage fonctionnel mais rien pour activer le bloc
+
+Résultat  :
+
+Bloc Fonctionnel ""Communication"" apparait.
+
+Résultat obtenu :attendu
+
+Pas de bloc Fonctionnel ""Communication"" n'apparait pas
+
+ 
+
+!image-2026-02-12-10-59-00-697.png!","V9.3.0"
+"[CRON] Import RO1 en doublon flux ROx rénové","En cours de résolution et de qualification","DP ROC","ROC-3223","Majeur","Flux","","Sprint V9.5","Malgré les problématiques rencontrées, nous avons réalisé un test d'import sur l'environnement de qualification pour pouvoir avancer sur le dossier.
+
+Afin de vérifier si quelques RO1 étaient traités ou non, j'ai réalisé un export RO1 et vérifié quelques noms : certains RO1 présents dans le flux ont été intégrés dans ROC mais visiblement 2 fois une fois hier et une fois aujourd'hui. Il y aurait dû y avoir une vérification sur ce personnel pour ne pas réaliser 2 fois son import en BDD.
+
+Comportement observé
+
+le personnel a été importé 2 fois en BDD
+
+Comportement attendu
+
+Seules les infos mises à jour auraient dû être intégrées dans le fichier et non pas l'import 2 fois du même personnel.
+
+ ","V8.3.2"
+"[Unité]- Absence d'ordonnencement dans les grades ","En cours de résolution et de qualification","DP ROC","ROC-3217","Mineur","Unités","V9.3.0","Sprint V9.3","Se connecter sur la PPROD avec un AF REF PIL AO DEL REF https://pprod-reservistes.intradef.gouv.fr/interne/unite/document
+
+4512_utilisateur , 1309_utilisateur
+ # se connecter avec l'AF ou le REF
+ # Aller dans le menu gestion
+ # choisir information de l'unité
+ # Ouvrir le référentiel sur le grade.
+ # Résultat attendu : les grades doivent être classées par couleur d'uniforme ou service
+ # Résultat obtenu : grades en désordre et non classées","V8.3.2"
+"[Volontariat] Manque poste dans export candidatures","En cours de résolution et de qualification","DP ROC","ROC-3207","Mineur","Volontariat","V9.3.0","Sprint V9.3","Titre : [Volontariat] Manque candidat et poste dans export candidatures
+Configuration : Qualif V8.3.2 – DR
+Identifiant :
+Référent HIA Sainte Anne : 6169_utilisateur
+Candidat : 0502_candidat
+URL : [https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/processus-engagement]
+Descriptif :
+En tant que référent de l’HIA Sainte Anne,
+Je fais un suivi des candidatures de mon unité en exportant les candidats depuis le processus engagement
+
+Résultat attendu :
+L’ensemble des candidats doivent être présents.
+L’intitulé du poste doit être précisé dans la colonne dédiée du tableau
+
+
+Résultat obtenu :
+La colonne « intitulé poste » est vide","V8.3.2"
+"[Activité] AF- ne peut plus valider de convocation si il ne l'a pas créé","Corrigé en production","DP ROC","ROC-3175","Majeur","Activités","V8.3.3","Sprint V9.3","Titre : [Activité] AF- ne peut plus valider de convocation si il ne l'a pas créé
+Configuration : Qualif V8.3.2 – DR
+Identifiant :
+AF: 13815_utilisateur
+URL :[ |https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/activites/designer/liste] [https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/activites/designer/liste]
+
+
+*Descriptif :*
+En tant qu’AF
+je souhaite valider la convocation d'une activité recentrement créé par le REF et le RO1 est bien inscrit
+
+je clique sur le bloc fonctionnel ""Activité""
+
+dans l'onglet ""A convoquer"" je sélectionne l'activité créé
+
+je clique sur ""convoquer""
+
+puis sur ""oui""
+
+redirection vers les activité a convoquer et message de succès
+
+ 
+
+*Résultat attendu :*
+
+l'activité n'est plus visible dans l’onglet "" a convoquer"" mais dans "" a conduire""
+
+
+{*}Résultat obtenu :{*}l'activité est toujours présente dans l'onglet"" a convoquer""
+
+*Information supplémentaires:*
+
+{color:#00875a}création activité par AF–> inscription RO1–> convocation–> OK{color}
+
+{color:#de350b}activité classique présente dans ""a convoquer"" avec un RO1 inscrit date de fin et d'inscription non dépasse avec un contrat valide --> convocation–> KO{color}","V8.3.2"
+"[Volontariat] Pas d’accès au suivi des volontaires et candidats pour le délégataire AADS","Corrigé en production","DP ROC","ROC-3174","Majeur","Volontariat","V8.3.3","Sprint V9.3","Titre : [Volontariat] Pas d’accès au suivi des volontaires et candidats pour le délégataire AADS
+Configuration : Qualif V8.3.2 – DR
+Identifiant :
+ADS SSA : 15867_utilisateur
+Del AADS : 6302_utilisateur
+URL : [https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/accueil-choix-bloc]
+Descriptif :
+En tant qu’ADS SSA
+Je donne délégation de mes droits avec accès au suivi des volontaires,
+
+Résultat attendu :
+Le délégataire a accès au suivi des volontaires et candidats
+Résultat obtenu :
+Le délégataire n’a pas accès à la tuile « suivi des volontaires »","V8.3.2"
+"Pb de sessions PHP qui ne se libèrent pas","En cours de résolution et de qualification","DP ROC","ROC-3172","Majeur","Environnement","LIVRAISON HORS VERSION","Sprint V9.3","Nous avons eu une alerte de l'équipe C1NP concernant les sessions PHP qui ne se libèrent pas sur le front NP.
+
+Ce bug est rencontré aussi bien sur l'environnement de qualification que sur la PPROD.
+
+Depuis l'installation de la version 8 3.2 sur qualif (28 janvier) et PPROD (29 janvier) les sessions s'élèvent à 225425 fichiers sur qualif et 235923 fichiers sur preprod .
+
+Pour information, la PPROD C1NP n'est pas reliée à la PPROD C1DR et il n'y a ainsi par conséquent aucune activité sur cet environnement.
+
+Une vérification a été effectuée en PROD (version 7.5.3) : nombre de sessions : 1250 et datent toutes du jour.
+
+Nous avons vérifié le front DR : le comportement n'est pas le même. Les sessions datent du jour et sont de l'ordre de quelques centaines.
+
+Nous avons vérifié sur PICSEL: le pb est présent en 8.3 + 8.3.1 et 8.3.2
+
+ ","V8.3.0"
+"[Contrat] Anomalie onglet procédure renouvellement en cours","Corrigé en production","DP ROC","ROC-3165","Majeur","Contrat","V8.3.3","Sprint V9.3","Titre : [Contrat] Anomalie onglet procédure renouvellement en cours
+Configuration : Qualif V8.3.2 – DR
+Identifiant :
+ADR : 10446_utilisateur
+URL : [https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/mes-contrats/reserviste/190412]
+
+
+*Descriptif :*
+En tant qu’ADR SSA
+Dans le module « contrats en cours de renouvellement », 
+Je filtre sur « procédure de renouvellement en cours » dans la colonne « état »,
+
+*Résultat attendu :*
+La liste doit afficher les dossiers en cours de renouvellement pour lesquels une action du gestionnaire est attendue. 
+Il ne doit y avoir dans cette liste que des contrats se terminant dans les 7 prochains mois.
+*Résultat obtenu :*
+De nombreux dossiers dont le renouvellement est finalisé sont présents dans cette liste. L’ADR ne peut effectuer aucune action.
+La colonne « date de fin ESR » indique des fins de contrat en 2030. Ces dossiers doivent être dans « contrats actifs ».","V8.3.2"
+"[Contrat] Impossible de téléverser un document de mesures d’attractivité","En cours de résolution et de qualification","DP ROC","ROC-3164","Majeur","Contrat","LIVRAISON HORS VERSION","Sprint V9.5","*Titre* : [Contrat] Impossible de téléverser un document de mesures d’attractivité
+
+*Configuration* : Qualif V8.3.2 – DR
+
+*Identifiant* :
+
+AF : 742_utilisateur
+
+*URL* :  _https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/admin/ref-particulier/mes-contrats-mesures-attractivites_
+
+*Descriptif* :
+
+En tant qu’AF SSA
+
+Je supprime le document présent dans mesures d’attractivité, 
+
+Je téléverse le nouveau document puis clique sur « valider »
+
+ 
+
+*Résultat attendu* :
+
+Le nouveau document est enregistré et peut être ouvert
+
+*Résultat obtenu* :
+
+Le nouveau document n’est pas enregistré. Il n’est donc pas accessible :","V8.3.2"
+"[Contrat] mauvaise redirection","Corrigé en production","DP ROC","ROC-3163","Mineur","Contrat","V8.3.3","Sprint V9.3","*Titre* : [Contrat] mauvaise redirection
+
+*Configuration* : PPROD V8.3.2
+
+*Identifiant* :
+
+ADR :10446_utilisateur
+
+*URL* : 
+
+*Descriptif* :
+
+En tant qu'ADR,
+
+je clique sue ""contrat/mobilité"" puis ""en renouvellement""
+
+je sélectionne un contrat qui est a l’étape ""retours des termes""
+
+je clique sue ""accepter la durée"" 
+ 
+
+*Résultat attendu* :
+
+redirection vers le tableau "" contrats en cours de renouvellement""
+
+*Résultat obtenu* :
+
+redirection vers le tableau "" contrats a renouveler""","V8.3.2"
+" [Compte] création de délégataire par AF ","Corrigé en production","DP ROC","ROC-3151","Majeur","Comptes","V8.3.3","Sprint V9.3","*Titre* : [Compte] création de délégataire par AF
+
+*Configuration* : PPROD V8.3.2
+
+*Identifiant* :
+
+AF : 4512_utilisateur
+
+*URL* :  https://qualif-reservistes-c1dr.intradef.gouv.fr/interne/admin/utilisateurs/gestionnaires/4714/delegation/ajouter
+
+*Descriptif* :
+
+En tant qu'AF,
+
+je clique sur ""gestion ""puis ""gestion des utilisateur
+
+je recherche le 4714_utilisateur
+
+au niveau de la gestion des délégation je clique sue ""créer une délégation""
+
+je sélection "" référent"" et ""18634_utilisateur.roc@intradef.gouv.fr
+ 
+
+*Résultat attendu* :
+
+création de la délégation
+
+
+*Résultat obtenu* :
+
+Erreur inattendue
+
+Erreur 500
+
+ ","V8.3.2"
+"[TEMPLATE] INCIDENT DE PROD","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3149","","","","","*Incicent manager :* [tag de la personne gérant l'incident] 
+
+*Point de contact :* [liste des personnes a contacter (coté DP...)]
+
+*Date et Heure de déclaration de l'incident :* 
+[heure de déclaration de l'incident]
+
+*Date et Heure de résolution de l'incident :* 
+[heure de résolution de l'incident]
+
+*Description du problème :* 
+[Consigne de reproduction du bug (comportement observé) et comportement attendu + log si disponible.]
+
+*Liens vers les ressources nécessaires (resana ou autres) :* 
+
+*Impact technique :* [texte] 
+
+*impact metier* : [texte]
+
+*Cause du problème et résolution :* [texte]
+
+*Chronologie de l'incident:* 
+||date:heure||évènement ou action (résumé)||personnes impliqué (rôle)||
+| | | |
+
+ 
+
+*Action post-incident :*
+||Action||Responsable||Statut||Ticket Jira||
+| | | | |
+
+ 
+
+ 
+
+ ","LIVRAISON HORS VERSION"
+"[MOE] [Volontariat] Motif d'alerte modifiable alors qu'il ne devrait pas","En cours de résolution et de qualification","DP ROC","ROC-3146","Majeur","Candidature","V9.4.0","Sprint V9.4","En tant qu'AF, lorsque je reviens sur le processus d'engagement d'un candidat qui a eu une alerte à l'étape ""Entretien"" en unité"", si je clique sur le bloc ""Entretien en unité"" la coche Alerte et sélectionné et le motif et renseigné.
+
+Alors que je ne devrais pas pouvoir enregistrer un nouveau motif d'alerte, j'ai pu modifier le motif ET l'enregistrer.
+
+Après enregistrement / Validation si je reviens sur le bloc le nouveau motif a été enregistré
+
+!image-2026-01-28-11-46-19-147.png!
+
+ 
+
+!image-2026-01-28-11-47-03-908.png!","V9.2.0"
+"[MOE] Entretien en unité - Retour sur le Suivi des candidatureS KO","En cours de résolution et de qualification","DP ROC","ROC-3145","Majeur","Candidature","V9.3.0","Sprint V9.3","Env INT
+
+En tant qu'AF je vais sur le bloc suivi des candidatures et je filtre sur l'étape ""Entretien en unité"" puis je clique sur un candidat et j'arrive sur sa page d'engagement avec le différents blocs.
+
+Je clique sur le bloc ""Entretien en unité"" (ici le bloc est validé), j'arrive sur la page Entretien en unité en lecture seule.
+
+!image-2026-01-28-09-47-24-369.png!
+
+Quand je clique sur retour, je reviens su la page d'engagement avec les différents blocs. si je reclique sur Retour, je reviens sur la page Entretien en unité au lieu de revenir sur la page Suivi des candidatures
+
+!image-2026-01-28-09-48-56-922.png!
+
+!image-2026-01-28-09-50-04-022.png!","V9.2.0"
+"[MOE] Création activité prioritaire RO1/RO2 - Les boutons ""précédent"" et ""suivant"" sont à gauche","En cours de résolution et de qualification","DP ROC","ROC-3136","Mineur","Activités","V9.3.0","Sprint V9.3","Création activité prioritaire RO1 ou RO2 - Les boutons ""précédent"" et ""suivant"" sont à gauche alors qu'ils devraient être à droite en bas de la page
+
+!image-2026-01-26-17-27-00-708.png!","V9.2.0"
+"[MOE] Problème d'affichage de la liste département suite à la sélection sur la carte","En cours de résolution et de qualification","DP ROC","ROC-3134","Majeur","Activités","V9.3.0","Sprint V9.3","2 cas d'erreur :
+
+1er cas : Création Offre d'emploi :
+
+En tant qu'AF je créé une offre d'emploi pour un poste permanant RO1, quand je clique sur la carte de la France un ou plusieurs départements je m'attends à avoir la liste avec le(s) département(s) sélectionné(s), or la liste n'apparait pas j'ai juste le libellé
+
+ 
+
+2ème cas : Création d'une activité :
+
+En tant qu'AF je créé une offre d'emploi pour un poste permanant RO1, quand je clique sur la carte de la France un ou plusieurs départements je m'attends à avoir la liste avec le(s) département(s) sélectionné(s), or la liste n'apparait dynamiquement, il faut que je clique sur Enregistrer pour que le(s) département(s) sélectionné(s) s'affiche(nt)
+
+ 
+
+ ","V9.2.0"
+"Pb retour API DGFIP","Corrigé en production","DP ROC","ROC-3133","Bloquant","Environnement","V8.3.3","Sprint V9.3","Bonjour,
+
+Après de nombreux essais, nous avons pu réaliser un fichier de flux Rox rénové qui fonctionne. Un RO1 a pu être importé.
+
+Vérification sur le rapport qualité pour s'assurer de la présence ou non des informations DGFIP : Les informations ne sont pas présentes
+
+Vérification des logs : il y a des erreurs.
+
+Les tests ont été réalisés sur l'environnement de qualification après implémentation du env.local.
+
+ ","V8.3.1"
+"[activités]refus RO2 non prit en compte","Corrigé en production","DP ROC","ROC-3126","Majeur","Activités","V8.3.2","Sprint V9.3","'+*Titre :*+ [activités]refus RO2 non prit en compte
+
+*+Configuration:+*
+
+PICSEL v8.3.0
+
+ 
+
++*URL :*+ [https://roc-front-dr-rel.picsel.defense.gouv.fr/interne/activites/export/2324925|https://roc-front-dr-rel.picsel.defense.gouv.fr/interne/activites/designer/detail/2324938]
+
+ 
+
+*+Descriptif :+*
+
+création d'une activité RO2 par le REF
+
+Je me connecte en tant que RO2 (205676_reserviste)
+
+je clique sur convocation
+
+je clique sur l'activité propose
+
+je sélectionne "" je ne pourrait pas participer""
+
+je met une raison
+
+je confirme
+
+le REF reçoit bien le mail de refus
+
+ 
+
++*Résultat obtenue:*+
+
+le REF consulte l'activité
+
+le réserviste est noté "" sans réponse ""
+
+ 
+
+*+Résultat attendu:+*
+le toggle doit être positionné sur ""refusé""","V8.3.0"
+"[Volontariat] Message d'erreur intempestif au moment du refus d'une candidature à l'étape validation définitive","Corrigé en production","DP ROC","ROC-3124","Mineur","Volontariat","V8.3.3","Sprint V9.3","PICSEL V8.3.0 DR
+
+1309_utilisateur + candidat créé de 0
+
+Description : 
+ * Création compte candidat qui postule à une offre sur laquelle le 1309 est référent
+ * Je valide tous les blocs, de manière nominale, sans aucun cas particulier (côté candidat et référent)
+ * Au moment de la validation définitive, j'upload un doc, je sélectionne refusé et je clique sur valider 
+
+Résultat obtenu : un message d'erreur apparait (alors que le comportement fonctionnel est {*}OK{*}, c'est simplement un problème de paramétrage je pense) 
+
+Résultat attendu : uniquement le message de succès, et le même comportement fonctionnel","V8.3.0"
+"[volontariat] Si un référent valide une alerte lors du contrôle du dossier, le contenue de la tuile se grise","Corrigé en production","DP ROC","ROC-3122","Majeur","Volontariat","V8.3.3","Sprint V9.3","*Version* : v.8.3.0
+
+*Comportement observé* : Lorsqu'un référent émet une alerte, lors du contrôle du dossier d'une candidature, alors la tuile passe en vert et le contenu de cette dernière est grisée (non modifiable). Le mail est bien envoyé à l'administrateur.
+
+*Comportement attendu:* Lorsqu'un référent émet une alerte lors du contrôle de dossier d'un candidat alors un mail est envoyé à l'administrateur et la tuile reste en bleu, son contenu n'est pas grisé et reste modifiable.
+
+cf : US https://jira-ci.fr.capgemini.com/jira/browse/ROC-2384","V8.3.0"
+"[Engagement] Première connexion AF, premier clic sur bloc Suivi des candidatures-> Tableau vide","Corrigé en production","DP ROC","ROC-3121","Majeur","Volontariat","V8.3.2","Sprint V9.3","PICSEL V8.3.0
+
+4512_utilisateur
+
+Description : 
+
+- Première connexion au 4512, sans aucune action faite sur l'environnement DR (pas de cache etc...)
+ * Clic sur Suivi des candidatures
+ * Tableau vide
+ * Recharger la page
+ * Les valeurs apparaissent
+
+ ","V8.3.0"
+"[volontariat] la fiche d'évaluation d'aptitude à l'emploi de la visite médicale militaire n'est pas conforme","Corrigé en production","DP ROC","ROC-3120","Mineur","Volontariat","V8.3.3","Sprint V9.3","*Version* : v 8.3.0
+
+*Comportement observé :* La fiche d'évaluation d'aptitude à l'emploi de la visite médicale militaire n'est pas comme le modèle affichée du cas de test https://jira-ci.fr.capgemini.com/jira/browse/ROC-2987
+
+*Comportement attendu :* la fiche est conforme au modèle donnée par le cas de test (il ne manque pas de schéma ou la partie compétences)","V8.3.0"
+"[Volontariat] Affichage du bandeau d'information bleu en haut de page devenu inesthétique ","Corrigé en production","DP ROC","ROC-3119","Mineur","Volontariat","V8.3.2","Sprint V9.3","Voir le comparatif des PJ, l'affichage en ligne = V7.5.3 PICSEL ; l'affichage en colonne = V8.3.0 PICSEL. Les deux sont issues de la première connexion d'un volontaire qui vient de créer son compte. ","V8.3.0"
+"[Volontariat] Après de un/des refus au moment de la prise de rdv en unité, un volontaire se trouve bloqué au choix de l'emploi","Corrigé en production","DP ROC","ROC-3118","Bloquant","Volontariat","V8.3.3","Sprint V9.3","PICSEL *V8.3.0*
+
+Volontaire créé pour le test +*Prénom* :+ Edouard +*Nom* :+ EdouardDeux ; AF : 4512 ; Référent : 4714
+
+Description : 
+ * Création compte candidat
+ * Choix offre d'emploi -> bloc passe vert et autres modules s'ouvrent 
+ * Refus à l'état *rdv en unité* par le référent
+ * Le candidat recandidate au même emploi -> bloc passe vert et autres modules s'ouvrent
+ * Refus à l'état *prise rdv en unité* par l'AF  
+ * Le candidat recandidate au même emploi -> *bloc passe bleu et les autres blocs ne s'ouvrent pas*
+ * Impossible de ""dé-candidater"" ou de postuler à une autre offre --> le volontaire se trouve bloqué (à moins que vous trouviez une autre méthodo pour le débloquer) ","V8.3.0"
+"[emploi] l'ADS, l'ADR et leurs délégataires peuvent modifier les offres d'emploi au lieu d'être en lecture seule","Corrigé en production","DP ROC","ROC-3117","Mineur","Emploi","V8.3.2","Sprint V9.3","*Identifiant* : A-ADS/ADR et leurs DEL
+
+{*}Environnement{*}: PICSEL 8.3.1
+
+*Comportement* *observé* : L'ADS, l'ADR et leurs délégataires peuvent modifier les offres d'emploi au lieu d'être en lecture seule
+
+*Comportement* *attendu* : L'ADS, l'ADR et leurs délégataires ne peuvent pas modifier les offres d'emplois et peuvent seulement visualiser les offres d'emploi
+
+ 
+
+CF US [ROC-2090] [Volontariat] Visualiser les offres d'emplois publiées en tant que gestionnaire - Jira CI","V8.3.1"
+"[activités]erreur 500 /activités passées/export activité","Corrigé en production","DP ROC","ROC-3113","Majeur","Activités","V8.3.2","Sprint V9.2","'+*Titre :*+ [activités]erreur 500 /activités passées/export activité
+
+*+Configuration:+*
+
+PICSEL v8.3
+
+ 
+
++*URL :*+ https://roc-front-dr-rel.picsel.defense.gouv.fr/interne/activites/export/2324925
+
+ 
+
+*+Descriptif :+*
+
+Je me connecte en tant que REF/AF/AF/PIL       
+
+Je clique sur le bloc « Activité »
+
+Dans le tableau je sélectionne «  Activités passées »
+
+Je sélectionne une activité
+
+Je clique sur « exporter une activité »
+
+
+ 
+
++*Résultat obtenue:*+
+
+erreur 500
+
+ 
+
+*+Résultat attendu:+*
+
+consultation de l'ENARO avec la signature","V8.3.0"
+"Erreur binding entity RefUnite","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-3072","","Unités","","","Je note plusieurs fois cette erreur, sans pourtant comprendre pourquoi car l'entité est correctement implémentée 
+
+
+
+request.CRITICAL: Uncaught PHP Exception Doctrine\\ORM\\ORMInvalidArgumentException: ""Binding entities to query parameters only allowed for entities that have an identifier. Class ""App\\Entity\\RefUnite"" does not have an identifier."" at ORMInvalidArgumentException.php line 125 \\{""exception"":""[object] (Doctrine\\\\ORM\\\\ORMInvalidArgumentException(code: 0): Binding entities to query parameters only allowed for entities that have an identifier.\\nClass \\""App\\\\Entity\\\\RefUnite\\"" does not have an identifier. at /var/www/html/vendor/doctrine/orm/src/ORMInvalidArgumentException.php:125)""} \\{""dt.trace_sampled"":""true""}","V7.5.1"
+"[Information] Pb tests des routes api relatives aux contrats","En cours de résolution et de qualification","DP ROC","ROC-2962","","Contrat","LIVRAISON HORS VERSION","Sprint V9.4","En PJ, mes questions concernant les routes api relatives aux contrats afin de pouvoir les tester (avec JMeter)","V7.4.1"
+"[E-billet] Bug affichage sur l'heure de départ après la Création de E-Billet","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-2354","","E-billet","","","Tacite envoie les données pour la création de E-billet (après les informations saisies par utilisateur), voici la requête envoyé par Tacite et réponse de ROC :
+
+ 
+
+Sep 18 11:10:38 MOCKAPISVC569V mockapi[27862]: *Réponse envoyée au client :* {""REQUETE"":{""HEADER"":
+
+{""FROM"":""TACITE"",""TO"":""RESERVE"",""DATETIMEGENE"":""2025-09-18 11:10:38"",""TYPE"":""ENGAOK"",""IDENTIFIANT"":""452147""}
+
+,""ENGAOK"":{""DATECOMMANDE"":""2025-09-18 11:10:38"",""GAREDEPART"":""Paris"",""GAREARRIVEE"":""Lyon"",""DATEDEPART"":""2025-09-18"",""DATERETOUR"":""2025-09-18"",""DETAILTRAJET"":[
+
+{""TRAJET"":""ALLER"",""NUMSEGMENT"":2,""GAREDEPART"":""Paris"",""GAREARRIVEE"":""Lyon"",""DATEDEPART"":""2025-09-18"",""HEUREDEPART"":""08:30"",""HEUREARRIVEE"":""10:15"",""NUMTRAIN"":""ABC12345"",""CLASSE"":""2""}
+
+,\\{""TRAJET"":""RETOUR"",""NUMSEGMENT"":2,""GAREDEPART"":""Lyon"",""GAREARRIVEE"":""Paris"",""DATEDEPART"":""2025-09-18"",""HEUREDEPART"":""17:45"",""HEUREARRIVEE"":""19:30"",""NUMTRAIN"":""XYZ67890"",""CLASSE"":""2""}],""MONTANT"":""97.85822652676706"",""NUMPNR"":""7739694e-f9e1-48c6-a3c5-6f2e51c7fc89"",""RECLOCTRAIN"":""LOC34""}}}
+
+Sep 18 11:10:38 MOCKAPISVC569V mockapi[27862]: *Réponse reçue du client* : \\{""REPONSE"":{""DATETIMEGENE"":""2025-09-18 11:10:38"",""IDENTIFIANT"":""452147"",""STATUT"":""OK""}}
+
+ 
+
+{color:#de350b}*L'utilisateur va sur la page Mes e-billets, la date/heure Aller affiché à l'écran n'est pas la bonne (heure de départ envoyé précédemment 8:30 ici on lui affiche 11:10 qui correspond à la date/heure de réponse généré)*{color}
+
+ 
+
+!image-2025-09-18-12-02-32-956.png|width=787,height=402!
+
+ 
+
+Voici également l'enregistrement concernant cette commande E-billet dans la BDD :
+
+ 
+MariaDB [reserves2019]> select * from commande_billet where commande_date_retour=""2025-09-18 17:45"";
+{+}------------{-}{-}{+}-------------------{-}++{-}--------------------------{-}{-}-----------------{-}++{-}-------------------------------{-}{-}---------------------{-}++{-}----------------------{-}{-}--------------------{-}++{-}---------------------{-}{-}--------------------{-}++{-}--------------------{-}{-}----------------{-}++{-}------------------------------------{-}{-}---------------------{-}++{-}-----------------{-}{-}------------------------{-}++{-}-----------------
+|commande_id|commande_reserviste|commande_ref_etat_commande|commande_workflow|commande_numero_ordre_transport|commande_date_demande|commande_date_commande|commande_gare_depart|commande_gare_arrivee|commande_date_depart|commande_date_retour|commande_montant|commande_num_pnr                     |commande_recloc_train|commande_valideur|commande_date_validation|a_traiter_tacite|
+
+{+}------------{-}{-}{+}-------------------{-}++{-}--------------------------{-}{-}-----------------{-}++{-}-------------------------------{-}{-}---------------------{-}++{-}----------------------{-}{-}--------------------{-}++{-}---------------------{-}{-}--------------------{-}++{-}--------------------{-}{-}----------------{-}++{-}------------------------------------{-}{-}---------------------{-}++{-}-----------------{-}{-}------------------------{-}++{-}-----------------
+|      452147|               12603|                          1|           2260734|9999999999                     |2025-09-18 11:05:20   |2025-09-18 11:10:38   |Paris               |Lyon                 |2025-09-18 11:10:38 |2025-09-18 17:45:00 |  97.858226526767|7739694e-f9e1-48c6-a3c5-6f2e51c7fc89|LOC34                 |              4512|2025-09-18 11:10:10     |                0|
+
+{+}------------{-}{-}{+}-------------------{-}++{-}--------------------------{-}{-}-----------------{-}++{-}-------------------------------{-}{-}---------------------{-}++{-}----------------------{-}{-}--------------------{-}++{-}---------------------{-}{-}--------------------{-}++{-}--------------------{-}{-}----------------{-}++{-}------------------------------------{-}{-}---------------------{-}++{-}-----------------{-}{-}------------------------{-}++{-}-----------------
+1 row in set (0.262 sec)
+ 
+MariaDB [reserves2019]> select commande_date_depart from commande_billet where commande_date_retour=""2025-09-18 17:45"";
++----------------------+
+|commande_date_depart|
+
++----------------------+
+|2025-09-18 11:10:38 |
+
++----------------------+
+1 row in set (0.119 sec)
+ 
+
+ ","V6.3.2"
+"[Information] Demande d'informations sur l'état des lieux des CRON","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-2231","","Environnement","","","Est ce que des modifications ont été apportées sur les CRON suite à l'étude du14 04 2025 ?
+
+Si oui, quel est le nouvel état des lieux des CRON ?","V6.3.1"
+"[Information] Demande d'informations sur les fichiers de trace","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-2221","","Environnement","","","Bonjour, pouvez vous me communiquer si les traces comprennent bien les champs obligatoires suivants :  
+- Horodatage de la trace 
+- Fuseau horaire du générateur ou décalage UTC 
+- Nom du générateur de la trace 
+- Adresse IP du générateur de la trace 
+- Nom d’hôte source (si applicable) 
+- Nom d’hôte destination (si applicable) 
+- Adresse IP de la source (si applicable) 
+- Adresse IP de la destination (si applicable) 
+- Port source (si applicable) 
+- Port destination (si applicable) 
+- Compte utilisateur concerné (si applicable) 
+- Action 
+- Résultat 
+- Sévérité 
+- Description 
+- Requête / commande 
+- Nom de l’outil provoquant la trace (type de virus ou d’outil « interdit ») (si applicable) 
+- Liste des fichiers concernés (nom ou valeur de hachage) 
+- Identifiant de la règle ou de la signature provoquant la trace (si applicable)","V6.3.1"
+"[Information] Demande d'informations sur actions à réaliser suite analyse code audit","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-2211","","Environnement","","","Une analyse du code avait été réalisé il y a quelques années. Pouvez vous me communiquer si les préconisations suivantes ont été prises en compte :
+ * suppression des méthodes vides ;
+ * mise en place de clause ""default"" ;
+ * suppression des variables locales non utilisées ;
+ * suppression des fonctions strictement identiques ;
+ * simplifier les fonctions à complexité cognitive élevé ;
+ * simplifier les fonctions trop lourdes.","V6.3.0"
+"[Environnement] Des informations fonctionnelles sont renseignées dans les header des APIs : cela est-il le fonctionnement attendu ?","En attente de prise en compte dans l'usine logicielle","DP ROC","ROC-2126","","Environnement","","","PICSEL v6.3 : +demande d'information pour savoir si ce fonctionnement est le fonctionnement normal du produit+
+
+Dans le header des requêtes des informations fonctionnelles sont renseignées: ce fonctionnement est-il le fonctionnement normal et attendu du produit ? 
+Sachant que ces informations sont absentes de la définition des spécifications json swagger de l'OpenAPI mais apparaissent avec le profiler synfony
+
+
+
+{+}1. Pour créer une communication massive il faut faire une requête du type ci-dessou{+}s
+
+{color:#172b4d}POST https://roc-back-dr-pre.picsel.defense.gouv.fr/v7/api/message-communication-massive{color}
+
++*Header*+
+
+{color:#172b4d}Connection: keep-alive{color}
+{color:#172b4d}accept: application/json{color}
+{color:#172b4d}Content-Type: application/json{color}
+{color:#172b4d}MinArm-PEM-Authorization: Bearer 06158452-6f1e-3127-9ca1-813597a11bd0{color}
+{color:#de350b}ROC-Utilisateur-Uid: 014512{color}
+{color:#de350b}ROC-Utilisateur-Role-Id: 2{color}
+{color:#de350b}ROC-Env: intradef{color}
+{color:#de350b}X-ROC-Referer: DR{color}
+{color:#172b4d}Content-Length: 4015{color}
+{color:#172b4d}Host: roc-back-dr-pre.picsel.defense.gouv.fr{color}
+{color:#172b4d}User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.8){color}
+
+{color:#172b4d}+*Body*+ .json ci-joint fabriqué par Mme [~slegras]  dans le cadre du ticket ROC-2075
+{color}
+
+Response code:201
+Response message:Created
+Response body: \\{""id"":1129}
+
+2. On a également ce comportement sur d'autres APIs, par exemple Post activité
+
+curl \\
+  --compressed \\
+  --request POST \\
+  --url 'https://backdrdev903v.picsel.defense.gouv.fr/v7/api/activites' \\
+  --header 'ROC-Utilisateur-Uid: 014512' \\
+  --header 'ROC-Utilisateur-Role-Id: 2' \\
+  --header 'ROC-Env: intradef' \\
+  --header 'X-ROC-Referer: DR' \\
+  --header 'Accept: application/json' \\
+  --header 'Content-Type: application/json' \\
+  --header 'User-Agent: Symfony HttpClient (Curl)' \\
+  --header 'Accept-Encoding: gzip' \\
+  --header 'Content-Length: 569' \\
+  --data-raw '\\{""objet"":""{\\""modele_activite_est_dans_perimetre\\"":1,\\""modele_activite_notif_inscription\\"":false,\\""modele_activite_visible\\"":false,\\""modele_activite_code\\"":{\\""ref_code_activite_id\\"":701,\\""ref_code_activite_libelle\\"":\\""Activit\\\\u00e9s de pr\\\\u00e9paration op\\\\u00e9rationnelle MDR de niveau UP2\\"",\\""ref_code_activite_valeur\\"":\\""618\\""},\\""modele_activite_is_modele\\"":true,\\""modele_activite_unites_perimetre\\"":[\\{\\""ref_unite_id\\"":3162}],\\""createur\\"":\\{\\""utilisateur_id\\"":4512},\\""inscrit_ro1_visible\\"":true,\\""choix_critere_geographique\\"":false,\\""modele_activite_id\\"":2199054}""}'
+
+ 
+
+Éléments cohérents fournis dans le ticket ROC-2075, par la MOE ou des informations fonctionnelles apparaissent dans le header
+
+ 
+
+Discuté avec le lieutenant [~X-LLODI] et [~celime] 
+Ticket validé pour ouverture en demande d'information","V6.3.0"

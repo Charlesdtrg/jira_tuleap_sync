@@ -1,0 +1,729 @@
+2026-03-24 09:29:25,231 - INFO - Démarrage de la synchronisation
+2026-03-24 09:29:25,232 - INFO - Chargement des fichiers CSV
+2026-03-24 09:29:25,364 - INFO - Parsing des données Jira
+2026-03-24 09:29:26,823 - INFO - Parsing des données Tuleap
+2026-03-24 09:29:26,824 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 09:29:26,833 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 09:29:26,834 - INFO - Préparation des tickets à créer
+2026-03-24 09:29:26,875 - INFO - Synchronisation terminée
+2026-03-24 10:01:02,923 - INFO - Démarrage de la synchronisation
+2026-03-24 10:01:02,924 - INFO - Chargement des fichiers CSV
+2026-03-24 10:01:03,157 - INFO - Parsing des données Jira
+2026-03-24 10:01:04,603 - INFO - Parsing des données Tuleap
+2026-03-24 10:01:04,603 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:01:04,612 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:01:04,615 - INFO - Préparation des tickets à créer
+2026-03-24 10:01:04,656 - INFO - Synchronisation terminée
+2026-03-24 10:20:25,925 - INFO - Démarrage de la synchronisation
+2026-03-24 10:20:25,926 - INFO - Chargement des fichiers CSV
+2026-03-24 10:20:26,167 - INFO - Parsing des données Jira
+2026-03-24 10:20:27,614 - INFO - Parsing des données Tuleap
+2026-03-24 10:20:27,614 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:20:27,624 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:20:27,627 - INFO - Préparation des tickets à créer
+2026-03-24 10:20:27,668 - INFO - Synchronisation terminée
+2026-03-24 10:22:49,936 - INFO - Démarrage de la synchronisation
+2026-03-24 10:22:49,937 - INFO - Chargement des fichiers CSV
+2026-03-24 10:22:50,172 - INFO - Parsing des données Jira
+2026-03-24 10:22:51,618 - INFO - Parsing des données Tuleap
+2026-03-24 10:22:51,619 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:22:51,629 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:22:51,631 - INFO - Préparation des tickets à créer
+2026-03-24 10:22:51,672 - INFO - Synchronisation terminée
+2026-03-24 10:23:52,307 - INFO - Démarrage de la synchronisation
+2026-03-24 10:23:52,308 - INFO - Chargement des fichiers CSV
+2026-03-24 10:23:52,540 - INFO - Parsing des données Jira
+2026-03-24 10:23:53,994 - INFO - Parsing des données Tuleap
+2026-03-24 10:23:53,995 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:23:54,005 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:23:54,008 - INFO - Préparation des tickets à créer
+2026-03-24 10:23:54,049 - INFO - Synchronisation terminée
+2026-03-24 10:24:48,761 - INFO - Démarrage de la synchronisation
+2026-03-24 10:24:48,762 - INFO - Chargement des fichiers CSV
+2026-03-24 10:24:48,998 - INFO - Parsing des données Jira
+2026-03-24 10:24:50,447 - INFO - Parsing des données Tuleap
+2026-03-24 10:24:50,447 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:24:50,457 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:24:50,460 - INFO - Préparation des tickets à créer
+2026-03-24 10:24:50,500 - INFO - Synchronisation terminée
+2026-03-24 10:27:48,628 - INFO - Démarrage de la synchronisation
+2026-03-24 10:27:48,629 - INFO - Chargement des fichiers CSV
+2026-03-24 10:27:48,868 - INFO - Parsing des données Jira
+2026-03-24 10:27:50,324 - INFO - Parsing des données Tuleap
+2026-03-24 10:27:50,324 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:27:50,334 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:27:50,337 - INFO - Préparation des tickets à créer
+2026-03-24 10:27:50,378 - INFO - Synchronisation terminée
+2026-03-24 10:36:57,724 - INFO - Démarrage de la synchronisation
+2026-03-24 10:36:57,726 - INFO - Chargement des fichiers CSV
+2026-03-24 10:36:57,945 - INFO - Parsing des données Jira
+2026-03-24 10:36:59,387 - INFO - Parsing des données Tuleap
+2026-03-24 10:36:59,388 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:36:59,397 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:36:59,400 - INFO - Préparation des tickets à créer
+2026-03-24 10:36:59,441 - INFO - Synchronisation terminée
+2026-03-24 10:37:55,919 - INFO - Démarrage de la synchronisation
+2026-03-24 10:37:55,920 - INFO - Chargement des fichiers CSV
+2026-03-24 10:37:56,150 - INFO - Parsing des données Jira
+2026-03-24 10:37:57,600 - INFO - Parsing des données Tuleap
+2026-03-24 10:37:57,600 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:37:57,610 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:37:57,610 - INFO - Préparation des tickets à créer
+2026-03-24 10:37:57,651 - INFO - Synchronisation terminée
+2026-03-24 10:49:53,349 - INFO - Démarrage de la synchronisation
+2026-03-24 10:49:53,350 - INFO - Chargement des fichiers CSV
+2026-03-24 10:49:53,577 - INFO - Parsing des données Jira
+2026-03-24 10:49:55,019 - INFO - Parsing des données Tuleap
+2026-03-24 10:49:55,020 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:49:55,029 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:49:55,032 - INFO - Préparation des tickets à créer
+2026-03-24 10:49:55,072 - INFO - Synchronisation terminée
+2026-03-24 10:51:23,872 - INFO - Démarrage de la synchronisation
+2026-03-24 10:51:23,873 - INFO - Chargement des fichiers CSV
+2026-03-24 10:51:24,102 - INFO - Parsing des données Jira
+2026-03-24 10:51:25,550 - INFO - Parsing des données Tuleap
+2026-03-24 10:51:25,550 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:51:25,560 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:51:25,560 - INFO - Préparation des tickets à créer
+2026-03-24 10:51:25,600 - INFO - Synchronisation terminée
+2026-03-24 10:52:21,716 - INFO - Démarrage de la synchronisation
+2026-03-24 10:52:21,717 - INFO - Chargement des fichiers CSV
+2026-03-24 10:52:21,935 - INFO - Parsing des données Jira
+2026-03-24 10:52:23,375 - INFO - Parsing des données Tuleap
+2026-03-24 10:52:23,375 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:52:23,385 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:52:23,385 - INFO - Préparation des tickets à créer
+2026-03-24 10:52:23,425 - INFO - Synchronisation terminée
+2026-03-24 10:53:10,087 - INFO - Démarrage de la synchronisation
+2026-03-24 10:53:10,088 - INFO - Chargement des fichiers CSV
+2026-03-24 10:53:10,315 - INFO - Parsing des données Jira
+2026-03-24 10:53:11,764 - INFO - Parsing des données Tuleap
+2026-03-24 10:53:11,765 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:53:11,774 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:53:11,775 - INFO - Préparation des tickets à créer
+2026-03-24 10:53:11,815 - INFO - Synchronisation terminée
+2026-03-24 10:56:12,131 - INFO - Démarrage de la synchronisation
+2026-03-24 10:56:12,132 - INFO - Chargement des fichiers CSV
+2026-03-24 10:56:12,360 - INFO - Parsing des données Jira
+2026-03-24 10:56:13,803 - INFO - Parsing des données Tuleap
+2026-03-24 10:56:13,804 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 10:56:13,813 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 10:56:13,814 - INFO - Préparation des tickets à créer
+2026-03-24 10:56:13,854 - INFO - Synchronisation terminée
+2026-03-24 11:06:10,213 - INFO - Démarrage de la synchronisation
+2026-03-24 11:06:10,215 - INFO - Chargement des fichiers CSV
+2026-03-24 11:06:10,445 - INFO - Parsing des données Jira
+2026-03-24 11:07:19,602 - INFO - Démarrage de la synchronisation
+2026-03-24 11:07:19,603 - INFO - Chargement des fichiers CSV
+2026-03-24 11:07:19,839 - INFO - Parsing des données Jira
+2026-03-24 11:07:21,290 - INFO - Parsing des données Tuleap
+2026-03-24 11:07:21,290 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:07:21,300 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:07:21,302 - INFO - Préparation des tickets à créer
+2026-03-24 11:07:21,342 - INFO - Synchronisation terminée
+2026-03-24 11:16:04,721 - INFO - Démarrage de la synchronisation
+2026-03-24 11:16:04,722 - INFO - Chargement des fichiers CSV
+2026-03-24 11:16:04,947 - INFO - Parsing des données Jira
+2026-03-24 11:16:06,394 - INFO - Parsing des données Tuleap
+2026-03-24 11:16:06,394 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:16:06,404 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:16:06,404 - INFO - Préparation des tickets à créer
+2026-03-24 11:16:06,446 - INFO - Synchronisation terminée
+2026-03-24 11:18:08,702 - INFO - Démarrage de la synchronisation
+2026-03-24 11:18:08,703 - INFO - Chargement des fichiers CSV
+2026-03-24 11:18:08,929 - INFO - Parsing des données Jira
+2026-03-24 11:18:24,767 - INFO - Démarrage de la synchronisation
+2026-03-24 11:18:24,768 - INFO - Chargement des fichiers CSV
+2026-03-24 11:18:24,995 - INFO - Parsing des données Jira
+2026-03-24 11:18:26,448 - INFO - Parsing des données Tuleap
+2026-03-24 11:18:26,449 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:18:26,458 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:18:26,459 - INFO - Préparation des tickets à créer
+2026-03-24 11:18:26,499 - INFO - Synchronisation terminée
+2026-03-24 11:18:53,584 - INFO - Démarrage de la synchronisation
+2026-03-24 11:18:53,585 - INFO - Chargement des fichiers CSV
+2026-03-24 11:18:53,818 - INFO - Parsing des données Jira
+2026-03-24 11:18:55,274 - INFO - Parsing des données Tuleap
+2026-03-24 11:18:55,275 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:18:55,285 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:18:55,285 - INFO - Préparation des tickets à créer
+2026-03-24 11:18:55,327 - INFO - Synchronisation terminée
+2026-03-24 11:56:14,831 - INFO - Démarrage de la synchronisation
+2026-03-24 11:56:14,832 - INFO - Chargement des fichiers CSV
+2026-03-24 11:56:15,060 - INFO - Parsing des données Jira
+2026-03-24 11:56:16,511 - INFO - Parsing des données Tuleap
+2026-03-24 11:56:16,511 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:56:16,520 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:56:16,522 - INFO - Préparation des tickets à créer
+2026-03-24 11:56:16,563 - INFO - Synchronisation terminée
+2026-03-24 11:57:40,979 - INFO - Démarrage de la synchronisation
+2026-03-24 11:57:40,980 - INFO - Chargement des fichiers CSV
+2026-03-24 11:57:41,197 - INFO - Parsing des données Jira
+2026-03-24 11:57:42,645 - INFO - Parsing des données Tuleap
+2026-03-24 11:57:42,646 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:57:42,655 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:57:42,656 - INFO - Préparation des tickets à créer
+2026-03-24 11:57:42,697 - INFO - Synchronisation terminée
+2026-03-24 11:58:11,063 - INFO - Démarrage de la synchronisation
+2026-03-24 11:58:11,064 - INFO - Chargement des fichiers CSV
+2026-03-24 11:58:11,284 - INFO - Parsing des données Jira
+2026-03-24 11:58:12,748 - INFO - Parsing des données Tuleap
+2026-03-24 11:58:12,749 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:58:12,758 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:58:12,759 - INFO - Préparation des tickets à créer
+2026-03-24 11:58:12,799 - INFO - Synchronisation terminée
+2026-03-24 11:59:18,983 - INFO - Démarrage de la synchronisation
+2026-03-24 11:59:18,983 - INFO - Chargement des fichiers CSV
+2026-03-24 11:59:19,210 - INFO - Parsing des données Jira
+2026-03-24 11:59:20,667 - INFO - Parsing des données Tuleap
+2026-03-24 11:59:20,668 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 11:59:20,677 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 11:59:20,678 - INFO - Préparation des tickets à créer
+2026-03-24 11:59:20,718 - INFO - Synchronisation terminée
+2026-03-24 12:00:03,243 - INFO - Démarrage de la synchronisation
+2026-03-24 12:00:03,244 - INFO - Chargement des fichiers CSV
+2026-03-24 12:00:03,463 - INFO - Parsing des données Jira
+2026-03-24 12:00:04,912 - INFO - Parsing des données Tuleap
+2026-03-24 12:00:04,913 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 12:00:04,922 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 12:00:04,923 - INFO - Préparation des tickets à créer
+2026-03-24 12:00:04,963 - INFO - Synchronisation terminée
+2026-03-24 12:00:49,961 - INFO - Démarrage de la synchronisation
+2026-03-24 12:00:49,961 - INFO - Chargement des fichiers CSV
+2026-03-24 12:00:50,189 - INFO - Parsing des données Jira
+2026-03-24 12:00:51,637 - INFO - Parsing des données Tuleap
+2026-03-24 12:00:51,637 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 12:00:51,647 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 12:00:51,647 - INFO - Préparation des tickets à créer
+2026-03-24 12:00:51,688 - INFO - Synchronisation terminée
+2026-03-24 12:05:45,581 - INFO - Démarrage de la synchronisation
+2026-03-24 12:05:45,582 - INFO - Chargement des fichiers CSV
+2026-03-24 12:05:45,816 - INFO - Parsing des données Jira
+2026-03-24 12:06:14,631 - INFO - Démarrage de la synchronisation
+2026-03-24 12:06:14,632 - INFO - Chargement des fichiers CSV
+2026-03-24 12:06:14,861 - INFO - Parsing des données Jira
+2026-03-24 12:06:16,315 - INFO - Parsing des données Tuleap
+2026-03-24 12:06:16,315 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 12:06:16,324 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 12:06:16,325 - INFO - Préparation des tickets à créer
+2026-03-24 12:06:16,367 - INFO - Synchronisation terminée
+2026-03-24 12:07:01,265 - INFO - Démarrage de la synchronisation
+2026-03-24 12:07:01,265 - INFO - Chargement des fichiers CSV
+2026-03-24 12:07:01,492 - INFO - Parsing des données Jira
+2026-03-24 12:07:02,934 - INFO - Parsing des données Tuleap
+2026-03-24 12:07:02,934 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 12:07:02,944 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 12:07:02,944 - INFO - Préparation des tickets à créer
+2026-03-24 12:07:02,984 - INFO - Synchronisation terminée
+2026-03-24 12:07:47,569 - INFO - Démarrage de la synchronisation
+2026-03-24 12:07:47,570 - INFO - Chargement des fichiers CSV
+2026-03-24 12:07:47,797 - INFO - Parsing des données Jira
+2026-03-24 12:07:49,249 - INFO - Parsing des données Tuleap
+2026-03-24 12:07:49,249 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 12:07:49,259 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 12:07:49,260 - INFO - Préparation des tickets à créer
+2026-03-24 12:07:49,299 - INFO - Synchronisation terminée
+2026-03-24 13:45:30,993 - INFO - Démarrage de la synchronisation
+2026-03-24 13:45:30,994 - INFO - Chargement des fichiers CSV
+2026-03-24 13:45:31,228 - INFO - Parsing des données Jira
+2026-03-24 13:45:32,714 - INFO - Parsing des données Tuleap
+2026-03-24 13:45:32,714 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 13:45:32,724 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 13:45:32,726 - INFO - Préparation des tickets à créer
+2026-03-24 13:45:32,768 - INFO - Synchronisation terminée
+2026-03-24 13:48:47,160 - INFO - Démarrage de la synchronisation
+2026-03-24 13:48:47,161 - INFO - Chargement des fichiers CSV
+2026-03-24 13:48:47,390 - INFO - Parsing des données Jira
+2026-03-24 13:48:48,883 - INFO - Parsing des données Tuleap
+2026-03-24 13:48:48,883 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 13:48:48,892 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 13:48:48,895 - INFO - Préparation des tickets à créer
+2026-03-24 13:48:48,935 - INFO - Synchronisation terminée
+2026-03-24 13:50:44,866 - INFO - Démarrage de la synchronisation
+2026-03-24 13:50:44,867 - INFO - Chargement des fichiers CSV
+2026-03-24 13:50:45,084 - INFO - Parsing des données Jira
+2026-03-24 13:50:46,571 - INFO - Parsing des données Tuleap
+2026-03-24 13:50:46,571 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 13:50:46,581 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 13:50:46,581 - INFO - Préparation des tickets à créer
+2026-03-24 13:50:46,622 - INFO - Synchronisation terminée
+2026-03-24 14:04:13,705 - INFO - Démarrage de la synchronisation
+2026-03-24 14:04:13,706 - INFO - Chargement des fichiers CSV
+2026-03-24 14:04:13,950 - INFO - Parsing des données Jira
+2026-03-24 14:04:15,461 - INFO - Parsing des données Tuleap
+2026-03-24 14:04:15,461 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:04:15,471 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:04:15,473 - INFO - Préparation des tickets à créer
+2026-03-24 14:04:15,515 - INFO - Synchronisation terminée
+2026-03-24 14:05:32,492 - INFO - Démarrage de la synchronisation
+2026-03-24 14:05:32,493 - INFO - Chargement des fichiers CSV
+2026-03-24 14:05:32,732 - INFO - Parsing des données Jira
+2026-03-24 14:05:34,221 - INFO - Parsing des données Tuleap
+2026-03-24 14:05:34,221 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:05:34,231 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:05:34,233 - INFO - Préparation des tickets à créer
+2026-03-24 14:05:34,275 - INFO - Synchronisation terminée
+2026-03-24 14:19:17,957 - INFO - Démarrage de la synchronisation
+2026-03-24 14:19:17,958 - INFO - Chargement des fichiers CSV
+2026-03-24 14:19:18,201 - INFO - Parsing des données Jira
+2026-03-24 14:19:19,694 - INFO - Parsing des données Tuleap
+2026-03-24 14:19:19,694 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:19:19,703 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:19:19,706 - INFO - Préparation des tickets à créer
+2026-03-24 14:19:19,747 - INFO - Synchronisation terminée
+2026-03-24 14:20:56,824 - INFO - Démarrage de la synchronisation
+2026-03-24 14:20:56,825 - INFO - Chargement des fichiers CSV
+2026-03-24 14:20:57,062 - INFO - Parsing des données Jira
+2026-03-24 14:20:58,561 - INFO - Parsing des données Tuleap
+2026-03-24 14:20:58,562 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:20:58,571 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:20:58,575 - INFO - Préparation des tickets à créer
+2026-03-24 14:20:58,615 - INFO - Synchronisation terminée
+2026-03-24 14:21:02,920 - INFO - Démarrage de la synchronisation
+2026-03-24 14:21:02,921 - INFO - Chargement des fichiers CSV
+2026-03-24 14:21:03,142 - INFO - Parsing des données Jira
+2026-03-24 14:21:04,628 - INFO - Parsing des données Tuleap
+2026-03-24 14:21:04,629 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:21:04,638 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:21:04,638 - INFO - Préparation des tickets à créer
+2026-03-24 14:21:04,678 - INFO - Synchronisation terminée
+2026-03-24 14:28:17,994 - INFO - Démarrage de la synchronisation
+2026-03-24 14:28:17,995 - INFO - Chargement des fichiers CSV
+2026-03-24 14:28:18,231 - INFO - Parsing des données Jira
+2026-03-24 14:28:19,716 - INFO - Parsing des données Tuleap
+2026-03-24 14:28:19,716 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:28:19,725 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:28:19,728 - INFO - Préparation des tickets à créer
+2026-03-24 14:28:19,768 - INFO - Synchronisation terminée
+2026-03-24 14:30:09,222 - INFO - Démarrage de la synchronisation
+2026-03-24 14:30:09,223 - INFO - Chargement des fichiers CSV
+2026-03-24 14:30:09,464 - INFO - Parsing des données Jira
+2026-03-24 14:30:10,980 - INFO - Parsing des données Tuleap
+2026-03-24 14:30:10,981 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:30:10,990 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:30:10,991 - INFO - Préparation des tickets à créer
+2026-03-24 14:30:11,031 - INFO - Synchronisation terminée
+2026-03-24 14:38:33,796 - INFO - Démarrage de la synchronisation
+2026-03-24 14:38:33,797 - INFO - Chargement des fichiers CSV
+2026-03-24 14:38:34,036 - INFO - Parsing des données Jira
+2026-03-24 14:38:35,523 - INFO - Parsing des données Tuleap
+2026-03-24 14:38:35,524 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:38:35,533 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:38:35,535 - INFO - Préparation des tickets à créer
+2026-03-24 14:38:35,576 - INFO - Synchronisation terminée
+2026-03-24 14:45:19,353 - INFO - Démarrage de la synchronisation
+2026-03-24 14:45:19,355 - INFO - Chargement des fichiers CSV
+2026-03-24 14:45:19,581 - INFO - Parsing des données Jira
+2026-03-24 14:45:21,072 - INFO - Parsing des données Tuleap
+2026-03-24 14:45:21,073 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:45:21,082 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:45:21,085 - INFO - Préparation des tickets à créer
+2026-03-24 14:45:21,127 - INFO - Synchronisation terminée
+2026-03-24 14:46:29,992 - INFO - Démarrage de la synchronisation
+2026-03-24 14:46:29,993 - INFO - Chargement des fichiers CSV
+2026-03-24 14:46:30,220 - INFO - Parsing des données Jira
+2026-03-24 14:46:31,707 - INFO - Parsing des données Tuleap
+2026-03-24 14:46:31,707 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:46:31,717 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:46:31,719 - INFO - Préparation des tickets à créer
+2026-03-24 14:46:31,761 - INFO - Synchronisation terminée
+2026-03-24 14:58:36,465 - INFO - Démarrage de la synchronisation
+2026-03-24 14:58:36,467 - INFO - Chargement des fichiers CSV
+2026-03-24 14:58:36,696 - INFO - Parsing des données Jira
+2026-03-24 14:58:38,180 - INFO - Parsing des données Tuleap
+2026-03-24 14:58:38,180 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 14:58:38,189 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 14:58:38,192 - INFO - Préparation des tickets à créer
+2026-03-24 14:58:38,233 - INFO - Synchronisation terminée
+2026-03-24 15:06:17,403 - INFO - Démarrage de la synchronisation
+2026-03-24 15:06:17,404 - INFO - Chargement des fichiers CSV
+2026-03-24 15:06:17,626 - INFO - Parsing des données Jira
+2026-03-24 15:06:19,114 - INFO - Parsing des données Tuleap
+2026-03-24 15:06:19,115 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:06:19,124 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:06:19,126 - INFO - Préparation des tickets à créer
+2026-03-24 15:06:19,167 - INFO - Synchronisation terminée
+2026-03-24 15:08:32,293 - INFO - Démarrage de la synchronisation
+2026-03-24 15:08:32,295 - INFO - Chargement des fichiers CSV
+2026-03-24 15:08:32,518 - INFO - Parsing des données Jira
+2026-03-24 15:08:34,010 - INFO - Parsing des données Tuleap
+2026-03-24 15:08:34,011 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:08:34,020 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:08:34,022 - INFO - Préparation des tickets à créer
+2026-03-24 15:08:34,063 - INFO - Synchronisation terminée
+2026-03-24 15:10:13,771 - INFO - Démarrage de la synchronisation
+2026-03-24 15:10:13,772 - INFO - Chargement des fichiers CSV
+2026-03-24 15:10:13,991 - INFO - Parsing des données Jira
+2026-03-24 15:10:15,476 - INFO - Parsing des données Tuleap
+2026-03-24 15:10:15,476 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:10:15,485 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:10:15,488 - INFO - Préparation des tickets à créer
+2026-03-24 15:10:15,528 - INFO - Synchronisation terminée
+2026-03-24 15:12:12,267 - INFO - Démarrage de la synchronisation
+2026-03-24 15:12:12,268 - INFO - Chargement des fichiers CSV
+2026-03-24 15:12:12,486 - INFO - Parsing des données Jira
+2026-03-24 15:12:13,979 - INFO - Parsing des données Tuleap
+2026-03-24 15:12:13,980 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:12:13,989 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:12:13,991 - INFO - Préparation des tickets à créer
+2026-03-24 15:12:14,032 - INFO - Synchronisation terminée
+2026-03-24 15:40:55,430 - INFO - Démarrage de la synchronisation
+2026-03-24 15:40:55,431 - INFO - Chargement des fichiers CSV
+2026-03-24 15:40:55,566 - INFO - Parsing des données Jira
+2026-03-24 15:40:56,430 - INFO - Parsing des données Tuleap
+2026-03-24 15:40:56,430 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:40:56,435 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:40:56,437 - INFO - Préparation des tickets à créer
+2026-03-24 15:40:56,460 - INFO - Synchronisation terminée
+2026-03-24 15:41:22,274 - INFO - Démarrage de la synchronisation
+2026-03-24 15:41:22,275 - INFO - Chargement des fichiers CSV
+2026-03-24 15:41:22,404 - INFO - Parsing des données Jira
+2026-03-24 15:41:23,267 - INFO - Parsing des données Tuleap
+2026-03-24 15:41:23,267 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:41:23,273 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:41:23,273 - INFO - Préparation des tickets à créer
+2026-03-24 15:41:23,295 - INFO - Synchronisation terminée
+2026-03-24 15:50:00,600 - INFO - Démarrage de la synchronisation
+2026-03-24 15:50:00,601 - INFO - Chargement des fichiers CSV
+2026-03-24 15:50:00,733 - INFO - Parsing des données Jira
+2026-03-24 15:50:01,599 - INFO - Parsing des données Tuleap
+2026-03-24 15:50:01,599 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:50:01,605 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:50:01,607 - INFO - Préparation des tickets à créer
+2026-03-24 15:50:01,630 - INFO - Synchronisation terminée
+2026-03-24 15:52:19,743 - INFO - Démarrage de la synchronisation
+2026-03-24 15:52:19,744 - INFO - Chargement des fichiers CSV
+2026-03-24 15:52:19,887 - INFO - Parsing des données Jira
+2026-03-24 15:52:20,753 - INFO - Parsing des données Tuleap
+2026-03-24 15:52:20,754 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 15:52:20,759 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 15:52:20,760 - INFO - Préparation des tickets à créer
+2026-03-24 15:52:20,784 - INFO - Synchronisation terminée
+2026-03-24 16:11:54,108 - INFO - Démarrage de la synchronisation
+2026-03-24 16:11:54,109 - INFO - Chargement des fichiers CSV
+2026-03-24 16:11:54,250 - INFO - Parsing des données Jira
+2026-03-24 16:11:55,020 - INFO - Parsing des données Tuleap
+2026-03-24 16:11:55,020 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:11:55,026 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:11:55,028 - INFO - Préparation des tickets à créer
+2026-03-24 16:11:55,051 - INFO - Synchronisation terminée
+2026-03-24 16:24:23,654 - INFO - Démarrage de la synchronisation
+2026-03-24 16:24:23,655 - INFO - Chargement des fichiers CSV
+2026-03-24 16:24:23,798 - INFO - Parsing des données Jira
+2026-03-24 16:24:24,564 - INFO - Parsing des données Tuleap
+2026-03-24 16:24:24,564 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:24:24,570 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:24:24,572 - INFO - Préparation des tickets à créer
+2026-03-24 16:24:24,594 - INFO - Synchronisation terminée
+2026-03-24 16:28:38,443 - INFO - Démarrage de la synchronisation
+2026-03-24 16:28:38,443 - INFO - Chargement des fichiers CSV
+2026-03-24 16:28:38,592 - INFO - Parsing des données Jira
+2026-03-24 16:28:39,377 - INFO - Parsing des données Tuleap
+2026-03-24 16:28:39,377 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:28:39,382 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:28:39,385 - INFO - Préparation des tickets à créer
+2026-03-24 16:28:39,407 - INFO - Synchronisation terminée
+2026-03-24 16:30:39,317 - INFO - Démarrage de la synchronisation
+2026-03-24 16:30:39,318 - INFO - Chargement des fichiers CSV
+2026-03-24 16:30:39,458 - INFO - Parsing des données Jira
+2026-03-24 16:30:40,231 - INFO - Parsing des données Tuleap
+2026-03-24 16:30:40,231 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:30:40,237 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:30:40,237 - INFO - Préparation des tickets à créer
+2026-03-24 16:30:40,260 - INFO - Synchronisation terminée
+2026-03-24 16:31:11,265 - INFO - Démarrage de la synchronisation
+2026-03-24 16:31:11,266 - INFO - Chargement des fichiers CSV
+2026-03-24 16:31:11,409 - INFO - Parsing des données Jira
+2026-03-24 16:31:12,182 - INFO - Parsing des données Tuleap
+2026-03-24 16:31:12,182 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:31:12,187 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:31:12,188 - INFO - Préparation des tickets à créer
+2026-03-24 16:31:12,211 - INFO - Synchronisation terminée
+2026-03-24 16:31:24,730 - INFO - Démarrage de la synchronisation
+2026-03-24 16:31:24,730 - INFO - Chargement des fichiers CSV
+2026-03-24 16:31:24,877 - INFO - Parsing des données Jira
+2026-03-24 16:31:25,645 - INFO - Parsing des données Tuleap
+2026-03-24 16:31:25,646 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:31:25,651 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:31:25,652 - INFO - Préparation des tickets à créer
+2026-03-24 16:31:25,676 - INFO - Synchronisation terminée
+2026-03-24 16:43:14,273 - INFO - Démarrage de la synchronisation
+2026-03-24 16:43:14,274 - INFO - Chargement des fichiers CSV
+2026-03-24 16:43:14,424 - INFO - Parsing des données Jira
+2026-03-24 16:43:15,200 - INFO - Parsing des données Tuleap
+2026-03-24 16:43:15,200 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:43:15,205 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:43:15,207 - INFO - Préparation des tickets à créer
+2026-03-24 16:43:15,231 - INFO - Synchronisation terminée
+2026-03-24 16:47:02,906 - INFO - Démarrage de la synchronisation
+2026-03-24 16:47:02,907 - INFO - Chargement des fichiers CSV
+2026-03-24 16:47:03,050 - INFO - Parsing des données Jira
+2026-03-24 16:47:03,824 - INFO - Parsing des données Tuleap
+2026-03-24 16:47:03,825 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 16:47:03,830 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 16:47:03,833 - INFO - Préparation des tickets à créer
+2026-03-24 16:47:03,856 - INFO - Synchronisation terminée
+2026-03-24 16:50:15,211 - INFO - Démarrage de la synchronisation
+2026-03-24 16:50:15,211 - INFO - Chargement des fichiers CSV
+2026-03-24 16:50:15,360 - INFO - Parsing des données Jira
+2026-03-24 16:50:16,138 - INFO - Parsing des données Tuleap
+2026-03-24 16:50:16,138 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 17:17:25,822 - INFO - Démarrage de la synchronisation
+2026-03-24 17:17:25,823 - INFO - Chargement des fichiers CSV
+2026-03-24 17:17:25,977 - INFO - Parsing des données Jira
+2026-03-24 17:17:26,744 - INFO - Parsing des données Tuleap
+2026-03-24 17:17:26,745 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 17:17:26,770 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 17:17:26,772 - INFO - Préparation des tickets à créer
+2026-03-24 17:17:26,782 - INFO - Synchronisation terminée
+2026-03-24 17:19:01,236 - INFO - Démarrage de la synchronisation
+2026-03-24 17:19:01,237 - INFO - Chargement des fichiers CSV
+2026-03-24 17:19:01,385 - INFO - Parsing des données Jira
+2026-03-24 17:19:02,158 - INFO - Parsing des données Tuleap
+2026-03-24 17:19:02,159 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 17:19:02,164 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 17:19:02,166 - INFO - Préparation des tickets à créer
+2026-03-24 17:19:02,190 - INFO - Synchronisation terminée
+2026-03-24 17:20:12,544 - INFO - Démarrage de la synchronisation
+2026-03-24 17:20:12,545 - INFO - Chargement des fichiers CSV
+2026-03-24 17:20:12,699 - INFO - Parsing des données Jira
+2026-03-24 17:20:13,472 - INFO - Parsing des données Tuleap
+2026-03-24 17:20:13,472 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 17:20:13,497 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 17:20:13,499 - INFO - Préparation des tickets à créer
+2026-03-24 17:20:13,508 - INFO - Synchronisation terminée
+2026-03-24 18:36:38,245 - INFO - Démarrage de la synchronisation
+2026-03-24 18:36:38,246 - INFO - Chargement des fichiers CSV
+2026-03-24 18:36:38,403 - INFO - Parsing des données Jira
+2026-03-24 18:36:39,177 - INFO - Parsing des données Tuleap
+2026-03-24 18:36:39,178 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 18:36:39,203 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 18:36:39,205 - INFO - Préparation des tickets à créer
+2026-03-24 18:36:39,215 - INFO - Synchronisation terminée
+2026-03-24 18:41:03,935 - INFO - Démarrage de la synchronisation
+2026-03-24 18:41:03,936 - INFO - Chargement des fichiers CSV
+2026-03-24 18:41:04,088 - INFO - Parsing des données Jira
+2026-03-24 18:41:04,861 - INFO - Parsing des données Tuleap
+2026-03-24 18:41:04,861 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 18:41:04,887 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 18:41:04,889 - INFO - Préparation des tickets à créer
+2026-03-24 18:41:04,898 - INFO - Synchronisation terminée
+2026-03-24 18:50:12,352 - INFO - Démarrage de la synchronisation
+2026-03-24 18:50:12,353 - INFO - Chargement des fichiers CSV
+2026-03-24 18:50:12,515 - INFO - Parsing des données Jira
+2026-03-24 18:50:13,287 - INFO - Parsing des données Tuleap
+2026-03-24 18:50:13,287 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 18:50:13,312 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 18:50:13,314 - INFO - Préparation des tickets à créer
+2026-03-24 18:50:13,324 - INFO - Synchronisation terminée
+2026-03-24 18:55:48,873 - INFO - Démarrage de la synchronisation
+2026-03-24 18:55:48,874 - INFO - Chargement des fichiers CSV
+2026-03-24 18:55:49,034 - INFO - Parsing des données Jira
+2026-03-24 18:55:49,806 - INFO - Parsing des données Tuleap
+2026-03-24 18:55:49,807 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 18:55:49,832 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 18:55:49,834 - INFO - Préparation des tickets à créer
+2026-03-24 18:55:49,845 - INFO - Synchronisation terminée
+2026-03-24 18:58:41,607 - INFO - Démarrage de la synchronisation
+2026-03-24 18:58:41,608 - INFO - Chargement des fichiers CSV
+2026-03-24 18:58:41,755 - INFO - Parsing des données Jira
+2026-03-24 18:58:42,527 - INFO - Parsing des données Tuleap
+2026-03-24 18:58:42,528 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 18:58:42,553 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 18:58:42,554 - INFO - Préparation des tickets à créer
+2026-03-24 18:58:42,564 - INFO - Synchronisation terminée
+2026-03-24 19:01:19,474 - INFO - Démarrage de la synchronisation
+2026-03-24 19:01:19,475 - INFO - Chargement des fichiers CSV
+2026-03-24 19:01:19,630 - INFO - Parsing des données Jira
+2026-03-24 19:01:20,408 - INFO - Parsing des données Tuleap
+2026-03-24 19:01:20,408 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 19:01:20,434 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 19:01:20,436 - INFO - Préparation des tickets à créer
+2026-03-24 19:01:20,446 - INFO - Synchronisation terminée
+2026-03-24 19:01:54,482 - INFO - Démarrage de la synchronisation
+2026-03-24 19:01:54,483 - INFO - Chargement des fichiers CSV
+2026-03-24 19:01:54,629 - INFO - Parsing des données Jira
+2026-03-24 19:01:55,406 - INFO - Parsing des données Tuleap
+2026-03-24 19:01:55,407 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 19:01:55,432 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 19:01:55,434 - INFO - Préparation des tickets à créer
+2026-03-24 19:01:55,443 - INFO - Synchronisation terminée
+2026-03-24 19:02:10,959 - INFO - Démarrage de la synchronisation
+2026-03-24 19:02:10,959 - INFO - Chargement des fichiers CSV
+2026-03-24 19:02:11,113 - INFO - Parsing des données Jira
+2026-03-24 19:02:11,881 - INFO - Parsing des données Tuleap
+2026-03-24 19:02:11,881 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 19:02:11,906 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 19:02:11,908 - INFO - Préparation des tickets à créer
+2026-03-24 19:02:11,917 - INFO - Synchronisation terminée
+2026-03-24 19:35:32,289 - INFO - Démarrage de la synchronisation
+2026-03-24 19:35:32,291 - INFO - Chargement des fichiers CSV
+2026-03-24 19:35:32,546 - INFO - Parsing des données Jira
+2026-03-24 19:35:33,880 - INFO - Parsing des données Tuleap
+2026-03-24 19:35:33,880 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 19:35:33,923 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 19:35:33,926 - INFO - Préparation des tickets à créer
+2026-03-24 19:35:33,943 - INFO - Synchronisation terminée
+2026-03-24 19:36:30,267 - INFO - Démarrage de la synchronisation
+2026-03-24 19:36:30,268 - INFO - Chargement des fichiers CSV
+2026-03-24 19:36:30,517 - INFO - Parsing des données Jira
+2026-03-24 19:36:31,844 - INFO - Parsing des données Tuleap
+2026-03-24 19:36:31,845 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-24 19:36:31,888 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-24 19:36:31,888 - INFO - Préparation des tickets à créer
+2026-03-24 19:36:31,905 - INFO - Synchronisation terminée
+2026-03-25 00:29:55,849 - INFO - Démarrage de la synchronisation
+2026-03-25 00:29:55,850 - INFO - Chargement des fichiers CSV
+2026-03-25 00:29:56,101 - INFO - Parsing des données Jira
+2026-03-25 00:29:57,430 - INFO - Parsing des données Tuleap
+2026-03-25 00:29:57,430 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 00:29:57,473 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 00:29:57,475 - INFO - Préparation des tickets à créer
+2026-03-25 00:30:18,824 - INFO - Démarrage de la synchronisation
+2026-03-25 00:30:18,825 - INFO - Chargement des fichiers CSV
+2026-03-25 00:30:19,071 - INFO - Parsing des données Jira
+2026-03-25 00:30:20,397 - INFO - Parsing des données Tuleap
+2026-03-25 00:30:20,398 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 00:30:20,441 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 00:30:20,442 - INFO - Préparation des tickets à créer
+2026-03-25 00:30:20,458 - INFO - Synchronisation terminée
+2026-03-25 00:33:23,427 - INFO - Démarrage de la synchronisation
+2026-03-25 00:33:23,428 - INFO - Chargement des fichiers CSV
+2026-03-25 00:33:23,685 - INFO - Parsing des données Jira
+2026-03-25 00:33:25,016 - INFO - Parsing des données Tuleap
+2026-03-25 00:33:25,016 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 00:33:25,059 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 00:33:25,061 - INFO - Préparation des tickets à créer
+2026-03-25 00:33:35,602 - INFO - Démarrage de la synchronisation
+2026-03-25 00:33:35,603 - INFO - Chargement des fichiers CSV
+2026-03-25 00:33:35,854 - INFO - Parsing des données Jira
+2026-03-25 00:33:37,187 - INFO - Parsing des données Tuleap
+2026-03-25 00:33:37,188 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 00:33:37,231 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 00:33:37,232 - INFO - Préparation des tickets à créer
+2026-03-25 00:33:37,249 - INFO - Synchronisation terminée
+2026-03-25 09:26:54,241 - INFO - Démarrage de la synchronisation
+2026-03-25 09:26:54,242 - INFO - Chargement des fichiers CSV
+2026-03-25 09:26:54,509 - INFO - Parsing des données Jira
+2026-03-25 09:26:55,846 - INFO - Parsing des données Tuleap
+2026-03-25 09:26:55,847 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 09:26:55,890 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 09:26:55,893 - INFO - Préparation des tickets à créer
+2026-03-25 09:26:55,910 - INFO - Synchronisation terminée
+2026-03-25 09:30:45,798 - INFO - Démarrage de la synchronisation
+2026-03-25 09:30:45,799 - INFO - Chargement des fichiers CSV
+2026-03-25 09:30:46,045 - INFO - Parsing des données Jira
+2026-03-25 09:31:09,203 - INFO - Démarrage de la synchronisation
+2026-03-25 09:31:09,204 - INFO - Chargement des fichiers CSV
+2026-03-25 09:31:09,456 - INFO - Parsing des données Jira
+2026-03-25 09:31:10,790 - INFO - Parsing des données Tuleap
+2026-03-25 09:31:10,791 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 09:31:10,834 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 09:31:10,838 - INFO - Préparation des tickets à créer
+2026-03-25 09:31:10,855 - INFO - Synchronisation terminée
+2026-03-25 10:11:24,332 - INFO - Démarrage de la synchronisation
+2026-03-25 10:11:24,333 - INFO - Chargement des fichiers CSV
+2026-03-25 10:11:24,586 - INFO - Parsing des données Jira
+2026-03-25 10:11:54,910 - INFO - Démarrage de la synchronisation
+2026-03-25 10:11:54,911 - INFO - Chargement des fichiers CSV
+2026-03-25 10:11:55,156 - INFO - Parsing des données Jira
+2026-03-25 10:11:56,943 - INFO - Parsing des données Tuleap
+2026-03-25 10:11:56,944 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:11:56,988 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:11:56,991 - INFO - Préparation des tickets à créer
+2026-03-25 10:12:33,161 - INFO - Démarrage de la synchronisation
+2026-03-25 10:12:33,162 - INFO - Chargement des fichiers CSV
+2026-03-25 10:12:33,418 - INFO - Parsing des données Jira
+2026-03-25 10:12:35,199 - INFO - Parsing des données Tuleap
+2026-03-25 10:12:35,200 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:12:35,244 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:12:35,245 - INFO - Préparation des tickets à créer
+2026-03-25 10:12:35,263 - INFO - Synchronisation terminée
+2026-03-25 10:18:46,456 - INFO - Démarrage de la synchronisation
+2026-03-25 10:18:46,457 - INFO - Chargement des fichiers CSV
+2026-03-25 10:18:46,718 - INFO - Parsing des données Jira
+2026-03-25 10:18:48,512 - INFO - Parsing des données Tuleap
+2026-03-25 10:18:48,513 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:18:48,557 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:18:48,560 - INFO - Préparation des tickets à créer
+2026-03-25 10:18:48,576 - INFO - Synchronisation terminée
+2026-03-25 10:33:50,764 - INFO - Démarrage de la synchronisation
+2026-03-25 10:33:50,765 - INFO - Chargement des fichiers CSV
+2026-03-25 10:33:51,028 - INFO - Parsing des données Jira
+2026-03-25 10:33:52,814 - INFO - Parsing des données Tuleap
+2026-03-25 10:33:52,815 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:33:52,858 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:33:52,861 - INFO - Préparation des tickets à créer
+2026-03-25 10:33:52,885 - INFO - Synchronisation terminée
+2026-03-25 10:34:35,120 - INFO - Démarrage de la synchronisation
+2026-03-25 10:34:35,121 - INFO - Chargement des fichiers CSV
+2026-03-25 10:34:35,371 - INFO - Parsing des données Jira
+2026-03-25 10:34:37,164 - INFO - Parsing des données Tuleap
+2026-03-25 10:34:37,165 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:34:37,210 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:34:37,210 - INFO - Préparation des tickets à créer
+2026-03-25 10:34:37,226 - INFO - Synchronisation terminée
+2026-03-25 10:35:10,860 - INFO - Démarrage de la synchronisation
+2026-03-25 10:35:10,861 - INFO - Chargement des fichiers CSV
+2026-03-25 10:35:11,115 - INFO - Parsing des données Jira
+2026-03-25 10:35:12,910 - INFO - Parsing des données Tuleap
+2026-03-25 10:35:12,911 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 10:35:12,956 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 10:35:12,957 - INFO - Préparation des tickets à créer
+2026-03-25 10:35:12,973 - INFO - Synchronisation terminée
+2026-03-25 12:05:05,425 - INFO - Démarrage de la synchronisation
+2026-03-25 12:05:05,426 - INFO - Chargement des fichiers CSV
+2026-03-25 12:05:05,686 - INFO - Parsing des données Jira
+2026-03-25 12:05:07,473 - INFO - Parsing des données Tuleap
+2026-03-25 12:05:07,474 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:05:07,518 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:05:07,521 - INFO - Préparation des tickets à créer
+2026-03-25 12:05:07,537 - INFO - Synchronisation terminée
+2026-03-25 12:16:57,225 - INFO - Démarrage de la synchronisation
+2026-03-25 12:16:57,226 - INFO - Chargement des fichiers CSV
+2026-03-25 12:16:57,484 - INFO - Parsing des données Jira
+2026-03-25 12:16:59,262 - INFO - Parsing des données Tuleap
+2026-03-25 12:16:59,262 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:16:59,306 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:16:59,309 - INFO - Préparation des tickets à créer
+2026-03-25 12:16:59,325 - INFO - Synchronisation terminée
+2026-03-25 12:21:01,698 - INFO - Démarrage de la synchronisation
+2026-03-25 12:21:01,699 - INFO - Chargement des fichiers CSV
+2026-03-25 12:21:01,952 - INFO - Parsing des données Jira
+2026-03-25 12:21:03,733 - INFO - Parsing des données Tuleap
+2026-03-25 12:21:03,734 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:21:03,778 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:21:03,781 - INFO - Préparation des tickets à créer
+2026-03-25 12:21:03,798 - INFO - Synchronisation terminée
+2026-03-25 12:22:09,827 - INFO - Démarrage de la synchronisation
+2026-03-25 12:22:09,828 - INFO - Chargement des fichiers CSV
+2026-03-25 12:22:10,087 - INFO - Parsing des données Jira
+2026-03-25 12:22:11,884 - INFO - Parsing des données Tuleap
+2026-03-25 12:22:11,884 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:22:11,928 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:22:11,931 - INFO - Préparation des tickets à créer
+2026-03-25 12:22:11,947 - INFO - Synchronisation terminée
+2026-03-25 12:31:12,610 - INFO - Démarrage de la synchronisation
+2026-03-25 12:31:12,612 - INFO - Chargement des fichiers CSV
+2026-03-25 12:31:12,860 - INFO - Parsing des données Jira
+2026-03-25 12:31:14,352 - INFO - Parsing des données Tuleap
+2026-03-25 12:31:14,353 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:31:14,398 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:31:14,401 - INFO - Préparation des tickets à créer
+2026-03-25 12:31:14,418 - INFO - Synchronisation terminée
+2026-03-25 12:32:20,080 - INFO - Démarrage de la synchronisation
+2026-03-25 12:32:20,081 - INFO - Chargement des fichiers CSV
+2026-03-25 12:32:20,331 - INFO - Parsing des données Jira
+2026-03-25 12:32:21,823 - INFO - Parsing des données Tuleap
+2026-03-25 12:32:21,823 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:32:21,868 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:32:21,868 - INFO - Préparation des tickets à créer
+2026-03-25 12:32:21,885 - INFO - Synchronisation terminée
+2026-03-25 12:33:16,484 - INFO - Démarrage de la synchronisation
+2026-03-25 12:33:16,485 - INFO - Chargement des fichiers CSV
+2026-03-25 12:33:16,747 - INFO - Parsing des données Jira
+2026-03-25 12:33:18,228 - INFO - Parsing des données Tuleap
+2026-03-25 12:33:18,229 - INFO - Mise à jour des tickets Tuleap existants
+2026-03-25 12:33:18,274 - INFO - Recherche des tickets Jira absents dans Tuleap
+2026-03-25 12:33:18,275 - INFO - Préparation des tickets à créer
+2026-03-25 12:33:18,293 - INFO - Synchronisation terminée
