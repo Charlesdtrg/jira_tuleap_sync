@@ -1,0 +1,3184 @@
+﻿aid;last_update_on;remaining_effort;titre;initial_effort;assigned_to;status;type_de_demande;submitted_on;liens;"liens (Sans nature)";"liens (Relates)";"liens (_covered_by)";"liens (_is_child)";ads_d_appartenance;references;submitted_by;lien_ticket_jira;last_update_by;autres_ads_ayant_rencontr__s_le_m__me_bug;num__ro_ticket_diad__me_1;sprint_de_correction_1;bloc;version_corrective_111;priorit___dp;s__v__rit___dp_roc;acc__s_utilis__;url_de_la_page_sur_laquelle_le_bug_a___t___rencontr__;version_de_roc;profil_utilis__;close_date;details;id_technique;description_du_bug;s__v__rit___du_bug;capture_d___cran__avec_le_bloc_date_heure_
+469444;"01/20/2026 20:06";;"Exportation fichier historique des rejets";;;"En attente de prise en compte dans l'usine logicielle";;"05/05/2025 11:02";;;;;;AF;;j_pelletier6;ROC-2731;j_kahn1;;;;Activités;;;Mineur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/admin/activites/recherche-rejet-id-flux;a_definir;"Profil AF";;"Dans la gestion des rejet, exportation du fichier ""Historique des rejets"".";;"Le fichier est vide, perte de l'historique.";Majeur;"2025_05_05_09h48_export_historique_rejets_activites.csv,Gestion des rejets.docx,2025_11_07_17h38_export_historique_rejets_activites.csv"
+678012;"01/20/2026 20:13";;"[Engagement] Valeurs obligatoires pour grille d'évaluation de l'entretien";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2954;j_kahn1;;;;Candidature;;;Mineur;;;V7.5.1;;;;;"*Environnement :* Pprod V7.5.1 DR
+
+*Identifiants :* 119_utilisateur
+
+*Description :* 
+
+En tant que referent, 
+
+Je choisis un candidat n'ayant pas validé l'entretien en unité, 
+
+Je clique sur le candidat, 
+
+Je clique sur le bloc entretien en unité, 
+
+Je remplis le résultat {*}sans compléter la grille d'évaluation de l'entretien{*}, 
+
+Je valide 
+
+*Résultat attendu :* 
+
+Pouvoir valider sans avoir complété la grille d'évaluation 
+
+*Résultat obtenu :* 
+
+Erreur, les champs sont obligatoires ";;
+678013;"01/20/2026 20:13";;"Titre : [Activité] mauvaise liste ATS";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2929;j_kahn1;;;;Activités;;;Majeur;;;V7.5.1;;;;;"*+Titre :+* [Activité] mauvaise liste ATS
+
+*Environnement :* PICSEL DR, V7.5.1
+
+*Identifiant :* 12743_utilisateur
+
+*Description :* 
+
+le profil 12743_utilisateur possède 3 role : REF, PIL et AF
+
+Scenario 1. création d'une activité de regul par le REF puis la clôturer avec le même profil puis la mettre a la signature avec le même profil
+
+Scenario 2. création d'une activité de regul par le PIL puis la clôturer avec le même profil puis la mettre a la signature avec le même profil
+
+Scenario 3. clôturer une activité en tant qu'AF puis la mettre a la signature avec le même profil
+
+ 
+
+*Résultat attendu :*
+
+chaque role possède sa propre liste d'ATS
+
+en tant que REF je dois avoir 2 ATS
+
+en tant que PIL je dois avoir 11 ATS
+
+en tant que AF je dois avoir tout les  ATS disponible
+
+*Résultat obtenu :* 
+
+pour chaque rôle a la signature je possède seulement les 2 ATS du référent";;
+527197;"01/20/2026 20:15";;"Numéro ADS demandé lors d'un changement de données personelles réalisé par l'AF";;;"En attente de prise en compte dans l'usine logicielle";"Non classé";"07/16/2025 16:12";;;;;;ADT;;j_saint_julien;ROC-2615;j_kahn1;SSA;;;Données_perso;;P1;Mineur;;htpps://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/reserviste/modifier/51112;V5.4.4;AF;;"Lorsqu'un AF veut changer une donnée personnelle d'un réserviste (dans notre cas c'était un changement d'adresse mail) un ""numéro d'ADS"" est alors demandé. Ce numéro ne nous est pas connu. Cette demande est apparue avec la V5. ";51112;;Bloquant;"RE  LCL (r) DUBON - PB DE CONNEXION ROC.msg,Numéro ADS préproduction.docx"
+527925;"01/20/2026 20:18";;"[Droits] Erreur dans le nom du menu déroulant";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2013;j_kahn1;;;;Droits;;;Majeur;;;V5.4.1;;;;;"Voir PJ, erreur de saisie du nom du rôle lors d'une affiliation (voir menu déroulant en haut à droite de la PJ"": 
+
+Pilote : 7374_utilisateur - Rôle ""PIL - {*}SSA{*}"" 
+
+Affilié : Créé par mes soins - Rôle ""AFF - PIL - {*}AAE{*}"". Les rôles affiliés sont les bons, et appartiennent bien au SSA";;
+527926;"01/20/2026 20:18";;"[Droits] - AO - Décocher la délégation de l'espace qualité ne fonctionne pas";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2011;j_kahn1;;;;Droits;;;Majeur;;;V5.4.1;;;;;"*Identifiants :*
+
+AO : 7374_utilisateur  Délégataire : créé par mes soins en Pprod : 7374_utilisateur -> gestion des délégataires -> créer un délégataire -> rôle AO
+
+*Description :* Je me connecte en tant qu'AO, je clique sur gestion des délégataires -> éditer une délégation d'AO. Je coche toutes les fonctions à déléguer sauf le bloc espace qualité. 
+
+*Résultat attendu :* pas d'accès à l'espace qualitié
+
+*Résultat obtenu :* accès à l'espace qualité 
+
+_J'ai testé tout le reste, tout fonctionne sauf l'espace qualité._";;
+527957;"01/20/2026 20:18";;"[Export] IHM incohérence de message d'erreur sur un export d'activité avec erreur de date";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1954;j_kahn1;;;;Extraction;;;Mineur;;;V4.20.0.8;;;;;"| |Ticket JIRA N°| | |
+| |   Environnement/ Version| |Tous les environnements
+ |
+| |   Titre de l'anomalie| |[export] - IHM mauvais message d'erreur dans le cas d'un export massif avec un jour inexistant (31/04/2025)|
+| |   Url| |[https://reservistes.intradef.gouv.fr/interne/admin/qualite|https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/engager/engagement/processus-candidature/240895]|
+| |   Acteur| |AF|
+| |   Identifiants| |alexandre.courreur|
+| |   Mot de passe| | |
+| |   Anomalie| |Mineur|
+| |   Configuration| |Firefox|
+| |   Bloc| |Export|
+| |   Description| | - Avec un compte AF sur intradef interne/login
+ - Lors d'une tentative d'export massif des activités du 01/04/2025 au 31/04/2025 les messages d'erreurs erronés ci-dessous apparaissent
+ - Le date de début doit etre antérieur à la date de fin
+ - La date de fin est obligatoire
+ |
+| |Résultat obtenu| |Message IHM incohérent
+ - Le date de début doit etre antérieur à la date de fin
+ - La date de fin est obligatoire|
+| |Résultat attendu| |A voir précisement avec le PO mais le problème réside sur une erreur de date de fin inexistante|";;
+527975;"01/20/2026 20:18";;"[Droits] Suppression du rôle ATS du REF de l'unité non effectif";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1908;j_kahn1;;;;Droits;;;Bloquant;;;V5.4.1;;;;;"*Titre* : [Droits] Suppression du rôle ATS du REF de l'unité non effectif
+
+*Configuration* : Pprod V.5.4.1
+
+*Identifiant* :
+
+Ref : 2693_utilisateur
+
+Le Ref a le rôle d'ATS dans l'unité dont il est référent au début de ce test
+
+*Descriptif :* En tant que référent ET ATS de mon unité, je supprime mon rôle d'ATS de mon unité. 
+
+*Résultat attendu :* Ne plus pouvoir exercer le rôle d'ATS. 
+
+*Résultat obtenu :* Je peux exercer le rôle d'ATS de l'unité même si je n'ai plus le rôle (voir screenshots)";;
+528054;"01/20/2026 20:18";;"[E-billets] Erreur de tri sur tableau e-billet internet et intradef";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1610;j_kahn1;;;;E-billet;;;Mineur;;;V4.20.0.7;;;;;"*Descriptif :*
+
+Sur intradef et internet, pour la partie e-billet : les colonnes entourées en rouge (PJ) ne permettent pas de filtrer les infos
+
+*Résultat attendu*
+
+Le tableau se filtre
+
+*Résultat obtenu :*
+
+Erreur sur les filtres
+
+*Log pour infos complémentaires :* 
+
+[2025-04-29 10:01:25] app.CRITICAL: [ErreurWS] [400] Erreur serveur sur ""GET /in/ressources-humaines/roc-synchro/v7/api/commandes-billets"" | \{""status"":400,""details"":""Le param\u00e8tre 'tri' est incorrect. Valeur renseign\u00e9e : 'action'. Les valeurs autoris\u00e9es sont : DT_RowId, numeroOrdreTransport, dateDemande, refCommandeEtapeId"",""type"":""https://developer.mozilla.org/fr/docs/Web/HTTP/Status/400"",""title"":""Bad Request""} | Parametres : format=datatable&page=0&taille=50&sens=asc&tri=action&etape=3  ";;
+528062;"01/20/2026 20:18";;"[Parcours Candidat] La mise à jour de la tuile Vérification de sécurité ne se fait pas";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1497;j_kahn1;;;;Candidature;;;Mineur;;;V4.20.0.7;;;;;"*Titre* : [Parcours candidat] La mise à jour de la tuile Vérification de sécurité ne se fait pas
+
+*Configuration* : PPROD V4.20.0.7
+
+*URL* : pprod-reserviste.cloud.defense.gouv.fr
+
+*Identifiant :* 
+
+Candidat : 246529_candidat.roc
+REF : 411_utilisateur
+
+*Descriptif* :
+
+Lorsque le candidat a téléversé son CR, la date de mise à jour de la tuile n'est pas modifiée, tant du côté du candidat que du côté du référent, alors même que du côté du référent, une fois que nous avons cliqué sur la tuile, il est bien indiqué que le CER a été téléversé le 14/04/2025.
+
+La MAJ ne se fait pas non plus après validation du CER par le correspondant sécurité.
+
+*Résultat attendu* : 
+
+Que la date de MAJ de la tuile se mette à jour des deux côté
+
+*Résultat obtenu :* 
+
+La date de MAJ de la tuile n'est pas réalisée
+
+ ";;
+528070;"01/20/2026 20:18";;"[Engagement][Entretien en unité] La décision du référent ne s'enregistre pas. ";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1352;j_kahn1;;;;Candidature;;;Mineur;;;V4.20.0.5;;;;;"|*Ticket JIRA N°*|ROC-422|
+|   *Environnement/ Version*|PPROD v4.20.0.5|
+|   *Titre de l'anomalie*|La décision du référent ne s'enregistre pas.|
+|   *Url*|[Processus d'engagement - Réservistes des armées|https://pprod-reservistes.cloud.defense.gouv.fr/candidat/processus-candidature]|
+|   *Acteur*|AF / Candidat|
+|   *Identifiants*|4512 / 224976|
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|Mineure|
+|   *Configuration*|Microsoft Edge|
+|   *Bloc*|Engagement|
+|   D{*}escription{*}|Lorsque l'AF rentre un résultat (""Retenu"" en l'occurrence pour ce cas de test), et qu'il enregistre, le résultat ne s'enregistre pas. Quand on revient sur la tuile, le résultat a disparu. 
+ |
+|   *Résultat attendu*|*Avoir le résultat enregistré quand on revient sur la tuile.* |
+
+ ";;
+598665;"01/20/2026 20:18";;"[Suivi des candidatures] pas de message d'erreur pour la validation d'un autre mail";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1493;j_kahn1;;;;Candidature;;;Mineur;;;;;;;;"Titre : [Suivi des candidatures] pas de message d'erreur pour la validation d'un autre mai
+
+Configuration : PIC 5.3
+
+URL : https://roc-pic-intradef.fr.capgemini.com/afficher-validation/194022/candidature/80335/token/b23a14b5f2c1cb34113a4a50967ec1fc
+
+Descriptif :
+
+Se connecter en tant que REF
+
+[Engagement] - Gestionnaire - Cliquer sur la tuile Prise de RDV
+
+Cliquer sur le bouton Radio ""Oui"" et mettre le mail du valideur.
+
+A la réception du mail, cliquer sur le lien
+https://roc-pic-intradef.fr.capgemini.com/afficher-validation/194022/candidature/80335/token/b23a14b5f2c1cb34113a4a50967ec1fc
+
+Mettre un mail différent du valideur et cliquer sur valider.
+
+
+*Résultat attendu*
+
+Message d'erreur : L’e-mail renseigné ci-dessus ne correspond pas à celui renseigné par le référent
+
+*Résultat obtenu*
+
+pas de message d'erreur .
+
+
+
+";;
+598666;"01/20/2026 20:18";;"[GestionFPM] Filtre fractionnée non fonctionnel";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1443;j_kahn1;;;;Candidature;;;Mineur;;;;;;;;"*URL* :  [http://redhat.reserves2019.fr:2010/interne/admin/gestion-formations-premilitaires]
+
+*Descriptif* :
+
+Se connecter en tant qu'AF 
+
+Aller sur le tableau de gestion des FPM
+
+Filtrer sur les fpm fractionnée en sélectionnant ""oui""
+
+*Résultat attendu* : 
+
+Voir uniquement les fpm fractionnée
+
+*Résultat obtenu :* 
+
+On voit les fpm de fractionnées et non fractionnées
+
+PI : Le filtre sur ""non"" est lui fonctionnel";;
+598669;"01/20/2026 20:18";;"[Paramétrage] - Fil d'Ariane contient seulement l'accueil et pas de lien retour";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1269;j_kahn1;;;;Paramétrage;;;Mineur;;;;;;;;"*Titre* : [Paramétrage] - Fil d'ariane contient seulement l'accueil
+
+*Configuration* : PIC V5.2
+
+*URLs* :
+
+*Descriptif* :
+
+Se connecter en tant qu'AF
+
+Cliquer sur le bloc ""Paramétrage fonctionnel""
+
+Cliquer sur un accordéon, ex : Je m'engage
+
+Cliquer sur élément de l'accordéon ex : Délais
+
+*Résultat attendu* : 
+
++Accueil+ > +Gestion+ > {+}Gérer les compte{+}s > +Paramétrage fonctionnel+ > Je m'engage - Délais
+
+*Résultat obtenu :* 
+
+Le fil d'Ariane contient que l'accueil et il n'y a pas de lien Retour pour revenir en arrière
+
+!image-2025-02-26-12-31-00-987.png|width=778,height=381!
+
+ 
+
+ ";;
+598671;"01/20/2026 20:18";;"[FAQ] - Fil d'Ariane contient seulement l'accueil";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1264;j_kahn1;;;;Communication;;;Mineur;;;;;;;;"*Titre* : [FAQ] - Fil d'ariane contient seulement l'accueil
+
+*Configuration* : PIC V5.2
+
+*URLs* : [https://roc-pic-intradef.fr.capgemini.com/interne/faq/bloc/1]
+
+[https://roc-pic-intradef.fr.capgemini.com/interne/faq/3]
+
+*Descriptif* :
+
+Se connecter en tant que gestionnaire ou réserviste
+
+Accéder à la FAQ
+
+CAS 1 : 
+
+Cliquer sur le bouton ""Voir plus de questions"" au niveau d'un bloc  ex : Questions Générales
+
+CAS 2 : 
+
+Cliquer sur une FAQ
+
+*Résultat attendu* : 
+
+CAS 1 : 
+
++Accueil+ > +Gestion+ >{+}Outils{+} > +FAQ+ > Questions Générales
+
+CAS 2 : 
+
++Accueil+ > +Gestion+ >{+}Outils{+} > +FAQ+ > +Questions Générales+ > [TItre FAQ]
+
+*Résultat obtenu :* 
+
+Le fil d'Ariane contient que l'accueil
+
+ 
+
+!image-2025-02-25-12-20-40-080.png!";;
+598672;"01/20/2026 20:18";;"[Echanges] - Entre gestionnaires - Tag ""Nouveau"" et module en orange pour le gestionnaire qui envoit le message";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1261;j_kahn1;;;;Echanges;;;Mineur;;;;;;;;"*Titre* : [Échanges] - Entre gestionnaires - Tag ""Nouveau"" et module en orange pour le gestionnaire qui envoie le message
+
+*Configuration* : PIC V5.1
+
+*Descriptif* :
+
+Se connecter avec un gestionnaire
+
+Cliquer sur le bloc fonctionnel ""Suivi des candidatures""
+
+Cliquer sur un candidat
+
+Cliquer sur le module ""Échanges entre gestionnaire""
+
+Renseigner un commentaire
+
+Cliquer sur Publier
+
+*Résultat attendu* :
+
+Retour sur le processus d'engagement du candidat
+
+Message de succès :  Les informations ont été correctement enregistrées
+
+Le module est en vert avec la date du jour.
+
+*Résultat obtenu :* 
+
+!image-2025-02-24-16-48-54-736.png!
+
+ ";;
+598682;"01/20/2026 20:18";;"[Export] - E-billets - AF -  Le fichier exporté contient moins de JDD qu'en BDD";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-344;j_kahn1;;;;Extraction;;;Mineur;;;;;;;;"h4. Description
+*Titre* : [Export] - E-billets - AF -  Le fichier exporté contient moins de JDD quand BDD
+
+*Configuration* : PIC 20.0.0
+
+*Identifiant* :
+
+AF
+
+*URL* :  [https://roc-pic-intradef.fr.capgemini.com/interne/mes-deplacements/billets-archives]
+
+*Descriptif* :
+
+Avec l'AF, accéder à l'URL , cliquer sur Export des commandes archivées
+
+*Résultat attendu* : 
+
+Le nombre de lignes dans le fichier csv correspond au nombre de tuples dans la bdd
+
+*Résultat obtenu* :
+
+Le fichier exporté par l'AF contient 105 000 lignes.
+
+Le tableau affiché dans l'onglet archive contient plus de 214 000 lignes";;
+556544;"01/20/2026 20:18";;"Impossibilité de création de compte RO2";;;"En attente de prise en compte dans l'usine logicielle";"Impossibilité de création de compte RO2";"09/03/2025 15:34";;;;;;ADT;;j_saint_julien;ROC-2792;j_kahn1;;;;Comptes;;P1;Majeur;ISPT;;;RO2;;"Le candidat RO2 ne peut pas créer son compte bien qu'il ait déjà un précompte. Le message d'erreur est le suivant ""Votre pré-compte est déjà crée, vous serez informé de l'activation de votre compte RO2"" alors que normalement c'est le compte qui aurait dû être crée
+Elle est présente dans la ""gestion des rejets RO2"" et dans ""réserviste RO2"".
+
+";292083;"Dans le fichier des rejets RO2 lors de la validation le système indique que le NID et la date de naissance ne sont pas compatibles. "" La combinaison NID / date de naissance ne correspond à aucun réserviste en base de données.""
+https://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/ro2/afficher/rejets/292083";Majeur;"PROD BEUG PB création compte RO2.msg,rejet RO2 POGGIOLI Rébecca - message erreur.PNG,capture_compte_RO2_ID292083.docx"
+648695;"01/20/2026 20:18";;"[E-billet] Export des commandes archivées";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2821;j_kahn1;;;;E-billet;;;Majeur;;;;;;;;"*Identifiants / rôle :* 
+
+DEL 2566 code CREDO 01BY000  121{^}E{^} régiment du train.
+
+DEL 7378 code CREDO 0AQ8000 Commandement de l’appui de la logistique de théâtre
+
+*Descriptif :*
+
+Dans e-billet, Je souhaite exporter les commandes archivées.
+
+*Résultat obtenu:*
+
+Le fichier est exportable mais l'unité correspondante au DEL n'est pas présente dans le fichier alors que d'autres unités sont affichées.
+
+*Résultat attendu:*
+
+Le fichier est exportable avec l'unité correspondante au DEL présente dans le fichier.";;
+648702;"01/20/2026 20:18";;"[Comptes] Création de compte RO2";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2792;j_kahn1;;;;Comptes;;;Majeur;;;;;;;;"*Identifiants / rôle :* 292083 / RO2 - AF / 4512
+
+*Descriptif :*
+
+L'adresse e-mail du RO2 est déjà présente et confirmée dans son compte RO2 alors que ce dernier n'est pas encore activé par l'intéressé lui-même (absence de pseudo).
+
+Avec un compte AF, l'adresse e-mail est grisée, elle ne peut pas être supprimée ou modifiée, quand bien même le bouton ""Vadider"" est absent.
+
+*Résultat obtenu:*
+
+Le candidat RO2 ne peut pas créer son compte bien qu'il ait déjà un précompte. 
+
+*Résultat attendu:*
+
+Le candidat RO2 peut créer son compte.";;
+648715;"01/20/2026 20:18";;"[ACTIVITE] Exportation fichier historique des rejets";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2731;j_kahn1;;;;Extraction;;;Mineur;;;;;;;;"*URL :* [https://reservistes.intradef.gouv.fr/interne/admin/activites/recherche-rejet-id-flux] 
+
+*Identifiants / rôle :* 4512 / AF
+
+*Descriptif :*
+
+Activités, puis gestion des rejets.
+
+Cliquer sur le bouton ""Exporter l'historique des rejets""
+
+*Résultat obtenu:*
+Soit, une erreur s'affiche ""Fichier introuvable"".
+
+Soit, un fichier csv est téléchargé mais les colonnes sont vides.
+
+*Résultat attendu:*
+
+Un fichier csv est téléchargé avec les colonnes remplies.";;
+648787;"01/20/2026 20:18";;"Invalidation du cache des compteurs des activités";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2334;j_kahn1;;;;;;;Mineur;;;;;;;;"Lors de tests côté MOE, il apparait que sur la v6.3.2 dans certains cas les compteurs se décorrèlent du résultat, ils auraient du être invalidés lors d'une action et ne l'ont pas étés.
+Exemple :
+
+Je suis connecté en tant que référent, j'ai 26 à convoquer au compteur de l'onglet, 26 résultats dans le tableau.
+
+Je clique sur la première activité à convoquer, puis je la valide (convoquer), elle n'est donc plus dans la liste. 25 dans la liste des à convoquer, toujours 26 au compteur. Devrait être 25-25.
+
+Techniquement l'appel à l'invalidation n'a pas été mis dans InscriptionActiviteController :: validationInscriptionActivite. Peut-être a-t'il aussi été oublié ailleurs ?
+
+A conduire :
+ * lister les cas où les compteurs nécessitent d'être invalidés
+ * vérifier également le temps de conservation du cache des compteurs
+ * Ajouter les cas manquants
+ * Bonus : Transformer l'appel au service injecté serviceGestionActivite par un événement levé (ListeActiviteModifiee) dont le handler prend en charge l'appel au service d'invalidation du cache pour le nettoyage.
+
+ ";;
+648861;"01/20/2026 20:18";;"[Alerte immédiate] incohérence d'IHM entre messages d'erreurs et boutons grisés";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1937;j_kahn1;;;;Alertes;;;Mineur;;;;;;;;"|   *Ticket JIRA N°*| |
+|   *Environnement/ Version*|PPROD V4.20.0.5|
+|   *Titre de l'anomalie*|Message d'erreur non cohérence avec l'IHM sur une Alerte immédiate à l'étape 1|
+|   *Url*|[https://pprod-reservistes.intradef.gouv.fr/interne/alertes/creation/13/edition]|
+|   *Acteur*|AF,|
+|   *Identifiants*|*4512_utilisateur;* |
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|Majeur|
+|   *Configuration*|Poste INTRADEF FIREFOX|
+|   *Bloc*|Alerte|
+|   *description*|Lors de la saisie d'une Alerte immédiate ci-jointe, il y a un blocage de l'IHM avec ce message d'erreur incohérence avec l'IHM puisque les champs mentionnés sont grisés et inaccessibles 
+ 
+ * Vous devez renseigner le champ « Ville et code postal » ou « Coordonnées GPS du lieu de regroupement » si vous ne ciblez pas par l'unité d'appartenance du réserviste.
+
+
+ 
+ 
+|
+|   *Résultat attendu*|L'IHM doit restée cohérente entre les messages d'erreurs et les champs accessibles|
+|   *Copies d'écran*| |";;
+648862;"01/20/2026 20:18";;"[Activité]- Problème dans l'export des activités ";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1932;j_kahn1;;;;Activités;;;Majeur;;;;;;;;"URL: [https://pprod-reservistes.intradef.gouv.fr/]
+
+se connecter avec un AF 4512_utilisateur
+
+1.cliquer sur le bloc activité 
+
+2. cliquer sur Export 
+
+3. Attendre le téléchargement du fichier. 
+
+Résultat obtenu : erreur gateway time out 
+
+Résultat attendu : un fichier CSV. ";;
+648898;"01/20/2026 20:18";;"Erreur 406 lors d'une connexion MDC PROD";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1609;j_kahn1;;;;Connexion;;;Mineur;;;;;;;;"[2025-04-29 10:49:08] app.CRITICAL: [ErreurWS] [406] Erreur serveur sur ""GET /in/ressources-humaines/roc-synchro/v7/api/utilisateurs"" | \{ ""fault"":{""http"":406,""message"":""Not Acceptable"" description=""This request was blocked by the security rules server""}                             } | Parametres : type=ro1  ";;
+648929;"01/20/2026 20:18";;"Saisie heure - Prise rendez-vous";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1306;j_kahn1;;;;Candidature;;;Mineur;;;;;;;;"|*Ticket JIRA N°*| |
+|   *Environnement/ Version*|PPROD V4.20.0.5|
+|   *Titre de l'anomalie*|Saisie heure - Prise rendez-vous|
+|   *Url*|[https://pprod-reservistes.intradef.gouv.fr/interne/login|https://pprod-reservistes.intradef.gouv.fr/afficher-validation/221865/contrat/167917/token/865bd8cf6732a48fe6a3978cb2cd1310]
+ |
+|   *Acteur*|REF|
+|   *Identifiants*|*3028_utilisateur*        |
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|Majeur|
+|   *Configuration*|Poste INTRADEF FIREFOX ET EDGE|
+|   *Bloc*|Engagement |
+|   *description*|plage horaire n'apparait pas
+mais saisie possible heure|
+|   *Résultat attendu*|date et heure|
+|   *Copies d'écran*| |";;
+648936;"01/20/2026 20:18";;"Poste(Ab initio)/modifier un champs";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1295;j_kahn1;;;;Emploi;;;Mineur;;;;;;;;"|   *Ticket JIRA N°*| |
+|   *Environnement/ Version*|PPROD V4.20.0.5|
+|   *Titre de l'anomalie*|Poste(Ab initio)/modifier un champs|
+|   *Url*|[https://pprod-reservistes.intradef.gouv.fr/interne/login|https://pprod-reservistes.intradef.gouv.fr/afficher-validation/221865/contrat/167917/token/865bd8cf6732a48fe6a3978cb2cd1310]
+ |
+|   *Acteur*|AF, REF |
+|   *Identifiants*|*4512_utilisateur ;*|
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|Mineur|
+|   *Configuration*|Poste INTRADEF FIREFOX ET EDGE|
+|   *Bloc*|Gestion des emplois|
+|   *description*| 
+Champs ""GRADE"" obligatoire pour du Ab initio |
+|   *Résultat attendu*|Le rendre optionnel et lié à la complétion du champs ""GRADE SOUHAITE""|
+|   *Copies d'écran*|!image-2025-03-07-14-21-27-803.png!|";;
+648950;"01/20/2026 20:18";;"[Activité] - Défaut d'affichage message d'erreur - pop-up justification";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1260;j_kahn1;;;;Activités;;;Mineur;;;;;;;;"*Titre* : [Activité] - Défaut d'affichage message d'erreur - pop-up justification
+
+*Configuration* : PIC V5.1
+
+*URL* : 
+
+*Descriptif* :
+
+Se connecter avec un RO2 qui a une activité proposée
+
+Cliquer sur l'activité
+
+Cliquer sur le bouton ""Je refuse la convocation""
+
+Cliquer sur le bouton ""Valider""
+
+*Résultat attendu* : 
+
+Message d'erreur en rouge sous le(s) champ(s) concerné(s)  
+
+*Résultat obtenu :* 
+
+Message en noir affiché en contrôle de saisie :
+
+!https://jira-ci.fr.capgemini.com/jira/plugins/servlet/raven/attachment/76541/screenshot-1.png!
+
+ ";;
+590000;"01/20/2026 20:18";;"[SSA] -  libellé grade non conforme avec l'abregé.";;;"En attente de prise en compte dans l'usine logicielle";"Problème gestion et création compte gestionnaire";"09/26/2025 16:31";;;;;;SSA;;c_dulaurans;ROC-2889;j_kahn1;;;;Comptes,Activités;;P3;Mineur;"Poste Intradef";"Libellé grade non conforme : https://reservistes.intradef.gouv.fr/interne/autorite-signataire/modifier/39035
+Libellé grade conforme : https://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/gestionnaires/8935/modifier";V6.3.2;;;"Le MP Patey est déclaré ATS pour la DIASS Nouvelle Calédonie. ";;"Dans gestion des ATS du référent de la DIASS Nouvelle calédonie, le libellé du grade n'est pas conforme. Dans le SSA MP correspond à médecin principal alors que dans la MN, MP correspond à maitre principal. 
+Dans gestion des utilisateurs, le MP Patey, le libellé du grade est bien médecin principal.";;"ATS _MP_libelle non conforme_20250926.png,ROC_utilisateur MP_libelle conforme ATS Patey 2_20250926.png,ROC_utilisateur MP_libelle conforme ATS Patey_20250926.png,ATS grade.docx"
+534764;"01/20/2026 20:18";;"Problème affichage des tuiles recrutement pour un candidat - tuiles en double";;j_pelletier6;"En attente de prise en compte dans l'usine logicielle";;"07/30/2025 09:55";;;;;;ADT;;j_saint_julien;ROC-2892;j_kahn1;;;;Candidature,Communication;;;Mineur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/engager/engagement/processus-candidature/293664;;;;;293664;"Les tuiles du parcours recrutement apparaissent en double pour ce candidat. 
+Je n'ai pas réussi à le joindre pour savoir si les tuiles fonctionnaient tout de même. ";Majeur;"PB affichage candidat  tuleap .msg,Annotation 2025-11-12 162106.Logan_Hosner3.png,capture_ecran_candidat_referent_534764.docx"
+650157;"01/20/2026 20:18";;"Pb CRON roc:gestion:log";;;"En attente de prise en compte dans l'usine logicielle";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2887;j_kahn1;;;;Env.;;;Majeur;;;v7.4.3;;;;;"Message reçu dans la boite technique : 
+
+Il y a eu un problème lors du traitement du CRON : roc:gestion:log ";;
+650160;"01/20/2026 20:18";;"Pas de purge / archivage des logs des cron";;;"En attente de prise en compte dans l'usine logicielle";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2805;j_kahn1;;;;Env.;;;Majeur;;;v7.4.3;;;;;"Les logs des crons (il me semble dans le /var) ne sont jamais supprimés ou archivés.
+
+Ainsi les logs sont présents depuis le mois d'avril (date de création des nouvelles VM suite migration C1NP). Cela représente environ 350 Mo de logs.
+
+Nous sommes obligés de surveiller continuellement pour éviter la saturation et de faire du vide à la main.
+
+=> Demande de mise en place d'un mécanisme de purge/ archivage des logs des cron";;
+652899;"01/20/2026 20:18";;"[Communication] Erreur page d'accès après clic sur un lien contenu dans un message ROC reçu par un RO1 (Communication massive)";;;"En attente de prise en compte dans l'usine logicielle";;"12/04/2025 12:24";;;;;;AF;;a_galleyn;ROC-2926;j_kahn1;AF;;;Communication;;;Mineur;"Poste Internet";https://www.reservistes.defense.gouv.fr/accueil;v4.7.3;RO1;;"Réception d'un mail automatique émis par ROC à l'adresse d'un RO1. Ce mail contient un lien hypertexte";;"Après avoir cliqué sur le lien contenu dans le mail reçu par le RO1, la page qui s'affiche ne correspond pas à la cible : module ""communication"" du compte du RO1 qui a reçu le mail.
+Affiche de la page ""création d'un compte"" avec message d'erreur indiquant : l'accès à la page demandée n'est pas autorisé.";Mineur;"20251203 Mail auto urgent roc contenant lien.docx,Capture d'écran 2025-12-03 résultat page après clic sur lien.png"
+645607;"01/20/2026 20:18";;"[AAE]ROLE : pb fonctionnement paramétrage fonctionnel";;;"En attente de prise en compte dans l'usine logicielle";"Problème gestion et création compte gestionnaire";"11/26/2025 10:57";;;;;;AAE;;s_caumond;ROC-2931;j_kahn1;;;;Droits;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/ao/parametrage/code-imputation/modifier;v7.4.3;AO;;"- accès bloc PARAMETRAGE FONCTIONNEL
+_ Activer le bloc alerte ==> sélection OUI
+- Valider";17329;"Quand on revient sur le bloc, impossible de modifier les blocs modifiés initialement, tout est grisé.";Majeur;"AO_bloc fonctionnel.PNG,Pramétrage fonctionnel.docx"
+598165;"01/20/2026 20:18";;"Impossibilité de se connecter à son compte ATS et REF";;j_pelletier6;"En attente de prise en compte dans l'usine logicielle";"Problème de connexion";"10/07/2025 14:12";;;;;;ADT;;j_saint_julien;ROC-2934;j_kahn1;AAE;;;Comptes;;;Mineur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/gestionnaires/18403;;;;"Un gestionnaire ne peut pas se connecter à szon compte (il n'y a pas eu de changement de mot de passe). 
+Solution trouvée : réinitialisation. 
+Ce n'est pas un cas isolé (déjà une dizaine de cas pour l'armée de Terre. ";18403;Un;Majeur;"beug PROD V6 impossible de se connecter à son compte .msg,Compte ATS  réactivation et réinitialisation.docx,2025_11_26_14_03_46_.png,Mot de passe.docx"
+645519;"01/20/2026 20:18";;"[AAE]RECRUTEMENT : incohérence entre remontées BDD des différents tableaux de bord";;;"En attente de prise en compte dans l'usine logicielle";"vivier des volontaires";"11/26/2025 10:19";;;;;;AAE;;s_caumond;ROC-3010;j_kahn1;ADT;;;Emploi,Candidature;;P3;Mineur;;https://reservistes.intradef.gouv.fr/interne/processus-engagement;v7.4.3;AF;;"Analyse de la volumétrie des candidats et volontaire dans les 2 tableaux de bords possible :
+- suivi de l'engagement
+- suivi des volontaires et candidats
+
+EX : 
+Parcours volontaire/candidat : 
+- présence de AMRAOUI Hakim (candidat : oui)
+- clic sur nom ==>https://reservistes.intradef.gouv.fr/interne/engager/engagement/processus-candidature/35968
+- La candidature a été refusée ou abandonnée le 17/01/2019
+
+Suivi candidature/processus engagement
+- https://reservistes.intradef.gouv.fr/interne/processus-engagement
+- pas de AMRAOUI
+
+Sorties processus :
+- Autres sorties : ok présent
+
+
+";584;"<p>1/ https://reservistes.intradef.gouv.fr/interne/admin/sortie-processus-autre-sortie</p>
+
+<p>Dans tableau de bord :</p>
+
+<ul>
+	<li>autres sorties : 66 918 noms</li>
+	<li>non retenus : 580 noms</li>
+	<li>retenus : 23 447 noms soit un total de 90 445 personnes</li>
+</ul>
+
+<p>2/ <a href=""https://reservistes.intradef.gouv.fr/interne/processus-engagement"">https://reservistes.intradef.gouv.fr/interne/processus-engagement</a> Suivi des engagements : 58 057 noms</p>
+
+<p>3/ <a href=""https://reservistes.intradef.gouv.fr/interne/suivi-volontaires-candidats"">https://reservistes.intradef.gouv.fr/interne/suivi-volontaires-candidats</a></p>
+
+<p>Aucun filtre s&eacute;lectionn&eacute;</p>
+
+<p>Suivi volontaires/candidatures : 127 933 noms r&eacute;partis : 92 144 volontaires / 35 789 candidats</p>
+
+<p>QST : d&#39;o&ugrave; vient la distorsion de r&eacute;sultat chiffr&eacute; ???</p>
+";Mineur;"VOL_CAN_AMRAOUI.PNG,Nombre volontaires et candidats.docx"
+648855;"01/20/2026 20:18";;"DEL : ne pas afficher de messages d'erreur lors de la consultation des disponibilités par période";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1959;j_kahn1;;;;Calendrier;;;Mineur;;;;;;;;"*Titre* : DEL - affichage des disponibilité par période message d'erreur par défaut
+
+*Configuration* : PPROD v5.4.1 DR interne/login
+
+*URL* : [https://pprod-reservistes.intradef.gouv.fr/interne/calendrier/disponibilites-periode]
+
+{*}Rôle : DEL{*}{*}{{*}}
+
+*Identifiant :*  6752_utilisateur.
+MDP : Azertyuiop44!!!
+
+*Descriptif* :
+
+Lorsque le délégataire arrive sur cette URL un message d'erreur apparait sur les dates alors qu'il n'a pas encore saisi de date
+
+ 
+
+*Résultat attendu* : 
+
+Le délégataire lorsqu'il consulte les disponibilités par période ne pas afficher de message d'erreur sur les dates (par défaut)
+
+ 
+
+*Résultat obtenu :* 
+
+Le délégataire lorsqu'il consulte les disponibilités par période voit apparaitre dans tous les cas un message d'erreur sur les dates";;
+598027;"01/20/2026 20:18";;"AF/NP - RC500  lors d’une recherche de rejet réserviste par NID inexistant";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 12:13";;;;;;"DP ROC";;b_poiron_ext;ROC-2196;j_kahn1;;;;Activités;;;Majeur;;;;;;;;"*Titre* : AF/NP - RC500 – lors d’une recherche de rejet réserviste par NID inexistant
+
+*Configuration* : Production NP sans ISPT
+
+*URL* : [https://roc-front-np-pre.picsel.defense.gouv.fr/interne/admin/activites/recherche-rejet-reserviste]
+
+*Identifiant :* AF / NP 4512_utilisateur.roc@getnada.com
+
+*Descriptif* :
+ # Connexion AF PROD NP : [https://roc-front-np-pre.picsel.defense.gouv.fr/interne/accueil-choix-bloc]
+ #    [https://roc-front-np-pre.picsel.defense.gouv.fr/interne/admin/activites/recherche-rejet-reserviste]
+ #  Renseigner un ro1 avec NID inexistant 8888888888
+4.    Rechercher : NOK page de maintenance à cette URL ci-dessous
+[https://roc-front-np-pre.picsel.defense.gouv.fr/interne/admin/activites/gestion-rejet-increment-id-flux/03]
+
+État 500
+Internal Server Error
+VersionHTTP/1.1
+Transfert66,56 Ko (taille 66,12 Ko)
+Politique de référentstrict-origin-when-cross-origin
+Priorité de la requêteHighest
+Résolution DNSSystème
+
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 11 Aug 2025 07:45:52 GMT
+Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+Vary: Accept
+Cache-Control: max-age=0, must-revalidate, private
+Expires: Mon, 11 Aug 2025 07:45:52 GMT
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+En mode DEBUG dans le code il est noté ""L'uid fourni est erroné (mauvais format) !""
+
+ 
++*Résultat attendu* :+ 
+Avoir un message fonctionnel précisant le problème
+
+ 
+
++*Résultat obtenu :*+
+{+}Page d'erreur 500
+
+
+
++*Remarque:*+ 
+Problème également en production v5.4.4";;
+527948;"01/20/2026 20:18";;"[candidat] : erreur lors de la validation suite au téléversement du fichier autorisation_parentale_PA.pdf";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1968;j_kahn1;;;;Candidature;;;Majeur;;;V5.4.1;;;;;"*Titre* : [candidat] : erreur lors de la validation suite au téléversement du fichier autorisation_parentale_PA.pdf
+
+*Configuration* : PPROD v5.4.1 NP full internet
+
+*URL* : [https://pprod-reservistes.cloud.defense.gouv.fr/] 
+
+*Identifiant :* 
+
+Candidat : alexandre.courreur
+
+*Descriptif* :
+
+1. Sur une candidature avec bloc sécurité a remplir
+2. cliquer sur le bloc sécurité
+
+[https://pprod-reservistes.cloud.defense.gouv.fr/candidat/processus-candidature/etape/verification-securite]
+
+3. cliquer sur CER : OK le CER.pdf est téléchargé
+4. cliquer sur autorisation parentale : OK le fichier autorisation_parentale_Philipito_Albert.pdf est téléchargé
+
+5. Remplir les CER et autorisation parentale : OK
+6. Téléverser le fichier rempli CER.pdf : OK
+
+7. Téléverser le fichier autorisation_parentale_Philipito_Albert.pdf : {*}{color:#de350b}NOK un message d'erreur apparait : ROC-1966
+{color}{*}{color:#172b4d}8. Patienter 3 heures
+9. Téléverser le fichier autorisation_parentale_PA.pdf : OK
+10. Valider : NOK une erreur s'est produite le 30 juin 2025 à 18h20{color}
+
+ 
+
+*Résultat attendu* : 
+Le candidat devrait pouvoir valider l'étape de vérification sécurité sans rencontrer d'erreur
+
+ 
+
+*Résultat obtenu :* 
+
+Suite au bug ROC-1966, le candidat continue son scénario 3 heures plus tard et rencontre un message d'erreur ""une erreur s'est produite"" suite au téléversement d'un bon fichier lors de la validation de l'étape de sécurité
+
+ ";;
+527950;"01/20/2026 20:18";;"[candidat] : une erreur s'est produite lors de la modification de la date de naissance en 01/01/2008 et validation";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1965;j_kahn1;;;;Candidature;;;Majeur;;;V5.4.1;;;;;"'+*Titre* :+ Lors de la modification de données personnelles le message ""une erreur s'est produite"" apparait
+
+*Configuration* : PPROD V.5.4.1
+
++*Identifiant* :+
+
+[albert.philipito.roc@getnada.com|mailto:albert.philipito.roc@getnada.com]
+Azertyuiop44!!!
+
+[https://pprod-reservistes.intradef.gouv.fr/interne/mes-contrats/reserviste/60093]
+
+ 
+
++*Descriptif* :+
+1. Nouvelle candidature avec nouveaux comptes
+2. connexion
+3. Engagement
+4. Modifier données personnelles 
+5. Changement date de naissance en 01/01/2008
+6. Valider NOK : message ""une erreur s'est produite"" apparait
+
+=> impossible ensuite de réussir a valider les données personnelles
+
+
++*Résultat attendu* :+
+
+On doit pouvoir valider les données personnelles dans erreur du type ""une erreur s'est produite""
+
+
+
++*Résultat obtenu* :+
+
+Le 30/06/2025 a 10h06 le message ""une erreur s'est produite"" apparait";;
+527942;"01/20/2026 20:18";;"[Candidature] -Problème sur le parcours candidat mineur ";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1977;j_kahn1;;;;Candidature;;;Mineur;;;V5.4.1;;;;;" 
+
+https://pprod-reservistes.cloud.defense.gouv.fr/choix-profil-connexion
+
+Candidat : 872_utilisateur@getnada
+
+ Azertyuiop44!!!
+
+https://reservistes.intradef.gouv.fr/interne/login
+AF : 4512_utilisateur/URL 
+CS : 7772_utilisateur 
+MdP (par défaut) : Azertyuiop44!!!
+
+
+Etape 4 : Bouton pour téléverser le CER non optionnel !
+Il y a en plus le bouton pour téléverser l’autorisation parentale (obligatoire, car mineur ici).
+Etape 8 : PB d’ouverture du CER dans Documents
+Etape 13 : le CS ne peut pas ouvrir le CER, page non trouvée, erreur 404 (environnement PPROD ?)
+Autre problème : téléversement du certificat VM civile effectif par le candidat et mentionné non téléversé dans la tuile VM civile de l'AF.";;
+527999;"01/20/2026 20:18";;"[IHM] Centralisation de besoin de messages d'erreur: assistance à l'utilisateur pour résoudre un problème";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1811;j_kahn1;;;;Connexion;;;Mineur;;;V5.4;;;;;"Pour visibilité d'implémentation de message d'erreurs dans l'IHM, ci-dessous quelques proposition à enrichir
+
++*Cas1 :*+ ROC-2023 : Connexion: l'officier sécurité essaie à plusieurs reprises de se connecter sans succès, aucune indication sur le nombre de tentatives restantes avant blocage du compte (ce problème doit être indépendant du rôle)
+
++*Cas2 :*+ ROC-2048 : Connexion : Suite au cas n°1 le compte devient bloqué mais l'IHM de connexion ne précise aucune indication fonctionnelle
+
++*Cas3 :*+ Connexion : Si déphasage entre email MDC v2 et ROC l'IHM n'aide pas l'utilisateur a résoudre son problème
+
++*Cas4 :*+ Connexion : Si déphasage entre mot de passe MDC v2 et ROC l'IHM n'aide pas l'utilisateur à résoudre son problème
+
++*Cas5:*+ ROC-2023 : Connexion: gestionnaire DR avec mauvais mot de passe: aucun message aidant à la résolution du problème
+
+*+Cas6:+* ROC-1851 : [candidat] : absence de message d'erreur sur la case à cocher des mesures d'attractivités non validée
+
++*Cas7:*+ ROC-1782 : [candidat] : préciser un message d'erreur fonctionnel dans le cas de la requalification en tant que spécialiste par le REF au lieu d'une Erreur 500. (Exemple ""Votre candidature a été abandonnée. Votre compte n'existe plus : pour plus de précision veuillez vous rapprocher de xxxxxxxxxx"")
+
++*Cas8:*+ ROC-1954 : [Export] IHM incohérence de message d'erreur sur un export d'activité avec erreur de date
+
++*Cas9:*+ ROC-1961 : [Alerte] Erreur lors de la publication d'une pré-alerte sans aide IHM à la résolution du problème
+
++*Cas10:*+ ROC-1970 : Orienter l'utilisateur lorsqu'il rencontre une page blanche suite a un refresh-token
+
++*Cas11:*+ ROC-1980 : [Unité] IHM : le champ en erreur sur un numéro de téléphone n'est pas précisé
+
++*Cas12:*+ ROC-2007 : [IHM]  DR - Création de compte référent - Message Le jeton CSRF est invalide. Veuillez renvoyer le formulaire. 
+
+*+Cas13+* ROC-2005 : Indiquer un message fonctionnel du type ""La commande de e-billet est temporairement indisponible, veuillez réessayer ultérieurement"" lors d'une communication en échec avec Tacite
+
+*+Cas14:+* ROC-2017 : [communication] - le gestionnaire ne voit pas l'erreur signalée lors de la validation suite à une erreur non visible";;
+527978;"01/20/2026 20:22";;"[Droits] Création d'un CS - l'autocomplétion du grade ne fonctionne pas";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1904;j_kahn1;;;;Droits;;;Bloquant;;;V5.4.1;;;;;"*Titre* : [Droits] Création d'un CS - l'autocomplétion du grade ne fonctionne pas 
+
+*Configuration* : PProd V.5.4.1
+
+*Identifiant* :
+
+REF : 3434_utilisateur
+
+*Descriptif :* En tant que gestionnaire, je clique sur gestion -> correspondant de sécurité -> créer un correspondant de sécurité -> je rentre les premières lettres d'un grade connu (col pour colonel) 
+
+*Résultat attendu :* Un menu déroulant apparait me proposant Colonel bien formatté 
+
+*Résultat obtenu :* Je peux rentrer n'importe quel grade et valider";;
+527906;"01/20/2026 20:22";;"[Contrat] - Erreur 500 ou fichier introuvable au téléchargement du renouvellement de contrat";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2042;j_kahn1;;;;Contrat;;;Mineur;;;V5.4.4;;;;;"Titre: [Contrat] - Erreur 500 ou fichier introuvable au téléchargement du renouvellement de contrat
+
+Configuration: PICSEL v5.4.4 DR
+
+URL: [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/mes-contrats/reserviste/20468/export-avis-reconduction/28020]
+
+Identifiants / rôle : REF
+REF: 2111_utilisateur 
+Mot de passe qJe9#Y+tX!6fX51<
+
+Descriptif :
+ # REF / DR : connexion
+ # Contrat/mobilité / a renouveler : [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/mes-contrats/liste-reservistes/contrats-a-renouveler]
+ # Editer un contrat de reserviste : [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/mes-contrats/reserviste/193436]
+
+h1. Contrat de Navarrate Blair
+
+4. Telecharger export avis de reconduction
+[https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/mes-contrats/reserviste/20468/export-avis-reconduction/28020]
+
+
+*+Résultat obtenu:+*
+Erreur 500 lors d'une tentative de téléchargement de
+Ou alors parfois fichier introuvable
+=> sous entendu il y a différents cas de figures fonctionnels (hypothèses : document existant mais probleme de téléchargement, document inexistant et donc impossible a télécharger)
+
+
+
+*+Résultat attendu:+*
+
+En cas de document présent télécharger le document
+En cas de document absent avoir le bouton grisé (voir avec le PO)
+
+Problème reproduit également en production";;
+528076;"01/20/2026 20:22";;"[CONTRAT] Affichage refus ATM non conforme";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1298;j_kahn1;;;;Contrat;;;Mineur;;;V4.20.0.5;;;;;"|   *Ticket JIRA N°*| |
+|   *Environnement/ Version*|PPROD v4.20.0.5|
+|   *Titre de l'anomalie*|Affichage refus ATM non conforme|
+|   *Url*|[https://pprod-reservistes.cloud.defense.gouv.fr/reserviste/ro1/mes-contrats|https://pprod-reservistes.intradef.gouv.fr/interne/accueil-choix-bloc]|
+|   *Acteur*|RO1|
+|   *Identifiant*|2644_reserviste|
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|MINEURE|
+|   *Configuration*|INTRADEF FIREFOX|
+|   *Bloc*|CONTRAT|
+|   *Description*|Si le renouvellement de contrat est refusé par l'ATM, le RO1 a sur son compte ROC un message ""date de refus du RO1"", alors qu'il avait confirmé son souhait de renouveler son contrat.|
+|   *Résultat attendu*|Si l'ATM refuse le renouvellement, l'icône ""validation ATM"" doit passer en rouge avec affichage de la date, sur le compte de l'ADR, du référent et du RO1.|
+|   *Copies d'écran*| |";;
+648690;"01/20/2026 20:22";;"Saturation mémoire utilisée PROD BDD";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2870;j_kahn1;;;;;;;Majeur;;;;;;;;"La mémoire utilisée de la BDD PROD augmente depuis ce lundi.
+
+Aujourd'hui, la mémoire physique utilisée est montée à 80% est la mémoire virtuelle utilisée est montée à 97%.
+
+ ";;
+648817;"01/20/2026 20:22";;"Filtre dates ne fonctionne pas - Tableau de bord e-billets (infocentre)";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2101;j_kahn1;;;;Infocentre;;;Majeur;;;;;;;;"Dans la page ""Tableau de bord e-billets"", les filtres de dates ne fonctionnent pas. Les dates peuvent être modifiées mais les valeurs affichées restent inchangé.
+Dans l'exemple joint, les valeurs sont les mêmes entre 01/01/2023-31/12/2025 et 01/01/2025-31/12/2025 ";;
+528039;"01/20/2026 20:22";;"Anomalie Signature";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1690;j_kahn1;;;;Activités;;;Majeur;;;V4.20.0.7;;;;;"Analyse des logs du Back au 12/05
+
+Erreur sur le log Symfony du Front DR de preprod :
+ 
+ 
+{noformat}
+[2025-05-12 10:57:51] request.CRITICAL: Uncaught PHP Exception TypeError: ""App\Service\AutoriteSignataireService::recupererAutoriteSignataireParId(): Argument #1 ($autoriteSignataireId) must be of type int, null given, called in /var/www/html/src/Controller/MesActivites/GestionActiviteController.php on line 821"" at AutoriteSignataireService.php line 66 {""exception"":""[object] (TypeError(code: 0): App\\Service\\AutoriteSignataireService::recupererAutoriteSignataireParId(): Argument #1 ($autoriteSignataireId) must be of type int, null given, called in /var/www/html/src/Controller/MesActivites/GestionActiviteController.php on line 821 at /var/www/html/src/Service/AutoriteSignataireService.php:66)"" } {""dt.trace_sampled"":""true"",""dt.trace_id"":""4ef8934aa6d27fbc0049d2930eceef00"",""dt.span_id"":""756103e6b3b61b77""}{noformat}
+ 
+Semble corrélé à une erreur sur l'access log du Front DR :
+ 
+{noformat}
+221.12.65.0 - - [12/May/2025:10:57:46 +0200] ""POST /interne/activites/signer/liste HTTP/1.1"" 500 68543 ""https://pprod-reservistes.intradef.gouv.fr/interne/activites/signer/liste"" ""Mozilla/5.0 (Windows NT 10.0 Win64 x64 rv:109.0) Gecko/20100101 Firefox/115.0""{noformat}
+ 
+ ";;
+527946;"01/20/2026 20:22";;"[candidat] : lorsque la session du compte F5 expire suite a reconnexion est orienté sur page blanche refresh-token";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1970;j_kahn1;;;;Candidature;;;Majeur;;;V5.4.1;;;;;"*Titre* : [candidat] : erreur lors de la validation suite au téléversement du fichier autorisation_parentale_PA.pdf
+
+*Configuration* : PPROD v5.4.1 NP full internet
+
+*URL* : [https://pprod-reservistes.cloud.defense.gouv.fr/] 
+
+*Identifiant :* 
+
+Candidat : alexandre.courreur
+
+*Descriptif* :
+
+1. Sur une candidature avec bloc sécurité a remplir
+2. cliquer sur le bloc sécurité
+
+[https://pprod-reservistes.cloud.defense.gouv.fr/candidat/processus-candidature/etape/verification-securite]
+
+3. cliquer sur CER : OK le CER.pdf est téléchargé
+4. cliquer sur autorisation parentale : OK le fichier autorisation_parentale_Philipito_Albert.pdf est téléchargé
+
+5. Remplir les CER et autorisation parentale : OK
+6. Téléverser le fichier rempli CER.pdf : OK
+
+7. Téléverser le fichier autorisation_parentale_Philipito_Albert.pdf : NOK un message d'erreur apparait : \{*}{color:#de350b}ROC-1966
+{color}{*}{color:#172b4d}8. Patienter 3 heures
+9. Téléverser le fichier autorisation_parentale_PA.pdf : OK
+10. Valider : NOK une erreur s'est produite le 30 juin 2025 à 18h20 : *{color:#de350b}ROC-1968{color}*
+11. Cliquer sur le bouton retour : l'""utilisateur est orienté vers la page de connexion F5 suite a expiration
+12. Reconnexion F5 : OK
+13. [https://pprod-reservistes.cloud.defense.gouv.fr/oauth/refresh-token] : *{color:#de350b}page blanche NOK{color}*{color}
+
+ 
+
+*Résultat attendu* : 
+Le candidat ne devrait pas avoir des pages blanches lors de sa navigation même après F5 a minima un message d'erreur devrait apparaitre
+
+ 
+
+*Résultat obtenu :* 
+
+Le candidat rencontre une page blanche refresh-token après les problèmes ROC-1966 et ROC-1968
+
+
+
+ ";;
+648701;"01/20/2026 20:22";;" [Volontariat]generation ESR- pas de redirection";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2799;j_kahn1;;;;Candidature;;;Majeur;;;;;;;;"'+*Titre :*+ [ [Volontariat ]génération ESR- pas de redirection
+
+*+Configuration:+*
+
+PPROD v7.4.3
+
+ 
+
+{+}*URL :*{+}https://pprod-reservistes.intradef.gouv.fr/interne/processus-candidature/candidature/308871/etape/creation-esr/generation
+
+ 
+
+*Identifiants / rôle :* REF 12743_utilisateur (OIA)
+
+ 
+
++*Prérequis:*+  avoir complété le processus d'engagement jusqu’à la création  de l'ESR 
+
+*+Descriptif :+*
+
+en tant que REF je clique sur le bloque ""Création de l'ESR""
+
+je complète les données obligatoire
+
+je valide
+
+je coche non a demande d'information
+
+je coche oui pour l'envoi de l'ESR
+
+je clique sur ""Générer l'ESR""
+
+ 
+
++*Résultat obtenue:*+
+
+pas de redirection sur la page ""processus d'engagement""
+
+ 
+
+ 
+
+*+Résultat attendu:+*
+
+redirection vers  la page ""processus d'engagement""";;
+648842;"01/20/2026 20:22";;"[Candidat] - Erreur lors du téléchargement du Questionnaire médicale 1ère partie de la visite médicale militaire";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1988;j_kahn1;;;;Candidature;;;Mineur;;;;;;;;" 
+| |Ticket JIRA N°| |
+| |   Environnement/ Version|Pprod NP v5.4.1 du 01/07/2025
+ |
+| |   Titre de l'anomalie|[Candidat] - Erreur lors du téléchargement du Questionnaire médicale 1ère partie de la visite médicale civile|
+| |   Url|[https://roc-front-np-pre.picsel.defense.gouv.fr/candidat/download-doc/fiche_medicale_1/256133/951899]|
+| |   Acteur|Reprise d'un candidat existant|
+| |   Identifiants|256243_candidat.roc@getnada.com|
+| |   Mot de passe|Azertyuiop44!!!|
+| |   Anomalie|Mineur|
+| |   Configuration|Edge|
+| |   Bloc|Candidat|
+| |   Description|
+
+Pour la visite médicale civile, le candidat rencontre des erreurs au téléchargement de certains document 
+Questionnaire médicale 1ère partie : Erreur de téléchargement
+[https://roc-front-np-pre.picsel.defense.gouv.fr/candidat/download-doc/fiche_medicale_1/256133/951899]
+
+Liste des antennes médicales militaires : OK
+Questionnaire médicale 2ère partie : OK
+ 
+| |Résultat obtenu|Erreur de téléchargement systématique|
+| |Résultat attendu :|le candidat doit pouvoir télécharger les documents de la visite médicale civile|";;
+650172;"01/20/2026 20:22";;"[IHM]  DR - Création de compte référent - Message Le jeton CSRF est invalide. Veuillez renvoyer le formulaire. ";;;"En attente de prise en compte dans l'usine logicielle";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2007;j_kahn1;;;;Env.;;;Mineur;;;V5.4.1;;;;;"'+*Titre* :+ DR - Création de compte référent - Message Le jeton CSRF est invalide. Veuillez renvoyer le formulaire.
+
+
++*Configuration* :+ PPROD v5.4.1
+
++*URL* :+  [https://pprod-reservistes.intradef.gouv.fr/interne/creation-compte]
+
+ 
+
++*Descriptif* :+
+
+Tentative de création d'un compte REF déjà existant [2128_utilisateur.roc@getnada.com|mailto:2128_utilisateur.roc@getnada.com] 
+
+=> un message d'erreur ci-dessous apparait 
+*{color:#de350b}Le jeton CSRF est invalide. Veuillez renvoyer le formulaire.{color}*
+
+
++*Résultat obtenu :*+
+
+Message d'erreur {*}{color:#de350b}Le jeton CSRF est invalide. Veuillez renvoyer le formulaire.
+
+{color}{+}{color:#172b4d}Résultat attendu :{color}{+}{color:#de350b}
+{color}{*}{color:#172b4d}Avoir un message d’entête fonctionnel{color} *{color:#de350b}{color}* {color:#de350b}{color:#172b4d}en conformité avec les erreurs détectées{color}{color}{*}{color:#de350b}
+{color}{*}";;
+648824;"01/20/2026 20:22";;" [e-billet] IHM message contradictoires lors de demande de e-billets successifs";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2050;j_kahn1;;;;E-billet;;;Mineur;;;;;;;;"*Titre :*  [e-billet] ** IHM message contradictoires lors de demande de e-billets successifs
+*Configuration* : PPROD v5.4.4 NP
+
+*Identifiant* [288927_reserviste.roc@getnada.com|mailto:288927_reserviste.roc@getnada.com]
+Azertyuiop44!!!
+
++*Rôle:*+ ro1
+
++*Descriptif* :+
+
+Lors de demandes de e-billets dérogatoires succesifs il y a des informations contradictoires dans l'IHM
+ - Votre demande d'e-billet a été enregistrée
+ - Ce numéro de transport a déjà été utilisé. Vérifier si vous ne vous êtes pas trompé ou contactez votre référent (message non pertinent car ce e-billet n'existe pas)
+
+ 
+
++*Résultat obtenu* :+
+
+L'IHM indique des informations contradictoires lors de demandes d'e-billets dérogatoires :
+ - Votre demande d'e-billet a été enregistrée
+ - Ce numéro de transport a déjà été utilisé. Vérifier si vous ne vous êtes pas trompé ou contactez votre référent (message non pertinent car ce e-billet n'existe pas)
+
+ 
+
++{*}Résultat attendu{*}:+
+Avoir des informations d'IHM cohérentes entre elles ++ lorsque le ro1 effectue des demandes de e-billets dérogatoires +
+
+ ";;
+648693;"01/20/2026 20:22";;"Pb commande globanonymisation";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2856;j_kahn1;;;;;;;Majeur;;;;;;;;"Suite passage de la commande globanonymisation sur le back DR de l'environnement PICSEL Release, je ne trouve pas mon nom (""noisette"") dans la table utilisateur.
+
+En revanche, si je fais un grep sur le dump créé après passage de la commande globanonymisation,  je retrouve mon nom & prénom.
+
+Est ce normal ?
+
+ 
+
+[sysadm@BDDDRPNT968V tmp]$ zcat dumpPRODano_2025-11-25.sql.gz | grep ""noisette""
+(3907,'associate','25',NULL,'4433689412689f09963c55c971117793be26b468','\{\"source\""":{\"""refRoleUtilisateurId\""":25,\"""class\""":\"""App\\\\Entity\\\\RefRoleUtilisateur\""",\"""label\""":\"""App\\\\Entity\\\\RefRoleUtilisateur#25\""",\"""table\""":\"""ref_role_utilisateur\""",\"""field\""":\"""utilisateurRoles\""",\"""_extra\""":{\"""id\""":25,\"""libelle\""":\"""Contr\\u00f4leur\"""}},\"""target\""":\{\"""utilisateurId\""":11164,\"""class\""":\"""App\\\\Entity\\\\Utilisateur\""",\"""label\""":\"""App\\\\Entity\\\\Utilisateur#11164\""",\"""table\""":\"""utilisateur\""",\"""field\""":\"""utilisateurRoles\""",\"""_extra\""":{\"""id\""":11164,\"""identite\""":\"""LTN cpt test\"""}},\"""is_owning_side\""":false,\"""table\""":\"""association_utilisateur_role\"""}','3458','didier.noisette','App\\Entity\\Utilisateur','main',NULL,'2022-11-14 10:05:53'),""";;
+648883;"01/20/2026 20:22";;"[candidat] - désynchronisation d'état de tuile lors de la saisie et validation du Résultat du contrôle élémentaire";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1792;j_kahn1;;;;Candidature;;;Majeur;;;;;;;;"| |Ticket JIRA N°| | |
+| |   Environnement/ Version| |PICSEL NP v5.4 du 23/05/2025
+ |
+| |   Titre de l'anomalie| |[candidat] - non persistance d'information sur le contrôle de sécurité|
+| |   Url| |[https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/processus-candidature/candidature/284919/etape/verification-securite]|
+| |   Acteur| |REF|
+| |   Identifiants| |10183_utilisateur.roc@getnada.com |
+| |   Mot de passe| |Azertyuiop1234!!!|
+| |   Anomalie| |Majeur|
+| |   Configuration| |Firefox|
+| |   Bloc| |Candidat|
+
+Suite au parcours du candidat le REF voit disparaitre des informations sur le contrôle sécurité [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/processus-candidature/candidature/284919/etape/verification-securite] : les informations ci-dessous ne sont pas persistées dans la vue du référent
+ * Sans objection est coché mais non persisté à la réouverture de la tuile liée à la sécurité
+ * La date de retour du contrôle élémentaire est renseignée mais non persisté a la réouverture de la tuile liée à la sécurité
+
+Par ailleurs le CER n'est plus visible sur la fiche d'information du candidat [241005_candidat.roc@getnada.com|mailto:241005_candidat.roc@getnada.com]
+
+ 
+
+Résultat obtenu:
+
+Il y a disparition du CER dans les informations du candidat
+
+ 
+
+Résultat attendu
+Le CER doit etre visible dans l'IHM des informations du candidat";;
+527918;"01/20/2026 20:22";;"[engagement] - DR - avec 1 REF + 1 CS dans 2 navigateurs différents => erreur 403";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2021;j_kahn1;;;;Candidature;;;Majeur;;;V5.4.3;;;;;"'+*Titre :*+ [engagement] - DR - avec 1 REF + 1 CS dans 2 navigateurs différents => erreur 403
+
+*+Configuration:+* PICSEL v5.4.3 DR
+
++*URL :*+ 
+
+*Identifiants / rôle :* 
+REF 2111_utilisateur Azertyuiop44!!!
+
+CS manitas.securitas Azertyuiop44!!!
+
+*+Descriptif :+*
+ # purger les caches des navigateurs
+ # Edge n°1 REF / DR interne/login : connexion
+ # Edge n°2 CS / DR interne/login : connexion
+ # FireFox candidat / NP : connexion
+ # Faire le process engagement
+
+A un moment donné le CS rencontre une erreur 403
+
+ 
+
+*+Résultat attendu:+*
+A voir avec le PO si le produit est compatible avec plusieurs rôles dans des navigateurs différents sur une même machine
+
+ 
+
++*Résultat obtenu:*+
+Erreur 403";;
+648880;"01/20/2026 20:22";;"[candidat] - La taille des fichiers téléversés annoncée n'est pas correcte (dans tout ROC)";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1802;j_kahn1;;;;Candidature;;;Mineur;;;;;;;;"| |Ticket JIRA N°| | |
+| |   Environnement/ Version| |PICSEL NP v5.4 du 27/05/2025
+ |
+| |   Titre de l'anomalie| |[candidat] - La taille des fichiers annoncée n'est pas correcte|
+| |   Url| |[https://roc-front-np-pre.picsel.defense.gouv.fr/candidat/processus-candidature/etape/verification-securite]|
+| |   Acteur| |Candidat|
+| |   Identifiants| |Candidat001.Toreno@gmail.com|
+| |   Mot de passe| |Azertyuiop1234!!!|
+| |   Anomalie| |Mineur|
+| |   Configuration| |Firefox|
+| |   Bloc| |Candidat|
+
+La taille des fichiers téléversés n'est jamais correcte dans l'ensemble des espaces de fichiers téléversés
+
+Exemple ici le candidat téléverse un fichier CER.pdf de 570ko
+
+[https://roc-front-np-pre.picsel.defense.gouv.fr/candidat/processus-candidature/etape/verification-securite]
+
+Lorsque ce fichier est téléversé ROC signale le fichier faisant 759,1ko
+
+Démo réalisée au lieutenenant [~X-LLODI] 
+
+ 
+
+Résultat obtenu:
+
+Lorsque ce fichier est téléversé ROC signale le fichier faisant 759,1ko
+
+ 
+
+Résultat attendu
+
+Lorsque ce fichier est téléversé ROC devrait signaler le fichier a 570ko, l'espace signalé sur le disque";;
+527933;"01/20/2026 20:22";;"[CS] IHM : message d'erreur non rouge en cas d'absence de fonction du CS à la création de l'officier sécurité";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1989;j_kahn1;;;;;;;Majeur;;;V5.4.2;;;;;"*Titre* : [CS] IHM : message d'erreur non rouge en cas d'absence de fonction du CS à la création de l'officier sécurité
+
+*Configuration* : 
+PICSEL v5.4.2 intradef interne/login
+
+*URL* : [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/unite/officier-securite/creer|https://pprod-reservistes.intradef.gouv.fr/interne/admin/unites/modifier/28]
+
+*Identifiant :* 
+
+REF 9762_utilisateur
+Azertyuiop44!!!
+
+ 
+
+*Descriptif* :
+ # Se connecter avec un AF en DR interne/login
+ # cliquer sur icone création officier sécurité [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/unite/officier-securite/creer]
+ # Remplir tous les champs exceptés Fonction
+ # Cliquer sur Créer : NOK un message non rouge apparait comme cela est habituel dans l'application
+
+ 
+
+*Résultat attendu* 
+Un message d'erreur rouge devrait apparaitre sous le champ  Fonction ""Veuillez compléter ce champ"".
+
++*Résultat obtenu*+
+Un message d'erreur non rouge apparait sous le champ  Fonction ""Veuillez compléter ce champ"".
+
+ ";;
+527908;"01/20/2026 20:22";;"[email] - le candidat reçoit plusieurs même notifications email sur la durée de son contrat choisi par le référent";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2040;j_kahn1;;;;Candidature;;;Majeur;;;V5.4.4;;;;;"*+Titre:+* [email] - le candidat reçoit plusieurs même notifications email sur la durée de son contrat choisi par le référent
+
+*+Configuration:+* PICSEL v5.4.4 NP
+
+URL:
+
++*Identifiants / rôle :*+ candidat
+|| |[arthorito.biono.roc@getnada.com|http://roc-mailpit.picsel.defense.gouv.fr:8025/search?q=arthorito.biono.roc%40getnada.com]|
+
+Mot de passe Azertyuiop44!!!
+
+ 
+
++*Descriptif :*+
+
+Le candidat a reçu plusieurs email du type ci-dessous lors de sa candidature, pourtant le référent a choisi a une seule reprise la durée du contrat.
+
+Bonjour Arthurito Biono,
+
+Votre référent a modifié la durée du contrat que vous avez spécifié. Elle est désormais de 3 an(s)
+
+ 
+
++*Résultat obtenu:*+
+Le candidat est notifié à plusieurs reprises du choix par le référent de la durée de son contrat
+
+ 
+
++*Résultat attendu:*+
+Le candidat doit être notifié à une seule reprise du choix par le référent de la durée de son contrat
+
+ ";;
+650171;"01/20/2026 20:22";;"[Mobilite interne] - Erreur 500 dans les LOG lors de clic dans l'IHM au niveau des champs du tableau";;;"En attente de prise en compte dans l'usine logicielle";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2043;j_kahn1;;;;Env.;;;Mineur;;;V5.4.4;;;;;"+*Titre:*+ [Mobilite interne] - Erreur 500 dans les LOG lors de clic dans l'IHM au niveau des champs du tableau
+
++*Configuration:*+ PICSEL v5.4.4 DR
+
+URL:  
+[https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/mobilite-interne/postes/6567/gestion-des-demandes]  
+ 
+{color:#6e6e73} {color}
+
+Identifiants / rôle : AF
+REF: {color:#000000}4512_utilisateur{color} 
+Mot de passe Azertyuiop44!!!
+
++*Descriptif :*+
+
+Lorsque l'AF navigue au niveau de cette IHM des erreurs 500 sont tracées dans les logs alors qu'il n'y a aucune erreur 500 dans l'IHM
+
+=> cliquer sur les champs du tableau
+
+Reproduit avec [~authayak] 
+
+
+*+Résultat obtenu:+*
+Erreur 500 dans les logs non conforme à l'IHM qui n'indique aucune erreur et que l'utilisateur ne rencontre aucun problème
+
+
+
+*+Résultat attendu:+*
+
+Ne pas tracer inutilement des erreurs 500 dans les logs alors que l'utilisateur navigue normalement dans l'IHM
+
+
++*Ci-dessous lAccess Log Back DR*+
+
+ 
+
+- 10.28.30.68 - [08/Jul/2025:16:15:37 +0200] ""GET /v7/api/candidatures-mobilite-interne?format=datatable&page=0&taille=50&sens=asc&tri=datePostulation&etats=[%22envoyee%22]&table=gestionDesDemandes&posteId=6567 HTTP/1.1"" 500 350 ""-"" ""Symfony HttpClient (Curl)""
+
+[2025-07-08 16:15:37] app.CRITICAL:
+
+[2025-07-08 16:15:37] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ==========
+
+[2025-07-08 16:15:37] app.CRITICAL: Message : Doctrine\ORM\QueryBuilder::addOrderBy(): Argument #2 ($order) must be of type ?string Doctrine\Common\Collections\Order given called in /var/www/html/roc-back/src/DataTable/CandidaturePosteInterneQuery.php on line 232
+
+[2025-07-08 16:15:37] app.CRITICAL: Fichier : /var/www/html/roc-back/vendor/doctrine/orm/src/QueryBuilder.php :: ligne 1164
+
+[2025-07-08 16:15:37] app.CRITICAL: Fichier : /var/www/html/roc-back/src/Exception/WSException.php :: ligne 139
+
+[2025-07-08 16:15:37] app.CRITICAL: StackTrace : Doctrine\ORM\QueryBuilder::addOrderBy() [L.232] <- App\DataTable\CandidaturePosteInterneQuery::trierRequete() [L.95] <- App\Component\DataTable\Query\AbstractDataTableQuery::getResults() [L.376] <- App\Controller\MobiliteInterne\WSCandidaturePosteInterneController::getCandidaturesPosteInterne() [L.181] <- Symfony\Component\HttpKernel\HttpKernel::handleRaw() [L.76] <- Symfony\Component\HttpKernel\HttpKernel::handle() [L.197] <- Symfony\Component\HttpKernel\Kernel::handle() [L.38]
+
+[2025-07-08 16:15:37] app.CRITICAL: Utilisateur connecté : 014512
+
+[2025-07-08 16:15:37] app.CRITICAL: Rôle : 2 - Administrateur fonctionnel
+
+[2025-07-08 16:15:37] app.CRITICAL: =======================================================";;
+648813;"01/20/2026 20:22";;"Gestion d'erreur sur /lister-postes ";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2127;j_kahn1;;;;;;;Mineur;;;;;;;;"Test effectué sur FRONT NP (6.3.0) en cliquant sur le bouton *Consulter l'ensemble des offres d'emploi* j'ai une erreur 500
+
+ 
+
+en regardant le profiler,
+ - PAPI est en timeout 504 : connexion est en échec côté PAPI
+
+ * sur le front NP : PosteService me dit trying to access array offset on value of type null au moment de désérialisation{*}{*}";;
+650170;"01/20/2026 20:22";;"[FAQ] - certaines anciennes FAQ en mode deconnectées sont encore accessibles";;;"En attente de prise en compte dans l'usine logicielle";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2195;j_kahn1;;;;Env.;;;Mineur;;;V6.3.0;;;;;"PICSEL v6.3 NP en mode déconnecté
+
+Certaines anciennes FAQ sont toujours accessibles en mode déconnecté
+[https://roc-front-np-pre.picsel.defense.gouv.fr/deconnecte/faq/101]
+[https://roc-front-np-pre.picsel.defense.gouv.fr/deconnecte/faq/102]
+[https://roc-front-np-pre.picsel.defense.gouv.fr/deconnecte/faq/103]
+[https://roc-front-np-pre.picsel.defense.gouv.fr/deconnecte/faq/104]
+
+Par contre cette ancienne FAQ n'est plus accessible
+[https://roc-front-np-pre.picsel.defense.gouv.fr/deconnecte/faq/105]
+Quelles sont les missions confiées aux réservistes ?
+
+Les FAQ sont maintenant regroupées ici
+[https://roc-front-np-pre.picsel.defense.gouv.fr/informations-reserve]";;
+648887;"01/20/2026 20:22";;"[ACTIVITE] RO2 refusant une convocation, l'activité continue d'apparaître dans le calendrier";;;"En attente de prise en compte dans l'usine logicielle";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1719;j_kahn1;;;;Activités;;;Mineur;;;;;;;;"*Titre* : [
+
+*Configuration* : {color:#172b4d}PICSEL v.5.4{color}
+
+*Identifiant* :
+
+REF : 12731_utilisateur 
+
+RO2 : 166503_reserviste
+
+*URL* :  (je remplis l'URL dqp)
+
+*Descriptif* :
+
+Avec un RO2 :
+
+je clique sur ""Mes convocations"",
+
+je clique sur l'activité qui m'est proposée,
+
+je clique sur ""je refuse la convocation"",
+
+je choisis la raison ""autre"",
+
+je remplis un message justificatif trop court, 
+
+je reçois un message d'erreur (voir PJ)
+
+je re-clique sur ""je refuse la convocation, 
+
+je remplis un message justificatif suffisamment long, 
+
+je valide, 
+
++Résultats obtenus cohérents :+ 
+
+Le RO2 reçoit le pop-up de confirmation d'avoir bien refusé l'activité,
+
+Les délégataires reçoivent un mail de confirmation de refus d'activité, 
+
+L'activité disparait bien des convocations du RO2
+
+{*}Résultat attendu +supplémentaire+{*}:
+
+L'activité proposée disparait du calendrier du RO2
+
+Le référent reçoit un mail de refus du RO2
+
+L'activité disparait de l'onglet ""A convoquer"" du référent
+
+*Résultat obtenu* :
+
+{color:#de350b}L'activité apparait dans le calendrier du RO2{color}
+
+-Le référent ne reçoit pas de mail de refus-
+
+-L'activité disparait de l'onglet à convoquer du référent-";;
+598658;"01/20/2026 20:22";;"[MOE][Création Affiliation] - problème de connexion avec un utilisateur";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1560;j_kahn1;;;;Connexion;;;Majeur;;;;;;;;"*Titre* : [MOE][Création Affiliation] - problème de connexion avec un utilisateur
+
+*Configuration* : PIC v5.4
+
+*URL* :  [https://roc-pic-intradef.fr.capgemini.com/interne/autorite-signataire/parametrage-signature]
+
+*Identifiant :*  REF - 5920_utilisateur
+
+*Descriptif* :
+
+Suite à une affiliation, une demande de connexion
+
+Se connecter en tant que 5920_utilisateur
+
+ 
+
+*Résultat attendu* : 
+
+Connexion OK
+
+*Résultat obtenu :* 
+
+ 
+
+!image-2025-04-22-16-40-25-753.png!
+
+ 
+
+!image-2025-04-22-16-40-04-555.png!
+
+ 
+
+ ";;
+598656;"01/20/2026 20:22";;"[MOE] Affichage de l'adresse 2 (optionnel) impossible";;;"En attente de prise en compte dans l'usine logicielle";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1754;j_kahn1;;;;Perso;;;Mineur;;;;;;;;"*Titre* : [MOE] Affichage de l'adresse 2 (optionnel) impossible
+
+*Configuration* : V6.1
+
+*Identifiant* :
+
+[247517_reserviste.roc@getnada.com|mailto:247517_reserviste.roc@getnada.com] (RO1) 
+
+*URL* :  [https://www.reservistes.defense.gouv.fr/candidat/creation-compte|https://roc-pic-internet.fr.capgemini.com/reserviste/ro1/mes-donnees-perso/modifier]
+
+*Descriptif* :
+
+Dans les données personnelles d'un RO1, apres avoir effacé l'adresse 2 (optionnelle) et mettre une adresse sur l'adress3 (optionnelle), on valide sur le bouton.
+
+On revient sur les données personnelles, 
+
+*Résultat attendu* :
+
+l'adresse 2 a été effacé.
+
+*Résultat obtenu* :
+
+L'adresse 2 n'est pas été effacé.";;
+677961;"01/20/2026 20:22";;"[bootstrap] alignement champs validation poste";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3112;j_kahn1;;;;;;;Mineur;;;V9.1.0;;;;;"La classe utilisée pour aligner les champs n'est plus prise en compte (dans la dernière étape de création de poste)
+
+Action : Mettre la bonne classe !image-2026-01-20-10-50-44-606.png!";;
+677966;"01/20/2026 20:22";;"[bootstrap] Scroll dans le dropdown des roles ";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3099;j_kahn1;;;;;;;Majeur;;;V9.1.0;;;;;"Suite à la maj de bootstrap en version 5, le scroll dans le menu des rôles à disparu 
+!image-2026-01-16-12-23-48-178.png!";;
+677967;"01/20/2026 20:22";;"[MOE] Affichage du bloc ""Contrat"" impossible pour un ""ADR""";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3097;j_kahn1;;;;Paramétrage;;;Majeur;;;V9.1.0;;;;;"Titre : Affichage du bloc ""Contrat"" impossible pour un ""ADR""
+
+ 
+
+Configuration : Intégration et recette V9.1
+
+ 
+
+Descriptif :
+
+Lorsque je me connecte avec un AF pour modifier dans les paramètre fonctionnel afin d' activer le bloc ""Contrat"" pour ADR (tous les ADS), ensuite je me connecte avec l'ADR et sur l'accueil, pas de bloc ""Contrat"" . ( Vu avec Kevin)
+
+ 
+
++Résultat attendu+ :
+
+Bloc ""Contrat"" afficher 
+
++Résultat obtenu+ :
+
+Bloc ""Contrat"" ne s'affiche pas";;
+677977;"01/20/2026 20:22";;"[Contrats] Exports csv ";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3073;j_kahn1;;;;;;;Mineur;;;V7.5.1;;;;;"Dans 
+
+\App\Util\StreamedCsvResponse::gestionAffichagePourExportContrats
+Si la ligne $row['reservisteDateNaissance'] est vide, alors la diff est erreur. (fonction gestionAffichagePourExportContrats() 
+
+Action : Comprendre pourquoi la date de naissance est vide et protéger ce cas ";;
+677978;"01/20/2026 20:22";;"[E-billet] export ";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3071;j_kahn1;;;;E-billet;;;Mineur;;;V7.5.1;;;;;"En étudiant les logs, j'ai tracé cette erreur :
+
+
+
+app.CRITICAL: Message : App\Service\ServicesMesDeplacements\DemandeBilletService::exportBilletArchivesGestionnaire(): Return value must be of type App\Model\Document\V1\DocumentRoc, array returned []
+
+Peut etre un mauvais typage ou un cas d'exception à traiter ";;
+677979;"01/20/2026 20:22";;"[Mail] le code ALL_CREA_COMPTE n'est plus présent ";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3070;j_kahn1;;;;Perso;;;Majeur;;;V7.5.1;;;;;"La migration {color:#172b4d}Version20250806093559 est bien présente dans la table migration et a donc bien été jouée. 
+
+Mais le code n'est pas présent en base et génère des erreurs d'envoi lors de la{color}
+génération d'un nouveau mot de passe & Changement des informations du compte candidat
+
+Action : tracer si le code a volontairement été supprimé et dans ce cas mettre un autre code mail ou alors rétablir cette migration";;
+677981;"01/20/2026 20:22";;"Envoi d'un mail au valideur KO lors d'un patch de commande billet";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3066;j_kahn1;;;;E-billet;;;Majeur;;;V7.5.1;;;;;"Parfois, absence de valideur sur la commande 
+
+Log d'erreur :
+
+ 
+
+{{{}[2026-01-08 00:00:55] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ========== {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}
+{{{}[2026-01-08 00:00:55] app.CRITICAL: Message : Call to a member function getUtilisateurEmailIntradefInitial() on null {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}
+{{{}[2026-01-08 00:00:55] app.CRITICAL: Fichier : /var/www/html/src/Service/ServicesMesDeplacements/DemandeBilletService.php :: ligne 910 {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}
+{{{}[2026-01-08 00:00:55] app.CRITICAL: Fichier : /var/www/html/src/Exception/WSException.php :: ligne 139 {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}
+{{{}[2026-01-08 00:00:55] app.CRITICAL: StackTrace : App\Service\ServicesMesDeplacements\DemandeBilletService::gestionErreurTacite() [L.694] <- App\Controller\MesDeplacements\WSDemandeBilletController::actionPatchCommandeBillet() [L.630] <- App\Controller\MesDeplacements\WSDemandeBilletController::wsPatchCommandesBillets() [L.181] <- Symfony\Component\HttpKernel\HttpKernel::handleRaw() [L.76] <- Symfony\Component\HttpKernel\HttpKernel::handle() [L.197] <- Symfony\Component\HttpKernel\Kernel::handle() [L.38] {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}
+{{{}[2026-01-08 00:00:55] app.CRITICAL: ======================================================= {""dt.trace_sampled"":""true"",""dt.trace_id"":""56aa66aebb85a95d384e678fa1bbc726"",""dt.span_id"":""c0535449ffab7290""{}}}}";;
+677982;"01/20/2026 20:22";;"[MOE] Erreur 500 sur l'information du candidat (processus engagment)";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3065;j_kahn1;;;;Candidature;;;Mineur;;;V9.1.0;;;;;"Titre : [MOE] Erreur 500 sur l'information du candidat (processus engagment)
+
+Configuration : Intégration V9.1
+
+ 
+
+URL :   [https://www.reservistes.defense.gouv.fr/candidat/creation-compte|https://front-dr.integration.roc.fr.capgemini.com/interne/engager/engagement/processus-candidature]
+
+Descriptif :
+
+Lorsque je me connecte avec un AF, ensuite sur le suivi des candidatures, dans le tableau je clique sur un Volontaire, dans le Processus d'engagement cliquer sur les informations candidat (logo crayon).
+
+Résultat attendu :
+
+Affichage d'une erreur sur la page ( {color:#FF0000}+*Impossible to access an attribute (""contactTel"") on a null variable in Candidat/modifier_donnees_perso.html.twig at line 16*+{color}.)
+
+ 
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/5015c4?panel=request]
+
+ 
+
+Résultat obtenu :
+
+Affichage de la page ""Donnée personnelles"" du volontaire
+
+ 
+
+!image-2026-01-13-11-58-16-595.png!
+
+!image-2026-01-13-11-58-40-443.png!
+
+ 
+
+!image-2026-01-13-12-01-09-492.png!";;
+677986;"01/20/2026 20:22";;"[activités]consultation ENARO dans activités passées ""fichier introuvable";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3052;j_kahn1;;;;Activités;;;Majeur;;;V7.5.3;;;;;"'+*Titre :*+ [activités]consultation ENARO dans activités passées ""fichier introuvable
+
+*+Configuration:+*
+
+PPROD/PICSEL v7.5.3
+
+ 
+
++*URL :*+[ https://pprod-reservistes.intradef.gouv.fr/interne/activites/enaro/signature/passe|https://pprod-reservistes.intradef.gouv.fr/interne/activites/enaro/signature/passe]
+
+ 
+
+*+Descriptif :+*
+
+en tant que DEL REF j'ai créé un activité de regularisation
+
+lors de la clôture je sélectionne un RO1
+
+je sélectionne l'ATS/REF en tant que signataire
+
+connexion en tant que ATS/REF
+
+sélectionner le profil ATS
+
+cliquer sur ""Activité""
+
+telecharger ENARO OK
+
+valider ENARO
+
+consultation de l'ENARO dans ""Passées""
+
+ 
+
++*Résultat obtenue:*+
+
+message d'erreur "" fichier introuvable""
+
+ 
+
+ 
+
+*+Résultat attendu:+*
+
+consultation de l'ENARO avec la signature";;
+677992;"01/20/2026 20:22";;"[MOE] [Communication] une erreur à l'ouverture d une pièce jointe d'un message";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3033;j_kahn1;;;;Communication;;;Mineur;;;V9.1.0;;;;;"Titre : [MOE] [MOE] [Communication] une erreur à l'ouverture d une pièce jointe d'un message
+
+Configuration : Intégration V9.1
+
+Identifiant :
+
+Tous les utilisateurs
+
+Descriptif :
+
+Une erreur sur l'ouverture d'une pièce jointe d'un message reçus et envoyés dans le bloc communication
+
+Résultat attendu :
+
+ouverture de la pièce jointe sans erreur
+
+Résultat obtenu :
+
+ouverture de la pièce jointe avec une erreur
+
+ 
+
+ 
+
+!image-2026-01-06-16-48-07-904.png!";;
+677993;"01/20/2026 20:22";;"[MOE] deux boutons différents dans la zone de recherche de la colonne rôle";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3032;j_kahn1;;;;;;;Mineur;;;V9.1.0;;;;;"|   Environnement/ Version|Integration V9.1|
+|   Titre de l'anomalie|[MOE] deux boutons différents dans la zone de recherche de la colonne rôle|
+
+ 
+ |
+|   Acteur|AF|
+|   Anomalie|Mineur|
+|   Bloc|Gestion/ Gestion des utilisateurs|
+|   description|Lorsque l'AF clique sur la gestion des utilisateurs, sur le tableau des utilisateurs, sur la colonne rôle. dans la zone recherche ( 1 bouton en anglais "" Select All"" et un bouton en francais ""Tout déselectionner"")|
+|   Résultat attendu
+ 
+ 
+ |sur la colonne rôle. dans la zone recherche ( 1 bouton en francais "" Tout selectionner"" et un bouton en francais ""Tout déselectionner"")
+ 
+ |
+| Résultat Obtenu|sur la colonne rôle. dans la zone recherche ( 1 bouton en anglais "" Select All"" et un bouton en francais ""Tout déselectionner"")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+!image-2026-01-05-17-06-50-186.png!|";;
+677994;"01/20/2026 20:22";;"[MOE] Manque les couleurs sur les rôles";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3031;j_kahn1;;;;;;;Mineur;;;V9.1.0;;;;;"|   Environnement/ Version|Integration V9.1|
+|   Titre de l'anomalie|[MOE] Manque les couleurs sur les rôles|
+|   Url|[https://pprod-reservistes.intradef.gouv.fr/interne/login|https://pprod-reservistes.intradef.gouv.fr/interne/mes-contrats/reserviste/177748]
+ |
+|   Acteur|AF|
+| | |
+| | |
+|   Anomalie|Mineur|
+| | |
+|   Bloc|Gestion/ Gestion des utilisateurs|
+|   description|Lorsque l'AF clique sur la gestion des utilisateurs, sur le tableau des utilisateurs, sur la colonne rôle.|
+|   Résultat attendu
+ 
+ 
+ |La colonne des rôles s'affiche avec les couleurs correspondant aux rôles
+ 
+ |
+| Résultat Obtenu|La colonne des rôles ne s'affiche pas avec les couleurs correspondant aux rôles
+
+
+!image-2026-01-05-16-47-09-133.png!|";;
+677996;"01/20/2026 20:22";;"[Gestion Réservistes] Filtre tableau NPJA/NPJR/NJAE";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3026;j_kahn1;;;;;;;Mineur;;;V7.5.2;;;;;"Sur intradef, se connecter avec un utilisateur pouvant voir le tableau des réservistes avec des données (gestion > gérer les comptes > ro1)
+
+Choisir un ordre de grandeur et un nombre (avant BS5 on ne voit pas la colonne pour le nombre suite à la maj dsfr (cf env isoProd et env recette). )
+
+Le tableau se charge mais rien ne change (déjà présent en isoProd)
+
+_Pour le dev : erreur 408 dans la requête_
+
++*Résultat attendu :*+ pouvoir filtrer sur un nombre de jour avec le paramètre inférieur ou supérieur) ";;
+677999;"01/20/2026 20:22";;"[Parcours Volontaire]- Impossible de modifier le RDV ";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3012;j_kahn1;;;;Candidature;;;Majeur;;;V7.5.1;;;;;"Url 
+
+PPROD DR : [https://reservistes.intradef.gouv.fr/interne/login]
+
+PPROD NP : [https://pprod-reservistes.cloud.defense.gouv.fr/]
+
+Ref : 1309_utilisateur MDP : Aertyuiop44!!!
+
+Candidat: [testvolontairecs@getnada.com|mailto:testvolontairecs@getnada.com] ; MDP Azertyuiop44!!!
+ # Se connecter avec le référent en PPROD DR
+ # Cliquer sur l'onglet contrats et Mobilités
+ # Rechercher le candidat cité ci-dessus et cliquer dessus
+ # Choisir le bloc RDV
+ # cliquer sur modifier le RDV
+ # Modifier et valider
+ # Résultat obtenu Aucun changement et pas de prise en compte du changement
+ # Résultat attendu prise en compte de la nouvelle modification (DATE et HEURE)
+ # Se connecter avec le candidat sur PPROD NP
+ # Cliquer sur Engagement
+ # Aller dans RDV
+ # Résultat le attendu Aucun  changement";;
+678001;"01/20/2026 20:22";;"[Volontariat] validation de la candidature sans CS et contrôle du dossier";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3004;j_kahn1;;;;Volontariat;;;Majeur;;;V7.5.1;;;;;"*Titre* : [Volontariat] validation de la candidature sans CS et contrôle du dossier
+
+*Configuration* : PPROD V7.5.1 - DR
+
+*Identifiant* : REF 12743
+
+ 
+
+*Descriptif* :
+
+utilisation d'un candidat déjà présent dans la base
+
+en tant que REF et candidat je valide tout les blocs SAUF correspondant sécurité et contrôle du dossier
+
+je clique sur ""création de l'ESR
+
+je remplis toute les cases
+
+a l'option ""Envoi de l'ESR pour signature"" je sélectionne ""oui""
+
+je clique sur ""Générer l'ESR""
+
+*Résultat attendu* :
+
+retour sur le profil du candidat avec les blocs correspondant sécurité et contrôle du dossier a compléter, et la validation définitive ne doit pas apparaitre 
+
+*Résultat obtenu* :
+
+le candidat est automatiquement recruté";;
+678003;"01/20/2026 20:22";;"Cron ordre de convocation interrompu";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2993;j_kahn1;;;;Activités;;;Majeur;;;v7.4.3;;;;;"Le dernier run du cron ""Mes activités ordre convocation"" semble s'être interrompu pour une raison indéterminée.
+
+ 
+
+[2025-12-15 23:55:01] Envoi des ordres de convocations
+======================================================
+
+Debut de l'envoi des ordres de convocation et attestations de service fait : 15/12/2025 23:55:01
+Préparation de l'envoi des ordres de convocation...
+Nombre d'ordres de convocation à envoyer : 0
+Nombre d'ordres de convocation traités : 0/0
+Traitement des ordres de convocation terminé.
+Préparation de l'envoi des attestations de service fait...
+Nombre d'attestations de service fait à envoyer : 0
+Nombre d'attestations de service fait traités : 0/0
+Traitement des attestations de service fait terminé.
+Fin de l'exécution de la commande : 15/12/2025 23:55:01
+
+[2025-12-16 00:00:02] Envoi des ordres de convocations
+======================================================
+
+Debut de l'envoi des ordres de convocation et attestations de service fait : 16/12/2025 00:00:02
+Préparation de l'envoi des ordres de convocation...
+Nombre d'ordres de convocation à envoyer : 0
+Nombre d'ordres de convocation traités : 0/0
+Traitement des ordres de convocation terminé.
+Préparation de l'envoi des attestations de service fait...";;
+678004;"01/20/2026 20:22";;"Variable $profils non défini";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2992;j_kahn1;;;;;;;Majeur;;;V7.5.1;;;;;"Dans la log Symfony du back DR de PREPROD, je note cette erreur :
+
+ 
+
+[2025-12-15 10:26:29] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ==========  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}
+[2025-12-15 10:26:29] app.CRITICAL: Message : Warning: Undefined variable $profils  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}
+[2025-12-15 10:26:29] app.CRITICAL: Fichier : /var/www/html/src/Service/MesActivites/RecuperationInscriptionActiviteService.php :: ligne 115  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}
+[2025-12-15 10:26:29] app.CRITICAL: Fichier : /var/www/html/src/Service/MesActivites/EtapeActiviteService.php :: ligne 55  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}
+[2025-12-15 10:26:29] app.CRITICAL: StackTrace : App\Service\MesActivites\RecuperationInscriptionActiviteService::recupererInscriptionsConcerneesEtProfils() [L.126] <- App\Service\MesActivites\EtapeActiviteService::getActiviteReservisteEtapeAction() [L.53] <- App\Service\MesActivites\EtapeActiviteService::getActiviteReservisteEtape() [L.594] <- App\Controller\MesActivites\WSActiviteController::wsGetActivitesId() [L.181] <- Symfony\Component\HttpKernel\HttpKernel::handleRaw() [L.76] <- Symfony\Component\HttpKernel\HttpKernel::handle() [L.197] <- Symfony\Component\HttpKernel\Kernel::handle() [L.38]  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}
+[2025-12-15 10:26:29] app.CRITICAL: Utilisateur connecté : 0329556  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""4fe2ea2aa7c6dc8a8671ca4c63291b1a"",""dt.span_id"":""f0de25f6910febc7""}";;
+678005;"01/20/2026 20:22";;"Anomalies dans les crons en prod";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2966;j_kahn1;;;;;;;Majeur;;;v7.4.3;;;;;"Les crons suivants ne fonctionnement pas correctement :
+ * {*}mes_activites_notification_publication{*}.
+ ** Run du 12/12 à 12:00 : A la lecture de la log (mes_activites_notification_publication_20251212_120001.log) seulement 500 lignes sont traitées
+ * *remote_log_crawler* : Erreur dans la log (remote_log_crawler_2025_1211.log)
+ * {*}transfert_documents_via_papi{*}: log vide (transfert_documents_via_papi_2025_1212.log)
+
+Voir les logs en PJ.";;
+678009;"01/20/2026 20:22";;"[CONTRAT] AADS ne voit pas utilisateur hors SSA";;;"En attente de prise en compte dans l'usine logicielle";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2959;j_kahn1;;;;Comptes;;;Majeur;;;V7.5.1;;;;;"*Titre* : [CONTRAT] AADS ne voit pas tout utilisateur
+
+*Configuration* : PPROD V7.5.1 - DR
+
+*Identifiant* : 16302_utilisateur Dél AADS SSA
+
+*URL* : [https://pprod-reservistes.intradef.gouv.fr/interne/utilisateurs/autorite/gestionnaires]
+
+ 
+
+*Descriptif* :
+
+en tant qu'AADS je clique sur ""Gestion"" puis sur ""Gestion des utilisateur""
+
+ 
+
+*Résultat attendu* :
+
+L’AADS doit voir l’ensemble des utilisateurs de ROC
+
+*Résultat obtenu* :
+
+L’AADS voit seulement les utilisateur associer a l'AADS dans ce cas précis le SSA";;
+528051;"01/22/2026 12:36";;"Analyse log ano historique Tacite";;;"En attente de prise en compte dans l'usine logicielle";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1657;b_poiron_ext;;;;E-billet;;;Majeur;;;V4.20.0.7;;;;;"Access log back intradef 
+
+ 
+
+221.11.72.232 - - [30/Apr/2025:00:55:20 +0200] ""PATCH /v7/api/commandes-billets HTTP/1.1"" 500 196 ""-"" ""Synapse-PT-HttpComponents-NIO"" 
+
+[!dt dt.trace_id=c73c4e84aa44cb4a4e44874a3cdb9243,dt.span_id=4798738aa4a8287b,dt.trace_sampled=true]
+
+ 
+
+prod.critical-2025-04-30.log
+
+ 
+
+[2025-04-30 00:55:20] app.CRITICAL:                                                          \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ==========  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: Message : Call to a member function getUtilisateurEmailIntradefInitial() on null  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: Fichier : /var/www/html/src/Service/ServicesMesDeplacements/DemandeBilletService.php :: ligne 904  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: Fichier : /var/www/html/src/Exception/WSException.php :: ligne 139  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: StackTrace : App\Service\ServicesMesDeplacements\DemandeBilletService::gestionErreurTacite() [L.693] <- App\Controller\MesDeplacements\WSDemandeBilletController::actionPatchCommandeBillet() [L.630] <- App\Controller\MesDeplacements\WSDemandeBilletController::wsPatchCommandesBillets() [L.181] <- Symfony\Component\HttpKernel\HttpKernel::handleRaw() [L.76] <- Symfony\Component\HttpKernel\HttpKernel::handle() [L.197] <- Symfony\Component\HttpKernel\Kernel::handle() [L.38]  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+[2025-04-30 00:55:20] app.CRITICAL: =======================================================  \{""dt.trace_sampled"":""true"",""dt.trace_id"":""c73c4e84aa44cb4a4e44874a3cdb9243"",""dt.span_id"":""6cea3d14ea09a08a""}
+
+ 
+
+En complément :
+
+Dans la fonction suivante : 
+{code:java}
+// code public function gestionErreurTacite(CommandeBillet $commande): void  {code}
+le valideur passe à null 
+
+Et dans l'erreur qui est 
+{code:java}
+// code destinataire: $commande->getCommandeValideur()->getUtilisateurEmailIntradefInitial(), {code}
+On ne vérifie pas si getCommandeValideur est null et donc on ne traite pas et on arrive à la 500.
+
+ 
+
+Ce code est présent depuis 2021 et n'a jamais été modifié depuis, il est à reprendre cependant.
+
+ ";;
+677965;"01/22/2026 14:00";;"Pb erreur 500 lors de la modification d'informations personnelles";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3100;b_poiron_ext;;;9.2;Environnement;;;Majeur;;;V8.3.0;;;;;"Erreur 500 lorsqu'un RO1 essaie de modifier ses informations personnelles.
+
+Bug vu avec les équipes de développement et reproduit par MOE";;
+677968;"01/22/2026 14:00";;"[Volontariat]non validation visite médicale civile";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3094;b_poiron_ext;;;9.2;Volontariat;;;Bloquant;;;V8.3.0;;;;;"{+}*Titre :*{+}[Volontariat]non validation visite médicale civile
+
+*+Configuration:+*
+
+PICSEL v8.3
+
++*Rôle:*+ candidat
+
+ 
+{+}*URL :*{+}[https://roc-front-np-rel.picsel.defense.gouv.fr/candidat/processus-candidature/etape/visite-medicale-civile|https://roc-front-dr-rel.picsel.defense.gouv.fr/interne/mon-compte/mes-droits]
+
+ 
+
+*+Descriptif :+*
+
+en tant que candidat je me suis connecté et j’ai sélectionné un poste puis
+
+je clique dur le bloc ""visite médicale civile""
+
+je mets la date du jours
+
+je sélectionne un PDF je sélectionne "" sans contre indication""
+
+je clique sur "" valider""
+
+ 
+
++*Résultat obtenue:*+
+
+la page se ""grise"" avec le message ""veuillez patienter"" apparait
+
+après quelques instant la page reprend sa forme ""initiale"" on reste sur la page Visite médicale de non contre-indication
+
+je clique sur retour
+
+le bloque ""visite médicale civile"" est toujours au statut "" a compléter""
+
+je clique sur le bloque "" visite médicale civile"" le certificat est pourtant bien présent
+
+ 
+
+*+Résultat attendu:+*
+
+retour sur la fiche du volontaire avec un message de succès et le bloque "" visite médicale civile passe vert
+
+mais je dirais :
+
+déconnexion automatique
+
+reconnexion par l'utilisateur
+
+le rôle de REF n'est plus présent";;
+677971;"01/22/2026 14:00";;"[MOE] 2 fois le mot ""Décision"" dans le bloc ""Ma visite Médicale militaire""";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3084;b_poiron_ext;;;9.2;Candidature;;;Mineur;;;V8.3.0;;;;;"Titre : [MOE] 2 fois le mot ""Décision"" dans le bloc ""Ma visite Médicale militaire""
+
+ 
+
+Configuration : Intégration V9.1
+
+ 
+
+URL :   [https://front-dr.integration.roc.fr.capgemini.com/interne/processus-candidature/candidature/277316/etape/visite-medicale-militaire]
+
+ 
+
+Descriptif :
+
+Lorsque l'AF se rend dans le Processus d'engagement, cliquer sur le bloc ""ma visite médicale militaire"", en bas de la page dans le bloc ""Décision"", on constate. 
+
+ 
+
++Résultat attendu+ :
+
+1 fois le mot ""Décision"" (dans le Bloc Décision)
+
++Résultat obtenu+ :
+
+2 fois le mot ""Décision"" (dans le Bloc Décision)
+
+ 
+
+ 
+
+!image-2026-01-15-16-24-32-178.png!";;
+677972;"01/22/2026 14:00";;"[emploi] le REF ne visualise pas les offres de son périmètre rédigées par le PIL";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3083;b_poiron_ext;;;9.2;;;;Majeur;;;V8.3.0;;;;;"*Identifiant* : REF/PIL LTN LIEBEL BEAUVAIS
+
+{*}Environnement{*}: PICSEL 8.3.0
+
+*Comportement* *observé* : Lorsqu'un pilote ou del pilote crée une offre d'emploi dans le périmètre d'un référent, le référent ne la visualise pas dans son tableau de gestion des emplois 
+
+*Comportement* *attendu* : Lorsqu'un pilote ou un délégataire pilote crée une offre d'emploi dans le périmètre d'un référent alors ce dernier visualise l'offre dans son tableau de gestion des emplois **
+
+cf captures d'écran : 
+Périmètre du référent : 8 RT
+Détail d'une offre écrite par le pilote dans le périmètre du référent 
+Tableau du référent où aucune offre publiée ne s'affiche";;
+677973;"01/22/2026 14:00";;"[emploi] le PIL/DEL PIL ne visualise pas l'offre ""en cours de validation"" dans le tableau ""Gestion des emplois""";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3082;b_poiron_ext;;;9.2;;;;Mineur;;;V8.3.0;;;;;"*Identifiant* : REF/PIL LTN LIEBEL BEAUVAIS
+
+{*}Environnement{*}: PICSEL 8.3.0
+
+*Comportement* *observé* : Lorsqu'un pilote ou del pilote crée une offre d'emploi et demande une validation, l'offre n'apparait pas dans la colonne ""En cours de création/validation"" du tableau ""Gestion des emplois"". 
+
+*Comportement* *attendu* : Lorsqu'un pilote ou un délégataire pilote crée une offre d'emploi et demande une validation, l'offre apparait dans la colonne ""En cours de création/validation"" du tableau ""Gestion des emplois"" sous le statut ""En cours de validation"". **
+
+cf captures d'écran : 
+Mail attestant que l'offre d'emploi est partie pour validation
+Tableau ""Gestion des emplois"" où l'offre n'apparait pas";;
+677984;"01/22/2026 14:00";;"[Unite] Commandant d'unité";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3059;b_poiron_ext;;;9.2;Unités;;;Majeur;;;V7.5.1;;;;;"Lors de l'attribution du commandant d'unité, le code génère une erreur liée à une contrainte sur le grade. 
+
+Par exemple, si le grade Lieutenant est déjà attribué, alors on ne peut pas le réattribuer pour une autre unité. 
+
++*Résultat attendu*+ : pouvoir attribuer le même grade sur plusieurs unités. 
+
+Erreur pour le dev : Integrity constraint violation: 1062 Duplicate entry '33' for key 'UNIQ_6EAFA4DAA955E309'
+
+#[ORM\OneToOne(targetEntity: RefGrade::class)]
+#[ORM\JoinColumn(name: 'grade_commandant_unite', referencedColumnName: 'ref_grade_id')]
+#[OA\Property(description: 'Grade du commandant de l\'unité', type: 'object')]
+private ?RefGrade $gradeCommandantUnite = null;";;
+677985;"01/22/2026 14:00";;"[Activités] Accès activité extérieure";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3058;b_poiron_ext;;;9.2;Activités;;;Majeur;;;V7.5.3;;;;;"Avec un AO ou Del ao (par exemple le 10446 sur isoprod)
+
+dans l'onglet activité, cliquer sur ""activité extérieur ""
+
+La page s'affiche mais la requete permettant d'afficher des données dans le tableau est KO
+
+*Resultat obtenu :* 
+erreru sur la requete sql
+
+*Resultat attendu :* 
+voir les activités ";;
+677991;"01/22/2026 14:00";;"Suppresion log pour la papi fantome";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3034;b_poiron_ext;;;9.2;;;;Mineur;;;V7.5.1;;;;;"Lors des investigations de la papi fantôme, nous avions mit en place un evenement écrivant les logs 
+ForwardedHeaderLoggerListener
+
+Il faut soit descendre le niveau de log, soit supprimer cet évènement qui provoque des logs d'erreur qui n'en sont pas .";;
+677995;"01/22/2026 14:00";;"AO-Clic sur une activité A convoquer en erreur";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3028;b_poiron_ext;;;9.2;Activités;;;Bloquant;;;V9.1.0;;;;;"Env. : INTégration, jdd : AO : admin.ter@getnada.com, 34653_reserviste.roc@getnada.com, AO, Activité créée : TEST activité V9.1
+
+En tant qu'AO j'ai créé une activité RO2 . Quand je vais sur Activités/Calendrier, A convoquer, et que je clique sur l'activité qui vient d'être créée, j'ai un message d'erreur :
+
+!image-2025-12-29-11-37-54-800.png!
+
+[Call to a member function compareCodeImputationPerimetre() on null (500 Internal Server Error)|https://front-dr.integration.roc.fr.capgemini.com/interne/activites/designer/detail/1970041]
+
+!image-2025-12-29-11-38-44-168.png!
+
+!image-2025-12-29-11-39-31-774.png!";;
+677998;"01/22/2026 14:00";;"Les flux rox ne fonctionne plus en v8 à cause de la nouvelle version de PHPSpreadSheet";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3013;b_poiron_ext;;;9.2;Flux;;;Majeur;;;V8.3.0;;;;;"Quand on lance les flux en v8, nous avons l'erreur Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getCellByColumnAndRow()
+
+Il faudrait vérifier tous les appels à PhpSpreadSheet car beaucoup de fonctions ont été supprimées entre les versions 1.29 et la 5.2";;
+678006;"01/22/2026 14:00";;"Accès impossible Données personnelles ROx Vue A-ADS ";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2965;b_poiron_ext;;;8.3;Candidature;;;Bloquant;;;V8.3.0;;;;;"env int,  Je suis connectée en tant que A-ADS [admin_ads.sca@getnada.com|mailto:admin_ads.sca@getnada.com] , dans getsion des RO1
+
+ 
+
+!image-2025-12-12-15-33-35-714.png!
+
+quand je clique sur un RO1
+
+!image-2025-12-12-15-33-47-595.png!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/686d62?panel=logger]
+
+Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException: ""{*}Access Denied.{*}""";;
+678007;"01/22/2026 14:00";;"Format des dates ESR / VMA erronées dans les données personnelles d'un réserviste";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2961;b_poiron_ext;;;8.3;Perso;;;Mineur;;;V8.3.0;;;;;"Les dates étaient au format 15/12/25 alors qu'elles doivent être au format 15/12/2025
+
+Sur la page des données du réserviste";;
+678008;"01/22/2026 14:00";;"[CONTRAT]code CREDO affecté a l'ADR lors de la création ne persiste pas";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2960;b_poiron_ext;;;9.1;Comptes;;;Majeur;;;V7.5.1;;;;;"*Titre* : [CONTRAT]code CREDO affecté a l'ADR lors de la création ne persiste pas
+
+*Configuration* : PPROD V7.5.1 - DR
+
+*Identifiant* : 604_utilisateur  AADS SEO
+
+*URL* : [https://pprod-reservistes.intradef.gouv.fr/interne/utilisateurs/autorite/813/modifier|https://pprod-reservistes.intradef.gouv.fr/interne/utilisateurs/autorite/gestionnaires]
+
+ 
+
+*Descriptif :*
+
+En tant qu'AADS, je clique sur ""Gestion"", puis sur ""Gestion des utilisateurs"".
+
+Je sélectionne un utilisateur sans rôle.
+
+Dans mon cas, je sélectionne l'ADS d’affectation SEO.
+
+Je sélectionne le rôle d'ADR.
+
+J'ajoute l'unité 06XB000.
+
+Je clique sur ""Valider"".
+
+ 
+
+*Résultat obtenu :* Les codes CREDO n'ont pas été pris en compte et doivent être ressaisis.
+
+*Résultat attendu :* Les codes CREDO sélectionnés sont bien pris en compte.
+h3.";;
+678010;"01/22/2026 14:00";;"[Calendrier]- Affichage de disponibilité incohérent avec le tableau de filtre";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2958;b_poiron_ext;;;9.1;Calendrier;;;Majeur;;;V7.5.1;;;;;"# Se connecter avec L'AO
+ # cliquer sur le bloc calendrier
+ # Vérifier sur la date du 12/12/2025 les personnes disponibles (il y a 29 personnes)
+ # cliquer sur disponibilité par période
+ # Renseigner la date début et la date de fin au 12/12/2025
+ # Dans le tableau filtrer sur ""Disponible""
+ # Résultat attendu Le tableau des réservistes disponibles doit indiquer 29 personnes 
+ # Résultat obtenu l'onglet réservistes contient 25 réservistes incohérence entre le calendrier et le tableau d'affichage";;
+678011;"01/22/2026 14:00";;"[Calendrier]- Filtre non persistant Lors d'une création d'activité à pour réserviste";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2957;b_poiron_ext;;;9.1;Calendrier;;;Majeur;;;V7.5.1;;;;;"PPROD DR [https://pprod-reservistes.intradef.gouv.fr/interne/accueil-choix-bloc]
+
+AO : 9407_utilisateur: Mdp Azertyuiop44!!!
+ # Se connecter avec L'AO
+ # cliquer sur le bloc calendrier
+ # cliquer sur disponibilité par période
+ # Renseigner la date début et la date de fin au 12/12/2025
+ # cliquer sur bouton recherche
+ # Dans le tableau filtrer sur ""Disponible""
+ # Renseigner l'unité  en sélectionnant ""ALFAN EMTOULON 05yg000"", puis cliquer sur ""recherche""
+ # Résultat 1 réserviste de disponible
+ # Cliquer sur ""créer une activité avec les réservistes disponibles""
+ # renseigner les différents sur la  page ""je crée une activité"" ( crédo + code postal+ sous titre)  puis cliquer sur suivant
+ # Renseigner les champs sur la durée de l'activité puis cliquer sur suivant
+ # Résultat  attendu  l'onglet réserviste doit contenir un réserviste
+ # Résultat obtenu l'onglet réservistes contient 25 réservistes , le filtre par rapport à l'unité des le départ n'est pas pris en compte";;
+678014;"01/22/2026 14:00";;"[Emploi]boucle de validation erreur 500";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2925;b_poiron_ext;;;8.3;Emploi;;;Bloquant;;;V7.5.1;;;;;"'+*Titre :*+ [Emploi]boucle de validation
+
+
+*+Configuration:+*
+
+PICSEL v7.5.1
+
+ 
+
+ 
+
+*+Descriptif :+*
+
+en tant que REF je créé un emploi. je met une adresse mail pour le validateur
+
+le validateur reçoit le mail pour valider l'offre
+
+ 
+
++*Résultat obtenue:*+
+
+je clique sur le lien j'obtiens une erreur 500
+
+*+Résultat attendu:+*
+
+accès a la fiches de poste pour la valider";;
+678015;"01/22/2026 14:00";;" [Calendrier]affichage activité prioritaire non existante";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2924;b_poiron_ext;;;9.1;Calendrier;;;Majeur;;;V7.5.1;;;;;"*Titre* : [Calendrier]affichage activité prioritaire non existante
+
+*Configuration* : PPROD 7.4.1
+
+*URL* : [Calendrier - Réservistes des armées (defense.gouv.fr)|https://alias-front-np.picsel.defense.gouv.fr/reserviste/calendrier]
+
+*Identifiant :* 314863_reserviste.roc@getnada.com
+
+*Descriptif* :
+
+le Référent crée une activité classique pour un RO1
+
+se connecter avec le RO1 en question
+
+afficher le calendrier
+
+ 
+
+*Résultat attendu* :
+
+ 
+
+affichage de l’activité proposée (bleu ciel) dans la calendrier
+
+ 
+
+*Résultat obtenu*
+
+affichage de l’activité proposée (bleu ciel) dans la calendrier
+
+et la même activité en activité prioritaire (orange)";;
+678019;"01/22/2026 14:00";;"[RO1] Décalage dans les colonnes des exports";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2828;b_poiron_ext;;;9.1;Extraction;;;Majeur;;;V8.2.0;;;;;"Le développement du raccordement à l'API DGFIP a mis en évidence que lors des exports des réservistes, il y avait un décalage entre les colonnes et les données qui y sont indiqués.
+
+Il est demandé de réaligner les colonnes avec les bonnes données.
+
+Taille du chantier : M";;
+678020;"01/22/2026 14:00";;"Bouton ""Fiche d'activité"" en erreur WS (Serveur Webservice)";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2798;b_poiron_ext;;;8.2;Activités;;;Bloquant;;;V8.2.0;;;;;"BUG Circuit Breacker Quand je reviens sur une activité via ""{*}Activités/Calendrier{*}"" puis sur *""À convoquer"" et que je clique sur le bouton* ""Fiche d'activité"" 
+
+!image-2025-11-19-14-18-31-500.png!
+
+ 
+
+!image-2025-11-19-14-17-37-961.png!";;
+678021;"01/22/2026 14:00";;"Retour au bloc Suivi des volontaires et candidats depuis la page Processus Engagement d'un candidat";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2795;b_poiron_ext;;;8.2;Candidature;;;Mineur;;;V8.2.0;;;;;"user : [adr1.aae@getnada.com env : Intégration|mailto:adr1.aae@getnada.com]
+
+Depuis le bloc ""Suivi des volontaires et des candidats"" quand je clique sur un candidat j'arrive sur  sa page ""Processus d'engagement"".
+
+Si je clique sur Retour j'ai un problème de redirection : au lieu d'arriver sur la page : https://front-dr.integration.roc.fr.capgemini.com/interne/{*}suivi-volontaires-candidats{*} , j'arrive sur la page : 
+https://front-dr.integration.roc.fr.capgemini.com/interne/{*}processus-engagement{*}
+
+*Peut-être revoir aussi le fil d'Ariane*";;
+678023;"01/22/2026 14:00";;"Filtres ko sur page sur l'onglet Emplois publiés page Gestion des offres";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2696;b_poiron_ext;;;8.2;Emploi;;;Majeur;;;V8.1.0;;;;;"Les filtres ne fonctionnent pas correctement sur la page des offres publiés ça ressemble à un soucis qu'on a déjà eu";;
+678024;"01/22/2026 14:00";;"[MOE] impossible de publier une activité";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2686;b_poiron_ext;;;8.1;Activités;;;Bloquant;;;V8.1.0;;;;;"Titre : [MOE] impossible de publier une activité
+
+Configuration : V4.20.0.7
+
+Identifiant :
+
+AF et REF
+
+URL :  Integration
+
+Descriptif :
+
+Sur la création d'une activité, quand on valide l'activité
+
+ 
+
+!image-2025-10-30-15-47-06-667.png!
+
+!image-2025-10-30-15-47-21-500.png!
+
+ 
+
+ 
+
+ 
+
+!image-2025-10-30-15-47-33-392.png!
+
+[https://front-dr.integration.roc.fr.capgemini.com/_profiler/973561?panel=logger]
+
+ 
+
+Résultat attendu :
+
+L'activité est publié
+
+Résultat obtenu :
+
+Erreur 500";;
+678025;"01/22/2026 14:00";;"Problème de validation du RDV";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2681;b_poiron_ext;;;8.2;Candidature;;;Bloquant;;;V8.1.0;;;;;"Problème de redirection qui ne se fait pas après validation du rendez-vous.
+Le REF reste sur la page [https://front-dr.integration.roc.fr.capgemini.com/interne/processus-candidature/candidature/291637/etape/prise-rdv]
+
+au lieu de revenir sur la page [Processus d'engagement - Réservistes des armées|https://front-dr.integration.roc.fr.capgemini.com/interne/engager/engagement/processus-candidature/291637]";;
+647099;"01/22/2026 14:00";;"[SSA] Référentiel ville erroné_ code INSEE erroné";;;"En cours de résolution et de qualification";contrat;"11/27/2025 16:44";;;;;;SSA;;g_gay3;ROC-3009;b_poiron_ext;;;9.1;Contrat;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/mes-contrats/reserviste/82732;v7.4.3;ADR;;"Renouvellement de contrat de l'ISG 2G GUILLAMET Jean-Philippe par l'ADR";"nathalie.daout 10446";"ROC génère le nouveau contrat. Le lieu de naissance est erroné. Le réserviste est né à Corbeil-Essonnes, code INSEE 91174.
+Le contrat affiche un lieu de naissance à SAOULA (Algérie).
+Le référentiel ville est erroné";Majeur;"esr_GUILLAMET.pdf,Référentiel ville erroné.xlsx,Référentiel ville erroné_.docx,TULEAP_bug-647099_SSA_Code_INSEE_erroné.pdf"
+678022;"01/22/2026 14:00";;"[Engagement] - Création de l'ESR - Enregistrement non fonctionnel";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-2790;b_poiron_ext;;;9.2;Candidature;;;Majeur;;;V7.5.0;;;;;"*Titre* : [Engagement] - Création de l'ESR - Enregistrement non fonctionnel
+
+*Configuration* : VALIDATION V7.5
+
+*Identifiant :*  AF (Admin fonctionnelle)
+
+*Candidat :* 
+ 
+223618_candidat.roc@getnada.com
+*Descriptif* :
+
+-Se connecter avec un AF
+
+-Via le menu, cliquer sur ""Contrats/Mobilité"" puis sur ""Suivi des candidatures""
+
+-Cliquer sur un candidat qui doit faire la tuile ""Validation définitive""
+
+-Importer un document et cliquer sur ""Accepté"" Résultat ESR
+
+-Cliquer sur Valider
+
+{color:#de350b}Un message d'erreur apparait{color} ( Veuillez modifier l'ESR afin de renseigner l'Armée/service du candidat. Veuillez modifier l'ESR afin de renseigner l'Unité d'affectation du candidat Veuillez modifier l'ESR afin de renseigner l'armée/service et/ou l'ancrage SIRH du candidat Veuillez modifier l'ESR afin de renseigner la date d'effet du contrat Veuillez modifier l'ESR afin de renseigner la durée du contrat
+
+-Cliquer sur Retour
+
+-Cliquer sur le Bloc fonctionnel ""Création de l'ESR""
+
+-Remplir les champs
+
+-Décision ""Accepté""
+
+ 
+
+*Résultat attendu* :
+
+Le bouton ""Valider"" est grisé
+
+*Résultat obtenu :* 
+
+Le bouton Valider n'est pas grisé et valide la création de l'ESR
+
+ 
+
+!image-2025-11-17-16-23-15-768.png!
+
+ 
+
+!image-2025-11-17-16-23-34-470.png!
+
+ 
+
+!image-2025-11-17-16-23-47-334.png!
+
+ 
+
+!image-2025-11-17-16-24-09-990.png!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ";;
+677962;"01/22/2026 14:00";;"Erreur 500 lors de l'export du tableau des volontaires en utilisant les filtres";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3108;b_poiron_ext;;;9.2;Volontariat;;;Bloquant;;;V8.3.0;;;;;"Avec le compte 13815_utilisateur (AF + DEL REF), sur PICSEL Release, l'export du tableau de suivi des volontaires après utilisation des filtres dans la page, génère une erreur 500.
+Voici l'erreur :
+[2026-01-19 14:36:22] request.CRITICAL: Uncaught PHP Exception RuntimeException: ""Failed to start the session because headers have already been sent by """" at line 0."" at NativeSessionStorage.php line 132 \{""exception"":""[object] (RuntimeException(code: 0): Failed to start the session because headers have already been sent by \"\""" at line 0. at /var/www/html/roc-back/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php:132)""""} [2026-01-19 15:33:34] request.CRITICAL: Uncaught PHP Exception RuntimeException: """"Failed to start the session because headers have already been sent by """""""" at line 0."""" at NativeSessionStorage.php line 132 \{""""exception"""":""""[object] (RuntimeException(code: 0): Failed to start the session because headers have already been sent by \"""\""" at line 0. at /var/www/html/roc-back/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php:132)""""}""";;
+677964;"01/22/2026 14:00";;"[Erreur 415] Front NP envoie des requêtes API au back dr avec content-type non supporté par PAPI";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3106;b_poiron_ext;;;9.2;;;;Bloquant;;;V8.3.0;;;;;" 
+
+ 
+
+Au moment de la création de compte candidat, depuis front np (v8.3.0) on envoie une requête api /v8/api/candidatures en passant par PAPI.
+
+nous recevons une erreur papi 415. content-type=application/x-www-form-urlencoded is not allowed
+
+ 
+
+nous avons joué ce curl pour débugger, ce curl a été prit depuis le profiler symfony : 
+
+ 
+
+curl \
+
+  -k -vvv \
+
+  --compressed \
+
+  --request POST \
+
+  --url 'https://<url_papi>/in/ressources-humaines/roc-synchro-qualif/v8/api/candidatures' \
+
+  --header 'ROC-Utilisateur-Uid: 02308977' \
+
+  --header 'ROC-Utilisateur-Role-Id: 2' \
+
+  --header 'ROC-Env: helissng' \
+
+  --header 'X-ROC-Referer: NP' \
+
+  --header 'Accept: application/json' \
+
+  --header 'Content-Type: application/x-www-form-urlencoded' \
+
+  --header 'MinArm-PEM-Authorization: Bearer <token>' \
+
+  {-}{{-}}data-raw 'format=ressource'\{-} -data-raw 'candidatId=308977'
+
+ 
+
+on envoie une requête depuis front np au PAPI np avec Content-Type: application/x-www-form-urlencoded. cette requete est rejeté par PAPI NP.
+
+ 
+
+la même curl exécuté depuis back dr et ça fonctionne car il n'y a pas de check côté back dr.
+
+ 
+
+la liste des content type autorisé par PAPI
+""application/json"" := ""useless ..."",
+""application/json; charset=utf-8"" := ""useless ..."",
+""application/json; charset=UTF-8"" := ""useless ..."",
+""application/json;charset=utf-8"" := ""useless ..."",
+""application/json;charset=UTF-8"" := ""useless ..."",
+""application/problem+json"" := ""useless ..."",
+""application/problem+json;charset=utf-8"" := ""useless ..."",
+""application/problem+json;charset=UTF-8"" := ""useless ..."",
+""application/problem+json; charset=utf-8"" := ""useless ..."",
+""application/problem+json; charset=UTF-8"" := ""useless ..."", 
+
+ 
+
+la spec papi dit clairement l'erreur papi avec erreur http 415. [~X-SMARIO] vous a mit à disposition la dernière spec PAPI.
+
+ 
+
+Vérifiez également le code front pour s'assurer que tous les appels faites depuis front np avec le bon content type";;
+677974;"01/22/2026 14:00";;"[emploi] problème d'affichage du tableau ""gestion des emplois"" pour les référents et pilotes ";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3080;b_poiron_ext;;;9.2;;;;Majeur;;;V8.3.0;;;;;"*Identifiant* : DEL PIL Alexandre DAVID ou REF Arthur LAURENT
+
+{*}Environnement{*}: PICSEL 8.3.0
+
+*Comportement* *observé* : Lorsqu'un référent/pilote et leurs délégataires accèdent à la page gestion des emplois, il visualise le tableau de gestion des emplois avec les colonnes suivantes : 
+ * Employeur 
+ * ADS 
+ * Grade(s)
+ * Emploi
+ * Type d'engagement
+ * Nombre de postes
+ * Nombre de places restantes
+
+*Comportement* *attendu* : Lorsqu'un référent/pilote et leurs délégataires accèdent à la page gestion des emplois, il visualise le tableau de gestion des emplois avec les colonnes suivantes : 
+ * Employeur 
+ * ADS 
+ * Grade(s)
+ * Emploi
+ * Type d'engagement
+ * Nombre de postes
+ * Nombre de places restantes
+ * *Date limite de Candidature*
+ * *Type d'emploi*
+
+Lié au test bout en bout [emploi] rédiger une offre d'emploi par un gestionnaire 
+https://jira-ci.fr.capgemini.com/jira/browse/ROC-2143";;
+677987;"01/22/2026 14:00";;"[Emploi]fiche de poste présent dans ""emplois publiées"" et ""en cours de création/validation""";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3049;b_poiron_ext;;;9.2;Emploi;;;Majeur;;;V7.5.3;;;;;"h2.  
+{+}*Titre :*{+}[Emploi]fiche de poste présent dans ""emplois publiées"" et ""en cours de création/validation""
+
+*+Configuration:+*
+
+PPROD v7.5.3
+
++*Rôle:*+ DEL REF 13518_utilisateur{*}{*}{+}
+{+}
+
+ 
++*URL :*+ [https://pprod-reservistes.intradef.gouv.fr/interne/gestion-engagement/liste-postes/en-cours-creation-validation]
+
+https://pprod-reservistes.intradef.gouv.fr/interne/gestion-engagement/liste-postes/actifs
+
+ 
+
+*+Descriptif :+*
+
+en tant que DEL REF j'ai crée une fiche de poste avec la première boucle de validation active
+
+cliquer sur""Gestion"" puis ""gestion des emplois""
+
+ 
+
++*Résultat obtenue:*+
+
+la fiche de poste est présente dans ""emplois publiées"" et ""en cours de création/validation""
+
+ 
+
+ 
+
+*+Résultat attendu:+*
+
+la fiche de poste est uniquement présente dans ""emplois publies""";;
+677989;"01/22/2026 14:00";;"Pb saturation mémoire par PHP-FPM";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3036;b_poiron_ext;;;9.2;Environnement;;;Majeur;;;V7.5.1;;;;;"Saturation de la mémoire physique à 98% et virtuelle à 97 %.
+
+Après investigations, le processus PHP-FMP consomme + de 90 % de la mémoire soit un peu plus de 14 Go.
+
+Le cache dans var/cache était à 750 Mo.
+
+Le cache a été archivé puis vidé.
+
+Les services ont été arrêtés puis redémarrés.
+
+Ce ticket est à titre de régularisation.";;
+677997;"01/22/2026 14:00";;"Impossible de créer une activité en tant que Délégataire d'AF";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3025;b_poiron_ext;;;9.2;Activités;;;Majeur;;;V7.5.1;;;;;"En tant que délégataire d'AF, quand j'arrive sur la 3ème étape d'une création d'activité, la page tombe en erreur.
+
+D'après les logs, l'erreur se situe dans le Controller FRONT CreerActiviteController.php à la ligne 863.
+
+ ";;
+650177;"01/22/2026 14:00";;"Cron suppression fichiers côte NP anomalie";;;"En cours de résolution et de qualification";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1366;b_poiron_ext;;;9.2;Env.;;;Majeur;;;V4.18.2;;;;;"Côté PROD HNG un cron quotidien permettant de supprimer des fichiers temporaires ne fonctionne pas.
+
+Les logs ont été communiqués sur RESANA le 13 mars 2025.
+
+Objectif : faire fonctionner la suppression des fichiers côté HNG (donc NP à venir) + permettre une installation de la future PROD plus rapide lors de l'étape de transfert des fichiers.";;
+648691;"01/22/2026 14:00";;"Erreur dans les logs prod.critical";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2858;b_poiron_ext;;;9.2;;;;Majeur;;;;;;;;"Présence du message ""une erreur technique est survenue"" dans le fichier de log prod.critical.";;
+648723;"01/22/2026 14:00";;"Erreur lors de la récupération des logs NP depuis le DR";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2694;b_poiron_ext;;;9.2;;;;Majeur;;;;;;;;"Depuis le back DR de Qualif, je n'arrive pas à récupérer les logs NP de ce jour (31/10), cause erreur suivante :
+
+ 
+
+[root@drrssmbdxla200v crons]# cat remote_log_crawler_2025_1030.log
+Logs précédemment récupérés : 0
+Logs NP récupérés : 642
+Une erreur est survenue : [LogExchange] Erreur lors de la récupération du log distant: fragment 1 d'un fichier temporaire a51a723a-229e-43ce-be09-7b97d608ce0f";;
+648882;"01/22/2026 14:00";;"Jours de convocation dans l'état du service fait erronés";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1795;b_poiron_ext;;;9.2;Activités;;;Mineur;;;;;;;;"*Titre* : Jours de convocation dans l'état du service fait erronés
+
+*Configuration* : PROD V4.20.0.7 NP
+
+*Descriptif* :
+
+La date présente dans le mail de confirmation du service fait diffère de celle de la pièce qui y est jointe. Les dates correctes sont celles présente dans le mail.
+
+*Résultat attendu :*
+
+Le pdf récapitulatif du service fait contient les bonnes dates";;
+648939;"01/22/2026 14:00";;"[ACTIVITES] Absence d'affichage du nombre de réservistes RO2 concernés";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1280;b_poiron_ext;;;9.2;Activités;;;Mineur;;;;;;;;"|*Ticket JIRA N°*| |
+|   *Environnement/ Version*|PPROD v4.20.0.5|
+|   *Titre de l'anomalie*|Absence d'affichage du nombre de réservistes RO2 concernés|
+|   *Url*| |
+|   *Acteur*|REF|
+|   *Identifiants*|16442_utilisateur|
+|   *Mot de passe*|Azertyuiop44!!!|
+|   *Anomalie*|Mineur|
+|   *Configuration*|Chrome internet|
+|   *Bloc*|Activité|
+|   D{*}escription{*}|Lorsque le REF créé une activité RO2, le nombre de réservistes RO2 concernés reste à 0, alors même qu'une fois l'activité créé, il y a bien des RO2 qui correspondent aux critères (4 dans l'exemple)
+ |
+|   *Résultat attendu*|*Le nombre de réservistes RO2 concernés doit évoluer en fonction des critères sélectionnés à la création de l'activité*|";;
+648767;"01/22/2026 14:00";;"[Activités] Clôture activités";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2467;b_poiron_ext;;;9.2;Activités;;;Majeur;;;;;;;;"*URL : [https://reservistes.intradef.gouv.fr/interne/activites/cloturer/liste]*
+
+*Identifiants / rôle :* 2672 / référent; 269710 / Id technique réserviste
+
+*Descriptif :*
+
+Création de l'activité 2235092 ou 2235093 jusqu'à la clôture de l'activité. Sélection de l'activité dans l'onglet ""A clôturer"", champ code autorité AIA00003 puis validation, coche du service fait puis clique sur ""confirmer"".
+
+*Résultat obtenu:*
+En cliquant sur le bouton ""confirmer"" un message erreur 500 apparait sur intradef et sur internet une page de maintenance (cf pièce-jointe ""Test clôture activités.docx"")
+
+*Résultat attendu:*
+
+Création de d'une activité jusqu'à la clôture de l'activité validé.";;
+527915;"01/22/2026 14:00";;"[connexion] - REF DR - le bouton ""Se connecter"" reste grisé en cas d'erreur précédente";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2024;b_poiron_ext;;;9.2;Connexion;;;Majeur;;;V5.4.3;;;;;"'+*Titre :*+ [connexion] - REF DR - le bouton ""Se connecter"" reste grisé en cas d'erreur précédente
+
+*+Configuration:+*
+
+PICSEL v5.4.3 DR interne/login pour le REF
+
++*URL :*+  [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/login] 
+
+ 
+
++*Identifiants / rôle :*+
+
+REF DR 2111_utilisateur Azertyuiop44!!!
+
+ 
+
+*+Descriptif :+*
+
+Tentative de connexion sans mot de passe
+
+OK un message d'erreur signale le problème
+NOK le bouton ""Se connecter"" reste grisé
+
+=> il faut fermer le navigateur et redémarrer pour avoir le droit a une seconde tentative de connexion
+
+[~X-CDJIAL] [~mguitton] 
+=> le developpement sur le bouton grisé avait été acté a ne pas livrer dans un daily me semble t'il (car il y a toute une série de cas de figure a prévoir, l'utilisateur ferme son onglet avant la reponse... ect ect) : mais je crois que le développement avait déjà été comité
+
+ 
+
++*Résultat attendu:*+
+L'utilisateur doit pouvoir continuer a faire des tentatives de connexion sans a avoir a fermer et réouvrir son navigateur
+
+ 
+
++*Résultat obtenu:*+
+Après tentative infructueuse de connexion sans mot de passe le bouton ""Se connecter"" reste grisé";;
+598013;"01/22/2026 14:00";;"[E-billets] impossible d'annuler un e-billet";;;"En cours de résolution et de qualification";;"10/07/2025 12:13";;;;;;"DP ROC";;b_poiron_ext;ROC-2306;b_poiron_ext;;;9.2;E-billet;;;Majeur;;;;;;;;"Titre : [E-billets] impossible d'annuler un e-billet
+
+Configuration : PPROD V6.3.1 intradef
+
+Identifiant :
+AF : 12743_utilisateur
+Mdp: Azertyuiop44!!!
+
+URL : [https://pprod-reservistes.intradef.gouv.fr/interne/mes-deplacements/billets-commandes|https://pprod-reservistes.cloud.defense.gouv.fr/candidat/processus-candidature/etape/informations-obligatoires]
+
+Descriptif :
+je me connecte en tant qu'AF
+
+je clique sur le menu ""déplacement"" puis sur "" E-billets commandés""
+
+en bout de ligne je clique sur le bouton ""Annuler""
+
+ 
+
+ 
+Résultat attendu :
+
+au bout de 5 min le e-billet doit passer dans l'onglet ""Archives"" avec le statut ""Annulé""
+
+ 
+
+Résultat obtenu :
+
+même après plus de 5 min le e-billet est toujours présent , et le bouton ""Annuler"" n'est plus grisé et redevient cliquable
+
+ 
+
+Information supplémentaire:
+
+l'erreur ne peut pas être reproduite sur PICSEL car il n'est pas encore possible de tester les e-billets";;
+527917;"01/22/2026 14:00";;"[engagement] - Erreur 500 le navigateur du CS tente d'accéder au dossier candidat du navigateur du REF";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2022;b_poiron_ext;;;9.2;Candidature;;;Majeur;;;V5.4.3;;;;;"'+*Titre :*+ [engagement] - Erreur 500 le navigateur du CS tente d'accéder au dossier candidat du navigateur du REF
+
+*+Configuration:+*
+
+PICSEL v5.4.3 DR interne/login pour le REF et le CS
+
+PICSEL v5.4.3 NP pour le candidat
+
++*URL :*+  
+
+ 
+
++*Identifiants / rôle :*+ 
+- navigateur n°1 : 1 REF DR 2111_utilisateur Azertyuiop44!!!
+- navigateur n°2 : 1 CS DR manitas.securitas Azertyuiop44!!!
+- navigateur n°3 : candidat NP 
+
+ 
+
+*+Descriptif :+*
+ # FireFox: Candidat NP : création du compte et réalisation du process
+ # Edge n°1 REF / DR interne/login : connexion
+ # Edge n°2 CS / DR interne/login : connexion
+ # REF / Candidat / CS : Faire le process engagement : Erreur 403 - ROC-2021
+ # REF / Candidat / CS : continuer le process engagement : Erreur 500
+
+*+
+Résultat attendu:+*
+A voir avec le PO si le produit est compatible avec plusieurs rôles dans des navigateurs différents sur une même machine, sinon l'interdire pour ne pas laisser les utilisateurs dans ce cas
+
+ 
+
++*Résultat obtenu:*+
+Erreur 500 en utilisant plusieurs navigateurs différents sur un même machine";;
+648786;"01/22/2026 14:00";;"Erreur sur le cron MesActivitesOrdresConvocationCron";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2336;b_poiron_ext;;;7.4;Activités;;;Bloquant;;;;;;;;"'+/!\ L’impact est important car il s’agit du cron pour notifier les réservistes de leurs convocations à des activités.+
+
+Voici l'erreur qui se produit ce jour toutes les 5 minutes à l'exécution du cron :
+
+ 
+
+*[2025-09-11 01:25:03] app.CRITICAL: Impossible to invoke a method (""getUtilisateurGradeLibelleLong"") on a null variable.*  
+
+[2025-09-11 01:25:03] app.CRITICAL: #0 /var/www/html/var/cache/prod/twig/6e/6e0de6fb8ab054050877b9befe9ffd15.php(278): Twig\Extension\CoreExtension::getAttribute() #1 /var/www/html/vendor/twig/twig/src/Template.php(388): __TwigTemplate_dfef91b2be191a87afc8659d99989203->doDisplay() #2 /var/www/html/vendor/twig/twig/src/Template.php(344): Twig\Template->yield() #3 /var/www/html/vendor/twig/twig/src/Template.php(359): Twig\Template->display() #4 /var/www/html/vendor/twig/twig/src/TemplateWrapper.php(51): Twig\Template->render() #5 /var/www/html/vendor/twig/twig/src/Environment.php(334): Twig\TemplateWrapper->render() #6 /var/www/html/src/Service/PDF/PDFService.php(382): Twig\Environment->render() #7 /var/www/html/src/Command/Activites/MesActivitesOrdresConvocationCronCommand.php(145): App\Service\PDF\PDFService->ordreConvocationRecupererDonnees() #8 /var/www/html/src/Command/Activites/MesActivitesOrdresConvocationCronCommand.php(117): App\Command\Activites\MesActivitesOrdresConvocationCronCommand->envoyerMailOrdresConvocation() #9 [internal function]: App\Command\Activites\MesActivitesOrdresConvocationCronCommand->envoyerOrdresConvocation() #10 /var/www/html/src/Command/Activites/MesActivitesOrdresConvocationCronCommand.php(82): call_user_func() #11 /var/www/html/vendor/symfony/console/Command/Command.php(326): App\Command\Activites\MesActivitesOrdresConvocationCronCommand->execute() #12 /var/www/html/vendor/symfony/console/Application.php(1096): Symfony\Component\Console\Command\Command->run() #13 /var/www/html/vendor/symfony/framework-bundle/Console/Application.php(126): Symfony\Component\Console\Application->doRunCommand() #14 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Bundle\FrameworkBundle\Console\Application->doRunCommand() #15 /var/www/html/vendor/symfony/framework-bundle/Console/Application.php(80): Symfony\Component\Console\Application->doRun() #16 /var/www/html/vendor/symfony/console/Application.php(175): Symfony\Bundle\FrameworkBundle\Console\Application->doRun() #17 /var/www/html/bin/console(42): Symfony\Component\Console\Application->run() #18 \{main} 
+
+ 
+
+ 
+
+ ";;
+648886;"01/22/2026 14:00";;"[Activité] Création activité prioritaire RO2, nombre de réserviste du corps incohérent";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1721;b_poiron_ext;;;6.2;Activités;;;Majeur;;;;;;;;"*Titre* : [Activité] Nombre de réserviste du corps incohérent
+
+*Configuration* : PICSEL V5.4
+
+*Identifiant* :
+
+AF : 4512_utilisateur
+
+*URL* :  Je complète l'URL DQP
+
+*Descriptif* :
+
+En tant qu'AF,
+
+Je créée une activité prioritaire RO2, 
+
+Sur le code CREDO : 01949EA,
+
+Je sélectionne par corps, je choisis le corps ""9997"", 
+
+Je rentre un nombre de réserviste (on ne le voit pas sur le screenshot, désolé),
+
+J'obtiens 0 au ""nombre de réservistes concernés""
+
+(Note : j'ai bien vérifié par le biais d'un export RO2 de l'espace qualité, le réserviste 166503 est disponible sur ce code CREDO, sur les dates d'activité que j'ai entrées. J'ai également vérifié son corps, il appartient au corps 9997. Ainsi, quand on sélectionne le corps 9997, on est sensés le voir apparaître)
+
+ 
+
+*Résultat attendu* :
+
+Obtenir 1, car le réserviste 166503 répond au critère et est disponible sur la date choisie pour l'activité
+
+*Résultat obtenu* :
+
+J'obtiens 0";;
+648742;"01/22/2026 14:00";;"[volontariat] le candidat reçoit 4 fois le mail de confirmation qu'il a été retenu suite à l'entretien avec le responsable d'unité";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2611;b_poiron_ext;;;8.1;;;;Mineur;;;;;;;;"Identifiant : Marie Joseph [marie.joseph@getnada.com|mailto:marie.joseph@getnada.com]
+
+Environnement: PICSEL 7.4
+
+Comportement observé : le candidat reçoit 4 fois le mail de confirmation qu'il a été retenu suite à l'entretien avec le responsable d'unité
+
+Comportement attendu : le candidat reçoit un seul mail de confirmation suite à son entretien avec le responsable d'unité";;
+480017;"01/22/2026 14:00";;"[AAE] validation activité à clôturer en erreur 500";;;"En cours de résolution et de qualification";;"05/19/2025 09:03";;;;;;AAE;;j_sales1;ROC-2467;b_poiron_ext;;;9.2;Activités;V8.2;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/activites/cloturer/detail/1868749;V4.20.0.7,V6.3.2;"Référent, Del référent et AF";;;;"La validation de l'activité provoque un bug ""Erreur 500""";;"2025_05_19_09_03_22_.png,erreur 500.docx"
+477320;"01/22/2026 14:00";;"Erreur de date du service fait dans notification";;l_lodigiani_dechamp;"En cours de résolution et de qualification";;"05/14/2025 10:09";;;;;;SSA;;g_gay3;ROC-1795;b_poiron_ext;;;9.2;Activités;V8.2;;Mineur;"Poste Internet";"boite mail du RO1";V4.20.0.7;RO1;;"Le gestionnaire a clôturé les activités d'un réserviste pour 3 périodes : 28et 29 avril, 5 et 7 mai.";;"Le RO1 reçoit la notification de validation du service fait avec la bonne date d'activité clôturée, mais la date précisée dans la PJ est erronée. Il y a donc une dissociation entre la date précisée dans le mail et la date de la PJ.";Mineur;"Erreur date pour les états des services faits.msg"
+527958;"01/22/2026 14:00";;"[Contrat ] Impossible à l'ADR de télécharger le contrat signé et téleversé par le RO1";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1947;b_poiron_ext;;;9.2;;V8.2;;Majeur;;;V5.4.1;;;;;"URL : [https://pprod-reservistes.cloud.defense.gouv.fr|https://pprod-reservistes.cloud.defense.gouv.fr/]
+
+se connecter avec le RO1 [48067_reserviste.roc@getnada.com|mailto:48067_reserviste.roc@getnada.com]
+
+MDP 12345!
+
+Cliquer sur contrat 
+
+télécharger l'ESR vierge 
+
+televerser l'ESR Signé 
+
+Cliquer sur envoyer 
+
+Résultat affichage Accueil avec message ( voir capture d'écran) 
+
+se connecter ensuite avec un ADR 
+
+*10446_utilisateur*
+votre mot de passe : *hA32xu5iDC6+G)*
+
+URL [https://pprod-reservistes.intradef.gouv.fr/interne/login/]
+
+Cliquer sur mes Contrats/Mobilités 
+
+aller dans l'onglet contrats en cours de renouvellement 
+
+sélectionner le réserviste en question 
+
+Cliquer sur ""télécharger l'ESR signé réserviste
+
+Résultat  page non trouvé erreur 404 
+
+ ";;
+527896;"01/22/2026 14:00";;"[communication] - L'ADR a la possibilité d'envoyer une communication aux AF (mais non reçue)";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2061;b_poiron_ext;;;9.2;Communication;V8.2;;Mineur;;;V5.4.4;;;;;"'+*Identifiants :*+ 
+
+REF : adr1.ter Azerrtyuiop44!!!
+
++*Description :*+ 
+ - Se connecter en tant que référent
+
+ - Cliquer sur le bloc communication 
+
+ - Cliquer sur nouveau message
+
+ - Choisir AF dans les destinataires de la communication
+ - Rédiger message
+ - Envoyer : le message est envoyé mais non reçu !!!
+
++*Résultat attendu :*+ 
+
+L'utilisateur ne devrait pas avoir le choix d'envoyer une communication aux AF
+
+
+
++*Résultat obtenu:*+ 
+
+L'utilisateur a la possibilité d'envoyer une communication aux AF";;
+598011;"01/22/2026 14:00";;"[contrat]- téléchargement de l'ESR sans cocher les mesures ";;;"En cours de résolution et de qualification";;"10/07/2025 12:13";;;;;;"DP ROC";;b_poiron_ext;ROC-2311;b_poiron_ext;;;9.2;Contrat;V8.2;;Majeur;;;;;;;;"ADR 10446_utilisateur
+
+FE 1113_utilisateur
+
+[43043_reserviste.roc@getnada.com|mailto:43043_reserviste.roc@getnada.com] 
+
+MDP Azertyuiop44!!!
+ # se connecter avec un ADR
+ # rechercher dans les contrats à renouveler le candidat ""Domek Tracy""
+ # initialiser le contrat.
+ # se connecter avec le réserviste
+ # accepter le renouvellement
+ # suivre la procédure jusqu'à la validation par l'ATM
+ # se connecter avec la FE (REF 1113_utilisateur)
+ # valider la proposition de renouvellement de contrat sur la date limite d'age
+ # retourner chez le candidat
+ #  valider par la signature
+ # se connecter avec l'ADR accepter la validation
+ # se connecter avec le réserviste télécharger l'ESR en ne cochant pas les deux cases ""décision de conduction"" ""mesure d'attractivité""
+
+résultat attendu le document ne doit pas se télécharger 
+
+Résultat obtenu: téléchargement de l'ESR";;
+528059;"01/22/2026 14:00";;"[PROD A BLANC][Téléverser] INVALID Credential lors de la validation + information non persistée";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1511;b_poiron_ext;;;9.2;Candidature;V8.2;;Majeur;;;V4.20.0.7;;;;;"*Titre* : [PROD A BLANC][Téléverser] INVALID Credential lors de la validation + information non persistée
+
+*Configuration* : PROD A BLANC NP V4.20.0.7 + Iphone + Safari
+
+*URL* : [https://prod-reservistes.cloud.defense.gouv.fr|https://prod-reservistes.cloud.defense.gouv.fr/]
+
+*Identifiant :* 
+
+Candidat : alexandre.courreur
+
+*Descriptif* :
+ # Etape A : tout début du process d’engagement (sans action)
+ # Etape B : certificat medical + saisir la date du jour + télécharger le document + televerser le document rempli par la candidat+ valider
+ # Etape C : INVALID Credential
+ # suite à l’erreur lors de la reconnexion sur le même utilisateur le choix sans contre-indication n’est pas persisté à 14h46 : lors d’une seconde tentative sur le même utilisateur le problème n’apparait plus
+
+ 
+
+*Résultat attendu* : 
+
+3. Aucune erreur n'est attendue
+
+4. les informations du 2. doivent être persistées et non perdues
+
+ 
+
+*Résultat obtenu :* 
+
+Message d'erreur INVALID Credential + informeations non persistées
+
+ 
+
++*Remarque :*+
+
+Problème constaté à 3 reprises avec [~X-CAKOCH] également en PPROD lors du téléversement";;
+598645;"01/22/2026 14:00";;"API ROC Export activité retourne aucune réponse si 3 Mois";;;"En cours de résolution et de qualification";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-2175;b_poiron_ext;;;9.2;Activités;V8.2;;Majeur;;;;;;;;"En Env. Intégration avec l'AF : admin_fonctionnel
+
+En tant qu'AF, si je lance un Export d'activité sur la plage par défaut de 3 mois, j'obtiens un page d'erreur ""Désolé, impossible d'accéder à cette page"" cf copie d'écran. Voici un lien pour analyse [Prof. DR - FO|https://front-dr.integration.roc.fr.capgemini.com/_profiler/742a76?panel=http_client&type=request] dans lequel on constate que l'API EXPORT ACTIVITE a une Reponse = 0
+
+Remarque : Si je réalise le même test sur 1 jour, c'est passant
+
+Testé également en env. Recette, même constat";;
+527914;"01/22/2026 14:00";;"[candidature] - reception x fois la meme notification email suite a entretien en unité";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2025;b_poiron_ext;;;9.2;Candidature;V8.2;;Majeur;;;V5.4.3;;;;;"'+*Titre :*+ [candidature] - réception x fois la même notification email suite a entretien en unité
+
+*+Configuration:+*
+
+PICSEL v5.4.3 DR interne/login pour le REF
+
++*URL :*+  notification email
+
++*Identifiants / rôle :*+
+
+REF DR 2111_utilisateur Azertyuiop44!!!
+
+ 
+
+*+Descriptif :+*
+
+Durant le process engagement le candidat reçoit plusieurs fois le même email
+
+ 
+
+""Bonjour Roberta Ezmaralda
+
+
+
+A la suite de votre entretien avec le responsable d'unité, nous vous confirmons que vous avez été retenu(e). Vous allez pouvoir désormais finaliser votre engagement.""
+
+ 
+
++*Résultat attendu:*+
+Le candidat ne doit pas recevoir plusieurs fois le meme email lors du process engagement
+
+ 
+
++*Résultat obtenu:*+
+Le candidat recoit plusieurs fois le meme email 
+
+""Bonjour Roberta Ezmaralda
+
+
+
+A la suite de votre entretien avec le responsable d'unité, nous vous confirmons que vous avez été retenu(e). Vous allez pouvoir désormais finaliser votre engagement.""";;
+527920;"01/22/2026 14:00";;"[communication] - x téléchargements de la pièce jointe en cas de réseau ou VM lente";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-2019;b_poiron_ext;;;9.2;Communication;V8.2;;Mineur;;;V5.4.3;;;;;"'+*Titre :*+ [communication] - x téléchargements de la pièce jointe en cas de réseau ou VM lente
+
+*+Configuration:+* PICSEL v5.4.3 DR
+
++*URL :*+ [https://roc-front-dr-pre.picsel.defense.gouv.fr/interne/communication/message/envoye/11] 
+
+*Identifiants / rôle :* 
+REF 2111_utilisateur
+Azertyuiop44!!!
+
+*+Descriptif :+*
+ # REF / DR : connexion dans une VM ou réseau lent (PICSEL)
+ # Création communication massive ci-jointe
+ # Allez dans messages envoyés
+ # Télécharger la pièce jointe : NOK l'IHM ne réagit pas l'utilisateur pense que rien ne se passe
+ # Télécharger la pièce jointe : NOK l'IHM ne réagit pas l'utilisateur pense que rien ne se passe
+ # Télécharger la pièce jointe : NOK l'IHM ne réagit pas l'utilisateur pense que rien ne se passe
+ # Télécharger la pièce jointe : NOK l'IHM ne réagit pas l'utilisateur pense que rien ne se passe
+
+après quelques instants toute une série de fichier téléchargés de la même pièce jointe se téléchargent
+
+=> en effet régulièrement l'utilisateur est amener dans le produit a cliquer plusieurs fois de suite car rien ne se passe
+
+ 
+
++*Résultat obtenu:*+
+L'utilisateur ne se rend pas compte visuellement qu'un téléchargement est en cours
+
+*+Résultat attendu:+*
+L'IHM devrait indiquer ou bloquer plusieurs tentatives de téléchargement, car dommage de solliciter plusieurs fois le serveur pour une seule demande (et cela est le cas régulièrement dans le produit)";;
+648727;"01/22/2026 14:00";;"[MOE]  Erreur 500 sur l' exporter une pièce jointe";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2688;b_poiron_ext;;;8.1;Communication;V8.1;;Bloquant;;;;;;;;"Titre : [MOE]  Erreur 500 sur l' exporter une pièce jointe
+
+Configuration : V7.4.2
+
+Identifiant :
+
+AF
+
+URL :   [https://www.reservistes.defense.gouv.fr/candidat/creation-compte]
+
+Descriptif :
+
+Dans l'onglet communication et dans message envoyé. Au clique sur un message pour exporter la pièce jointe 
+
+Résultat attendu :
+
+le document se télécharge
+
+Résultat obtenu :
+
+Erreur 500
+
+ 
+
+!image-2025-10-30-16-04-22-977.png!";;
+650161;"01/22/2026 14:00";;"Correction OpenAPI pour V8 ";;;"En cours de résolution et de qualification";;"12/02/2025 15:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2676;b_poiron_ext;;;8.1;Env.;"LIVRAISON HORS VERSION";;Majeur;;;V8.1.0;;;;;"Suite au retour du Sand :
+
+_Erreur à corriger: nouvel objet ""orphelin/doublon"": {*}PersonneSansSpiQuery{*} à côté c'est l'objet *PersonneSansSpiQuery2* qui est utilisé il faut donc supprimer PersonneSansSpiQuery ou (mieux) supprimer PersonneSansSpiQuery2 et utiliser PersonneSansSpiQuery à la place_
+
+_Je remarque par ailleurs que toutes les requêtes avec pagination renvoient un array d'objet sans metadonnées de pagination (nb total de pages etc..) Les requêtes paginées devraient retourner un 206 (uniquement) une structure data englobant le résultat et une structure metadata contenant les données de pagination  cf CTMO 1.1 pour le futur._";;
+621424;"01/22/2026 14:00";;"[SSA] -  visualisation rôle (ADR) non attribué";;;"En cours de résolution et de qualification";contrat;"10/23/2025 09:45";;;;;;SSA;;c_dulaurans;ROC-2888;b_poiron_ext;;;9.2;Contrat;V9.1;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/mes-contrats/liste-reservistes/contrats-en-cours-renouvellement;v6.3.3;"Délégataire AADS SSA";;"Le délégataire sélectionne son rôle, clique contrat à renouveler, affichage tableau des réservistes dont le contrat se termine dans les 7 mois ou ";"10446, 19489 ADR -  16676 DEL ADR de 10446";"Dans la colonne ""Autorité rattachement"" affichage du nom de Mme ZELEWSKY Ingrid alors qu'elle est délégataire ADR ainsi que le nom du CRC1 LOUCOUGAIN Michel alors qu'il est ""SR"" 
+Ces 2 personnels reçoivent toutes les notifications des actions. (voir pj copies ecrans)";Majeur;"Contrat_visualisation rpole ADR non conforme_20251023.docx,visualisation rôle (ADR) non attribué.docx"
+598675;"01/22/2026 14:00";;"[Contrat] - Validation ATM - Non renouvellement - Le contrat reste dans l'onglet en cours";;;"En cours de résolution et de qualification";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1251;b_poiron_ext;;;9.2;Contrat;V9.1;;Mineur;;;;;;;;"*Titre* : [Contrat] - Validation ATM - Non renouvellement - Le contrat reste dans l'onglet en cours
+
+*Configuration* : PIC v5.1
+
+*URL* :
+
+*Identifiant :*  ADR : 10446_utilisateur
+
+*Descriptif* :
+
+Se connecter avec un ADR
+
+Cliquer sur le bloc fonctionnel ""Contrats"", puis sur l'onglet ""Contrats en cours de renouvellement""
+
+Trouver un contrat qui a l'étape "" Validation ATM""
+
+Renseigner une adresse mail
+
+Renseigner un commentaire
+
+Cliquer sur le bouton ""Envoyer""
+
+Cliquer sur le lien reçu par mail
+
+Renseigner le Grade, Nom, Prenom, Commentaire et importer un document
+
+Cliquer sur ""Refuser le renouvellement""
+
+ 
+
+*Résultat attendu* : 
+
+Le contrat passe dans l'onglet expiré
+
+*Résultat obtenu* : 
+
+Le contrat est encore en cours de renouvellement";;
+598676;"01/22/2026 14:00";;"[Contrat] - Avis Réserviste - Non renouvellement - Le contrat reste dans l'onglet en cours";;;"En cours de résolution et de qualification";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-1233;b_poiron_ext;;;9.2;Contrat;V9.1;;Mineur;;;;;;;;"*Titre* : [Contrat] - Avis Réserviste - Non renouvellement - Le contrat reste dans l'onglet en cours
+
+*Configuration* : PIC v5.1
+
+*URL* :
+
+*Identifiant :*  ADR : 10446_utilisateur
+
+*Descriptif* :
+
+Se connecter avec un réserviste qui doit faire l'étape d'Avis réserviste
+
+Cliquer sur le bloc fonctionnel ""Contrats"", puis sur l'onglet ""Contrats en cours de renouvellement""
+
+Renseigner un commentaire
+
+Ajouter un document
+
+Cliquer sur le bouton ""Je ne souhaite pas renouveler mon contrat""
+
+Cliquer sur le bouton ""Confirmer""
+
+Redirection sur la page d'accueil 
+
+Message de succès : Renouvellement de l'ESR refusé
+
+Le document [NOM_DOCUMENT] a bien été téléversé
+
+Se connecter avec l'ADR
+
+Cliquer sur le bloc fonctionnel ""Contrats"", puis sur l'onglet ""Contrats en cours de renouvellement""
+
+*Résultat attendu* : 
+
+Le contrat n'est plus présent dans l'onglet ""Contrats en cours de renouvellement""
+
+*Résultat obtenu :* 
+
+Le contrat est présent.
+
+Le contrat ne passe pas dans l'onglet expiré";;
+648858;"01/22/2026 14:00";;"[Contrat] Impossible à l'ADR de télécharger le contrat signé et téleversé par le RO1";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-1947;b_poiron_ext;;;9.2;Contrat;V9.1;;Majeur;;;;;;;;"URL : [https://pprod-reservistes.cloud.defense.gouv.fr|https://pprod-reservistes.cloud.defense.gouv.fr/]
+
+se connecter avec le RO1 [48067_reserviste.roc@getnada.com|mailto:48067_reserviste.roc@getnada.com]
+
+MDP 12345!
+
+Cliquer sur contrat 
+
+télécharger l'ESR vierge 
+
+televerser l'ESR Signé 
+
+Cliquer sur envoyer 
+
+Résultat affichage Accueil avec message ( voir capture d'écran) 
+
+se connecter ensuite avec un ADR 
+
+*10446_utilisateur*
+votre mot de passe : *hA32;xu;5iDC6+G)*
+
+URL [https://pprod-reservistes.intradef.gouv.fr/interne/login/]
+
+Cliquer sur mes Contrats/Mobilités 
+
+aller dans l'onglet contrats en cours de renouvellement 
+
+sélectionner le réserviste en question 
+
+Cliquer sur ""télécharger l'ESR signé réserviste
+
+Résultat  page non trouvé erreur 404 
+
+ ";;
+647463;"01/22/2026 14:00";;"[SSA] -  chemin bouton retour non conforme";;;"En cours de résolution et de qualification";contrat;"11/28/2025 11:32";;;;;;SSA;"bugs #538015";c_dulaurans;ROC-2927;b_poiron_ext;;;9.1;Contrat;V9.1;;Mineur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/mes-contrats/reserviste/102618;"V6.3.2,V5 et v6.3.2,v6.3.3,v7.4.3,V7";"Delégataire ADR";;"Le délégataire ADR clique sur un dossier présent dans l'onglet ""Contrat en cours de renouvellement"". Affichage détaillé du dossier, ";742;"Au clique sur le lien ""Retour"", affichage de la page ""Contrat à renouveler"" au lieu de la page ""Contrat en cours de renouvellement"" obligeant le traitant de recliquer sur l'onglet ""Contrat en cours de renouvellement"" pour continuer ses actions.";Mineur;"ADR_contrat_en cours renouvellement_retour_20251128.png,RETOUR.docx"
+528063;"01/22/2026 14:58";;"AF - Création d'un délégataire sans compte ROC ";;;"En cours de résolution et de qualification";;"07/17/2025 15:21";;;;;;"DP ROC";;b_poiron_ext;ROC-1446;b_poiron_ext;;;9.2;Comptes;;;Mineur;;;V4.20.0.7;;;;;"*Titre* :AF - Création d'un délégataire sans compte ROC 
+
+*Configuration* : PICSEL v4.20.0.7
+
+*URL* :[https://alias-front-dr.picsel.defense.gouv.fr/interne/mon-compte/delegation/lister-donnees|https://alias-front-dr.picsel.defense.gouv.fr/interne/processus-candidature/candidature/250090/etape/formation-premilitaire]
+
+*Identifiant :*  AF  4512_utilisateur
+
+*Descriptif* :
+
+Lorsque la délégation est créé, elle passe directement au statut ""Acceptée""
+
+*Résultat attendu* : 
+
+A la création de la délégation, le statut de la délégation doit être ""en attente"" jusqu'à ce que le délégataire ait créé son compte
+
+ 
+
+ 
+ ";;
+672758;"01/26/2026 11:46";;"[CND] - Fiche emploi - Erreur sur webservice";;;"En cours de résolution et de qualification";;"01/13/2026 13:25";;;;;;DIRISI;"bugs #671196, bugs #677484, bugs #672951, bugs #646426";g_claude;ROC-3114;m_fekete;;;9.3;;V8.3.2;;Bloquant;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/poste/creer/formation-emploi/2176;V7.5.1;"REFERENT sur 0AU5000 COMMISSARIAT AU NUMERIQUE DE DEFENSE DIRECTION CENTRALE";;"Gestion des emplois : Création de la fiche emploi.
+Validation d ela fiche emploi";;"La création d'un emploi se déroule correctement 
+Demander une validation OK
+Le valideur reçoit le mèl pour valider la fiche emploi 
+Il valide puis apparait un Msg d'erreur [ErreurWS] Erreur sur webservice";;Capture.JPG
+677484;"01/26/2026 11:59";;"Impossibilité de publier une offre d'emploi";;;"En cours de résolution et de qualification";;"01/20/2026 10:24";672758;;;672758;;SCA;"bugs #672758";n_honore1;ROC-3114;m_fekete;ADT;;9.3;Emploi;V8.3.2;;Bloquant;"Poste Intradef";"PFC EST - Code CREDO de l'unité 0AJ5000";V7.5.3;Référent;;;;"Lors de la création d'une offre d'emploi, tout se déroule de façon nominale jusqu'à la validation de l'offre.
+Un message est adressé arguant du fait que l'offre a été publiée associée à un message d'erreur |ErreurWS] Erreur sur webdevice
+
+Impossible donc de publier l'offre d'emploi que l'on ne retrouve pas sur INTERNET";Bloquant;"TR Demande de validation d'une nouvelle offre d'emploi.msg,TR Publication d'une nouvelle offre d'emploi.msg,capture d'écran FDP SI ROC.docx,Publication d'une nouvelle offre d'emploi.msg"
+672951;"01/26/2026 12:03";;"[ADT] Offre d'emploi - validation - message d'erreur";;;"En cours de résolution et de qualification";;"01/13/2026 15:25";672758;672758;;;;ADT;"bugs #672758";j_saint_julien;ROC-3114;m_fekete;;;9.3;Emploi;V8.3.2;;Bloquant;"Poste Intradef";"https://reservistes.intradef.gouv.fr/interne/poste/creer/formation-emploi/2104 
+ 
+";V7.5.1;gestionnaire;;;2104;"Lorsque que le gestionnaire demande à un ""valideur"" (son CORSIC) de valider son offre d'emploi, ce dernier a systématiquement le message d'erreur suivant : [ErreurWS] Erreur sur webservice. 
+
+Par ailleurs si l'AF essaie de demander une nouvelle validation, il ne se passe rien. 
+
+De plus, le gestionnaire reçoit un mail l'informant que l'offre est validée et publiée alors que ce n'est pas le cas. ";Bloquant;"Capture d'écran 2026-01-07 101339-1.png,Capture d'écran 2026-01-07 101214-1.png,Gestion emploi-1.png,TR Demande de validation d'une nouvelle offre d'emploi-1.msg,Publication d'une nouvelle offre d'emploi-2.msg"
+679715;"02/09/2026 14:50";;"Saisie de caractères reste masquée dans le champ NID lors de la création d'un compte ou pré-compte RO2 via le portail des réservistes des armées.";;;"En attente de prise en compte dans l'usine logicielle";;"01/22/2026 16:32";;;;;;AF;;c_frederic;ROC-3208;m_fekete;;;;Paramétrage;;P2;Mineur;"Ne sais pas";;V7.5.3;;;"Accès au portail des réservistes des armées via un téléphone Androïd pour créer un compte ou pré-compte RO2.
+Saisie d'un NID dans le champ approprié.";;"La saisie des caractères reste masquée dans le champ NID. 
+A ce stade l'anomalie n'est reproduite qu'avec les téléphones Androïd.
+Elle n'est pas reproduite avec un téléphone Apple et un PC.
+
+nb : Le champ NID lors de la création d'un compte RO1 ne présente pas d'anomalie avec un téléphone Androïd";Mineur;"Annotation 2026-02-05 170342_création_cpte_RO2.png,BUG #679715_caractères_masqués.docx"
+482411;"02/10/2026 11:53";;"[AAE] Le référent ne peut pas supprimer son compte de réf";;;"En attente de prise en compte dans l'usine logicielle";"Problème gestion et création compte gestionnaire";"05/20/2025 14:21";;;;;;AAE;;j_sales1;ROC-3078;m_fekete;ADT;;;Comptes;;;Majeur;"Poste Intradef";"Compte de référent (exemple SGT POUNGA Doryane)";"V4.20.0.7,V5 et v6.3.2";"REF ";;"<p><em>Suite &agrave; demande de la DRHAAE la suppression du compte de r&eacute;f&eacute;rent de la sergent POUNGA.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>COMPLEMENT 29/10/2025 USER 16569</strong></p>
+
+<ul>
+	<li>Selection du r&ocirc;le de REF dans le menu d&eacute;roulant sous le nom (credo 09N5AKE)</li>
+	<li>Gestion des droits</li>
+	<li>Supprimer mes droits</li>
+</ul>
+";"16569 (ltn TIXADOR SANDRA)";"*La suppression de son compte de gestionnaire est impossible par cette gestionnaire (mais possible par l'AF)*
+
+**COMPLEMENT 29/10/2025 USER 16569**
+Résultat attendu :
+- message de prise en compte vert
+- suppression du rôle dans la liste des rôles
+
+Résultat obtenu :
+- toujours réferent de l'unité
+- toujours sous ce credo dans le tableau de bord des comptes utilisateur en AF
+- toujours ref dans ce même tableau
+
+Action : seul l'AF peut supprimer le rôle
+
+Suite action de suppression de rôle REF par AF : 
+- l'usager dans sa page d'acceuil sous le rôle d'AFF PIL AAE, reste sous le code credo 09N5AKE
+- ce credo n'apparait plus pour les autres rôles
+- ";Majeur;"Test pré-prod.docx,AF-user tixador - supp compte REF.PNG,TXR_REF_CIRFA supp.PNG,TXR_REF_CIRFA supp accueil.PNG"
+671686;"02/12/2026 09:53";;"[AAE]ROLE : création compte affiflié HS";;m_fekete;"En cours de résolution et de qualification";;"01/12/2026 11:30";;;;;;AAE;;s_caumond;ROC-3210;m_fekete;;;;Comptes;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/gestionnaires/1295/modifier;V7.5.1;AF;;"- Compte utilisateur : compte du user 1295 COL Cédrik BUREAU
+- Modification du compte
+- gestion des affiliés : CREER UNE AFFILIATION
+- Seléction rôle AADS à affilier
+- mail sandra.caumond@intradef.gouv.fr / lucie.fanjoux@...
+
+";584;"- message erreur : ""Vous ne pouvez pas créer deux affiliations identiques ""
+- la personne n'est qu'une fois en Affilié
+- Rôle d'affilié n'apparait pas dans la liste des rôles du user 17732 (FANJOUX), 17329 (CAUMOND)...";Bloquant;AF_AFf_AADS.png,AF_AFf_AADS_2.png,AF_AFf_AADS_userFANJOUX.png,AF_AFf_AADS_userCAUMOND.png,20260205-TULEAP-671686-AAE-aj.docx
+492033;"02/12/2026 19:12";;"[MN] Problème de date dans la convocation";;;"En cours de résolution et de qualification";"Anomalie fonctionnelle Activités";"06/03/2025 18:04";;;;;;MN;;g_bota;ROC-3178;m_fekete;;;;Activités;;;Mineur;"Poste Intradef";;V4.20.0.7;AF;;;4512;"Lorsque l'on créé une activité à cheval sur deux mois ex :
+du 30/05 à 08h00 au 02/06 17h00
+le système génère deux activités :
+une du 30 au 31/05
+une autre du 01 au 02/06
+Il se produit alors une confusion sur les horaires les horaires de la première activité sont :
+ du 30 au 31 mai de 08h00 à 08h00
+du 01 au 02 juin de 17h00 à 17h00
+
+Ces créneaux figurent également sur la convocation qui est donc inutilisable ";Bloquant;"SnipImage.JPG,création activité en chevauchement sur deux mois.docx"
+665384;"02/12/2026 19:13";;"Code activité 814";;;"En cours de résolution et de qualification";"Anomalie fonctionnelle Activités";"12/19/2025 11:44";;;;;;AF;;j_pelletier6;ROC-3176;m_fekete;;;;Activités;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/activites/creer/duree/2579898;V7.5.1;"Profil référent, délégataire";;"A partir d'un modèle création d'une activité, à l'étape 2 dans durée après avoir renseigné les dates clique sur enregistrer ou suivant.";"référent : 2341 délégataire : 1213";"Un message apparait ""le code activité Soutien (IAT, CICoS, ARD, DIRISI, ESID, DICOD, DGRIS, CIAE, DPID, CFMD, DMPA, SCA hors GSC, …) n'est pas valide sur la période .....
+L'action ne permet pas de poursuivre pour sélectionner le réserviste.";Majeur;"code activité 814.docx,code activité 814.docx"
+677980;"02/16/2026 10:09";;"Export des contrats KO";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3067;m_fekete;;;;;;;Majeur;;;V7.5.1;AF;;;4512;"Impossible de streamer l'exports, vu dans les logs de prod :
+
+ 
+
+{{[2026-01-08 09:33:37] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ========== \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: Message : Call to a member function diff() on null \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: Fichier : /var/www/html/src/Util/StreamedCsvResponse.php :: ligne 223 \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: Fichier : /var/www/html/src/Exception/WSException.php :: ligne 139 \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: StackTrace : App\Util\StreamedCsvResponse::gestionAffichagePourExportContrats() [L.198] <- App\Util\StreamedCsvResponse::gestionAffichageParTypeExport() [L.178] <- App\Util\StreamedCsvResponse::browseResults() [L.122] <- App\Util\StreamedCsvResponse::streamedCsvCallback() [L.101] <- Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\\{closure}() [L.106] <- Symfony\Component\HttpFoundation\StreamedResponse::sendContent() [L.423] <- Symfony\Component\HttpFoundation\Response::send() [L.39] \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: Utilisateur connecté : 0114918 \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: Rôle : 1 - Référent \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}
+{{[2026-01-08 09:33:37] app.CRITICAL: ======================================================= \{""dt.trace_sampled"":""true"",""dt.trace_id"":""6d73b53327ab5a89b196bec7d8740a25"",""dt.span_id"":""f78a8d2363f0b5fb""}}}";;
+598670;"02/16/2026 10:12";;"[Déclaration/Modification] - Fil d'Ariane contient RO1 au lieu de RO2";;;"En cours de résolution et de qualification";;"10/07/2025 16:06";;;;;;"DP ROC";"bugs #480013";b_poiron_ext;ROC-1265;m_fekete;;;;Comptes;;;Mineur;;;;AF;;;4512;"*Titre* : [Déclaration/Modification] - Fil d'ariane contient RO1 au lieu de RO2
+
+*Configuration* : PIC V5.2
+
+*URLs* :
+
+[https://roc-pic-intradef.fr.capgemini.com/interne/admin/utilisateurs/ro2/modifier/233774]
+
+*Descriptif* :
+
+Se connecter en tant que gestionnaire
+
+Via le menu, cliquer sur ""Gestion"" puis ""Réservistes RO2""
+
+Cliquer sur un RO2
+
++
+
+erreur sur le fil d'ariane de ""la gestion des utilisateurs""  avec l'AF
+
+*Résultat attendu* : 
+
+Fil d'Ariane : 
+
++Accueil+ > +Gestion+ >{+}Gérer les comptes{+}> Réservistes RO2
+
+*Résultat obtenu :* 
+
+Fil d'Ariane : 
+
++Accueil+ > +Gestion+ >{+}Gérer les comptes{+}> Réservistes RO1
+
+ 
+
+!image-2025-02-25-12-56-55-029.png!";;
+477650;"02/16/2026 10:17";;"[AAE] TOUS ROLES - accent non pris en compte en saisie";;;"En cours de résolution et de qualification";"Problème gestion et création compte gestionnaire";"05/14/2025 14:38";;;;;;AAE;;s_caumond;ROC-3216;m_fekete;;;;Comptes;;;Mineur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/admin/utilisateurs/gestionnaires/10701/modifier;V4.20.0.7;AF;;;4512;"Impossible de saisir un nom ou un prénom avec accent.";Majeur;"3DE54173.PNG,caractères spéciaux.docx"
+550128;"02/16/2026 14:13";;"[AAE] Connexion : remettre MOT PASSE oublié";;;"En cours de résolution et de qualification";;"08/27/2025 11:04";;;;;;AAE;;s_caumond;ROC-3244;m_fekete;ADT,MN,SSA,SCA,SEO;;;Comptes;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/login;V5.4;REF;;"Quelque soit le profil ou ID user, connexion à la page d'identifiant ROC";17329;"Si mot de passe oublié ou compte inactif, pas de connexion possible. Reste sur la page
+
+RQ : en tableau de bord gestionnaire, certains compte sont tagués ACTIF bien que le gestionnaire n'arrive pas à ce connecter. On doit quand même réinitiliser
+
+";Bloquant;
+657411;"02/17/2026 11:47";;"[AAE] Validation offre d'emploi";;m_fekete;"En cours de résolution et de qualification";"gestion emplois";"12/09/2025 16:21";;;;;;AAE;;j_sales1;ROC-3029;m_fekete;AAE;;;Emploi;;P3;Mineur;"Poste Intradef";"https://reservistes.intradef.gouv.fr/interne/poste/creer/publication/1750 ";v7.4.3;REF;12/16/2025;"Contrôle par LCL SALES";426;"Une offre d'emploi a été validée et publiée, 
+     Bonjour Lieutenant-colonel Eric NOIROT,
+     Votre offre d'emploi a été validée par eric.noirot@intradef.gouv.fr et est désormais publiée. 
+     Cordialement,
+     Ministère des armées
+     Délégation interarmées aux réserves	 
+      Cet email vous a été envoyé automatiquement, merci de ne pas y répondre.
+
+
+une candidature a été reçue sur cette offre. 
+    Bonjour Monsieur le Lieutenant-colonel NOIROT,
+    Je me permets de vous écrire en lien avec la préparation militaire initiale du 12 au 18 avril sur le site des réservistes  Consulter un emploi - Réservistes des armées
+     Mon fils Ethan RAPP âgé de 16 ans (né le 11/10/2009) serait intéressé.
+    De plus sauriez-vous s'il serait possible pour lui de valider la phase 2 d'engagement du SNU par le biais de cette formation ?
+
+
+L'offre est revenue dans l'onglet ""en-cours-creation-validation"" !!!";;20251218-TULEAP-657411-JMD-A2.docx
+679214;"02/19/2026 10:45";;"[ADT] Reception d'un mail pour visite médicale civil à tort. ";;;"En attente de prise en compte dans l'usine logicielle";"Anomalie fonctionnelle parcours Engagement";"01/22/2026 09:52";;;;;;ADT;"bugs #682240";j_saint_julien;ROC-3260;m_fekete;;;;Candidature;;P2;Mineur;"Poste Intradef";;;https://reservistes.intradef.gouv.fr/interne/engager/engagement/processus-candidature/310773;;"vérification du paramétrage de ROC avec le compte AF. ";310773;"Bien que pour l'armée de terre la tuile de la visite médicale civile ne soit pas activée (tuile non visible) le candidat reçoit un mail lui avec une pièce joint comportant un certificat médical. Les candidats comprennent alors, à tort, qu'ils doivent consulter un médecin civil. 
+C'est une régression (cela fonctionnait auparavant). ";Mineur;"Fwd Communication du Portail des réserves des armées de la garde nationale.msg,Bug #679214 reception mail visite medicale civile a tort.docx"
+662220;"02/25/2026 15:24";;"[SSA] Export e-billet erroné";;;"En attente de prise en compte dans l'usine logicielle";"Anomalie fonctionnelle E-billet";"12/17/2025 09:10";476859;476859;;;;SSA;"bugs #476859";g_gay3;ROC-3275;m_fekete;;;;E-billet;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/mes-deplacements/billets-archives;V7.5.1;"Délégataire DAGRH 0AQG005
+INF. CASP GAY Gisèle";;"Le gestionnaire souhaite réaliser un export des e-billets de son unité, depuis ""déplacements"" / e-billets commandés / archive / export ";6302;"L'export de e-billets n'est pas conforme : les RO1 sont tous affectés hors SSA.
+L'export était conforme en V7.4.3";Majeur;"E-billets AO.xlsx,V7.5.1_ export e-billet non conforme.docx,Export e-billet V7.5.1 DAGRH 0AQG005.xlsx,Export e-billet.docx,bugs #662220.docx"
+647446;"03/04/2026 10:23";;"[SSA] - Contrat en renouvellement avec date fin > juin 2026";;;"En attente de prise en compte dans l'usine logicielle";;"11/28/2025 11:23";;;;;;SSA;;c_dulaurans;ROC-3338;m_fekete;;;;Contrat;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/mes-contrats/liste-reservistes/contrats-en-cours-renouvellement;"V5 et v6.3.2,v6.3.3,v7.4.3,V7";"Delégataire ADR";;"En tant que delégataire ADR, accès à l'onglet ""Contrat en cours de renouvellement"" ";742;"Affichage des dossiers dont le contrat se termine au dessus du juin 2026  (actuellement 532 contrats sur les 879 présents). Ces contrats ont été renouvelés (transmis par le flux ROx du SSA). Ils ne devraient plus être présents dans cet onglet pénalisant le travail des traitantsQu. 
+De plus si renouvellement d'un contrat d'UN an, peut bloquer le processus du nouveau renouvellement de contrat. Voir autre ticket Tuleap";;"ADR_contrat_en cours renouvellement_date fin esr_20251128.png,bugs #647446] [SSA] - Contrat en renouvellement avec date fin sup juin 2026.docx,647446-contrat en renouvellement deja renouvele.docx,bugs #647446.docx"
+675932;"03/04/2026 10:40";;"Pas d'accès au module Vivier avec le profil AO";;;"En attente de prise en compte dans l'usine logicielle";;"01/16/2026 10:41";;;;;;DGA;;c_laval4;ROC-3340;m_fekete;ADT,MN,AAE,SSA,SCA,SEO;;;Droits,Comptes;;P2;Mineur;"Poste Intradef";;V7.5.3;AO;;"Connexion à mon profil AO, je souhaite accéder au vivier de l'ensemble des volontaires et les rechercher par titre.";17304;"Actuellement, avec mon compte AO, je n'ai pas accès au module qui n'apparait pas sur l'écran d'accueil, ni dans le menu Contrats/mobilité.";Mineur;
+713453;"03/12/2026 08:07";;"[ADT] Absence de CR suite à production flux du 09/03/2026";;;"En attente de prise en compte dans l'usine logicielle";;"03/11/2026 14:15";;;;;;ADT;;j_saint_julien;;j_saint_julien;MN,AAE,SSA;;;;;;;;;;AO;;;Aucun;"L'ADT n'a pas reçu le flux d’acquittement du flux ROx rénové mis en œuvre pour la première fois le lundi 9 mars 2026.
+Pouvez-vous nous en donner les raisons. 
+
+Le flux DIFF ROx_Rénové du mercredi 11 n'a donc, par conséquent, pas été produit. Celui du vendredi 13 sera également ""supprimé"". 
+
+De plus, la génération du flux full du lundi 16 mars (et des flux suivants) sera conditionné par la réception et l’intégration de l’acquittement du flux full généré le 09/03/2026.";Bloquant;"Problème de flux Rénové JOUR 2.docx"
+707929;"03/23/2026 09:44";;"[AAE]RECRUTEMENT : raccourci clavier code credo %%";;;"En attente de prise en compte dans l'usine logicielle";;"03/04/2026 09:48";;;;;;AAE;;s_caumond;ROC-3514;m_fekete;;;;Volontariat;;;Mineur;;https://pprod-reservistes.intradef.gouv.fr/interne/poste/creer/formation-emploi/2574;V7.3.0;AF;;"- Création nouvelle offre d'emploi
+- Saisie de %% pour avoir la liste des codes credo ( cf MOP ""20251022_NP_EMA-DCN-ROC_Pas à pas_Création offre d'emploi-Employeur_v0.pdf"")
+";584;"Affichage d'une liste avec seulement 9 codes";;%%.png,RECRUTEMENT_raccourci_pourcentage.docx
+718229;"03/23/2026 10:22";;"[MN] onglet ""export des réservistes"" KO";;;"En cours de résolution et de qualification";;"03/17/2026 15:11";708769,710838,713360,714331;"708769, 710838, 713360, 714331";;;;MN;"bugs #714331, bugs #713360, bugs #710838, bugs #708769";j_audrain;ROC-3371;m_fekete;;;;Extraction;;;;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/liste-reservistes-ro1;V8.3.5;Référent;;"onglet gestion => reservistes R01
+";-;"lorsque l'ont clique sur l'onglet Export des réservistes en .csv => fichier introuvable";Bloquant;"export des réservistes.png"
+714331;"03/23/2026 10:22";;"[CND] - Export de la liste des réservistes RO1 impossible";;;"En cours de résolution et de qualification";;"03/12/2026 10:17";710838,713360;"710838, 713360";;;;DIRISI;"bugs #713360, bugs #710838, bugs #718229";g_claude;ROC-3371;m_fekete;DIRISI;;;;;;;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/liste-reservistes-ro1;V8.3.5;REF;;"Gestion/Réservistes RO1 puis Export des réservistes puis page blanche : Échec de la connexion sécurisée";9999;;;
+713360;"03/23/2026 10:22";;"Export RO1 impossible";;;"En cours de résolution et de qualification";;"03/11/2026 13:18";710838;710838;;;;SCA;"bugs #710838, bugs #714331, bugs #718229";n_honore1;ROC-3371;m_fekete;;;;Emploi;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/liste-reservistes-ro1;V8.2.0;"Référent et Pilote";;;sca;"A partir du bloc ""gérer mes RO1"", il n'est désormais plus possible d'exporter la liste des RO1.
+Un message d'erreur apparaît stipulant que le fichier est introuvable (copie écran jointe)";Majeur;"Capture d'écran 2026-03-11 131317.png,BUG #713360.docx"
+710838;"03/23/2026 10:23";;"[SSA] Export RO1 impossible";;;"En cours de résolution et de qualification";;"03/09/2026 11:58";708769;708769;;;;SSA;"bugs #708769, bugs #713360, bugs #714331, bugs #718229";g_gay3;ROC-3371;m_fekete;ADT;;;Extraction;;;;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/liste-reservistes-ro1;V8.3.5;"Délégataire référent DAGRH 0AQG000 ";;"Le gestionnaire souhaite réaliser un export des RO1 de son unité. Il se connecte à son compte, en tant que délégataire du référent, puis clique sur le module ""RO1"". Il visualise le 25 RO1 affectés dans cette unité.";"GAY Gisèle 6302";"Lorsque le gestionnaire clique sur le bouton ""export des réservistes"", affichage de la page ""échec de la connexion sécurisée"".";Mineur;"Export RO1 impossible.docx"
+708769;"03/23/2026 10:23";;"[AAE]RO1 : export RO1 impossible en DEL PIL";;;"En cours de résolution et de qualification";;"03/05/2026 10:10";;;;;;AAE;"bugs #710838, bugs #718229";s_caumond;ROC-3371;m_fekete;ADT,MN,SSA;;;Extraction;;;Majeur;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/unite/reserviste/ro1/export;8.3.5;"DEL PIL ";;"- Gérer les comptes
+- Réservistes RO1
+- Clic sur ""EXPORT DES RESERVISTES""";17329;"Impossible de télécharger le CSV de la liste des RO1 
+Affichage page ECHEC DE LA CONNEXION SECURISEE";Majeur;"v8.3.5_export-RO1_del pil.png,Export RO1.docx"
+682240;"03/23/2026 10:27";;"[AAE]RECRUTEMENT : acces fiche aptitude médicale erroné";;;"En attente de prise en compte dans l'usine logicielle";;"01/26/2026 13:37";679214;679214;;;;AAE;"bugs #679214";s_caumond;ROC-3260;m_fekete;ADT;;;"Candidature,Suivi médical";;;Majeur;"Poste Internet";"https://www.reservistes.defense.gouv.fr/candidat/processus-candidature/etape/visite-medicale-militaire ";V7.5.3;"candidat ";;"Parcours ENGAGEMENT
+- tuile CHOIX DE L'OFFRE D'EMPLOI : ok
+- tuile VERIFICATION DE SECURITE : OK
+- tuile RDV EN UNITE : OK - avis favorable
+- tuile VISITE MEDICALE MILITAIRE : réponse à la question ""êtes-vous en possession d'un certificat d'aptitude à l'engagement dans la réserve établi par un médecin militaire ? : oui
+";314595;"- Accès à la page MA VISITE MEDICALE : page de résultat de la visite médicale sans téléchargement de la fiche d'aptitude liée à la fiche de poste.
+
+Reliquat du fonctionnement AVANT la fiche d'aptitude demandée par le SSA.
+
+Il faut répondre NON à la question de la page précédente pour accéder à la page avec les liste des CMA et la fiche VMP 
+";Bloquant;"bug_VMP.png,vmp_oui_non.png,vmp.png,bugs #682240.docx"
+717947;"03/23/2026 10:27";;"[ADT] Envoi de mail intenpestifs et formulaire certificat médical aux candidats";;;"En cours de résolution et de qualification";;"03/17/2026 11:59";;;;;;ADT;;j_saint_julien;ROC-3509;m_fekete;;;;Candidature;;;Mineur;"Poste Internet";;V8.3.5;Candidat;;;315877;"Lorsqu'un candidat se connecte sur son espace ROC, lors du parcours recrutement, il reçoit un mail de notification (cf. p.j 1) avec en pièce jointe un formulaire de certificat militaire civil (cf. p.j 2). 
+Ces mails peuvent être envoyés quelques minutes après la connexion sans aucune action de la part du candidat (sans même entrer sur l'une des tuiles du parcours). 
+Par ailleurs, le certificat médical joint, induit le candidat en erreur. En effet ce dernier estime alors qu'il doit passer une visite médicale dans le secteur civil. ";;"Fwd Communication du Portail des réserves des armées de la garde nationale.msg,certificat_medical-1.pdf,bugs 717947.docx,bugs 717947.docx"
+714526;"03/23/2026 10:28";;"[Flux] Rapport ROX RHAPSODIE non présent dans le point de montage";;;"En cours de résolution et de qualification";;"03/12/2026 12:16";;;;;;MN;;m_fekete;ROC-3434;m_fekete;;;;Flux;;;Majeur;"Poste Intradef";"<p>Point de montage ROC</p>
+";V8.3.5;"<p>Compte intradef</p>
+";;"<p>Consultation du point de montage du SI ROC pour analyser le rapport d&#39;int&eacute;gration du flux ROX de RHAPSODIE.</p>
+
+<p>Dans le point de montage, je vais dans RHAPSODIE, IN_ROC, ROX et COMPTE-RENDU.</p>
+";RAS;"Le fichier rapport_importROx_RHA_AAAA-MM-JJ.xlsx est non présent.";Majeur;
+713118;"03/23/2026 10:30";;"[SSA] Ajout et suppression de code impossible dans périmètre ADR";;;"En cours de résolution et de qualification";"Problème gestion et création compte gestionnaire";"03/11/2026 09:32";;;;;;SSA;;g_gay3;ROC-3435;m_fekete;;;;Droits;;;;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/utilisateurs/gestionnaires/10446/modifier;V8.3.5;"Délégataire AO";;"Le délégataire AO (GAY Gisèle) souhaite ajouter un code ORG dans le périmètre de l'ADR afin qu'il accède aux renouvellements de contrats de cette unité.
+L'ADR SSA (Nathalie DAOUT) a 522 codes ORG dans son périmètre.";" AO 6302 / ADR 10446";"Le délégataire AO inscrit le nouveau code ORG de l'AM74 (067H0NK) et valide. L'action n'est pas validée, message ""une erreur est survenue"".
+Idem lorsque le délégataire AO supprime une unité du périmètre ADR";Bloquant;"Ajout code impossible dans périmètre ADR SSA.docx,20260309_ARH_ROxRENO_FULL.xlsx,BUG #713118.docx"
+711099;"03/23/2026 10:31";;"[SSA] Affichage CV candidats impossible";;;"En cours de résolution et de qualification";;"03/09/2026 14:42";;;;;;SSA;;g_gay3;ROC-3408;m_fekete;ADT,AAE;;;Candidature;;;Bloquant;"Poste Intradef";https://reservistes.intradef.gouv.fr/interne/engager/engagement/processus-candidature/313868;V8.3.5;"Délégataire référent HNIA Percy 05DF223";;"Le référent de l'HNIA Percy souhaite consulter les candidatures en cours. Il ouvre le module ""vivier des volontaires"", sélectionne un dossier.";313868;"Le gestionnaire clique sur le CV du candidat. Impossible d'ouvrir le document. Affichage ""fichier introuvable"".";Bloquant;"Affichage CV candidats impossible.docx"
+709035;"03/23/2026 10:31";;"Impossibilite pour un  R02 de postuler à une offre d'emploi depuis son compte";;;"En cours de résolution et de qualification";;"03/05/2026 14:00";;;;;;MN;;j_audrain;ROC-3376;m_fekete;;;;;;P0;Majeur;ISPT;https://pprod-reservistes.cloud.defense.gouv.fr/reserviste/ro2/mes-donnees-perso/modifier;V8.3.5;"R02 MP ABAUTRET DAVID";;"-	Création compte R02 (pprod NP) => via adresse pré enregistré Getnada : KO / via Yopmail : OK
+-	Création offre d’emploi destiné au personnel R02 (pprod DR) : Ok, offre non visible sur la page NP en étant non connecté 
+";-;"Visualiser et postuler sur offre d’emploi depuis compte R02  (pprod NP): KO =>  depuis compte R02 -> bloc Données personnelles-> onglet « M’engager dans la réserve opérationnelle de 1er niveau » -> Message Erreur interne";Bloquant;"Erreur interne R02.png,20260306-BUGS-709035-MER-AJ.docx"
+677990;"03/23/2026 10:34";;"NonUniqueValueException Erreur ";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3035;m_fekete;;;;;;;Majeur;;;V7.5.1;AF;;;4512;"Pour le findOneBy, nous avons un NonUniqueValueException, car nous cherchons (historiquement, 06/2022) un couple déjà existant réserviste/activité dans la table inscription, bien qu'il puisse y en avoir plusieurs.
+
+L'erreur survient lorsqu'un réserviste cherche à s'inscrire sur une activité (POST /inscription côté back)
+
+Ligne en cause 
+
+src/Service/MesActivites/InscriptionActiviteService.php:499 :
+
+ 
+
+{{$hasInscription = $this->em->getRepository(Inscription::class)->findOneBy(}}
+{{[}}
+{{'inscriptionReserviste' => $reserviste->getReservisteId(),}}
+{{'inscriptionActivite' => $activite->getActiviteId(),}}
+{{],}}
+{{);}}
+
+ 
+
+Requête permettant d'identifier les doublons légitimes
+
+
+{{[SELECT|https://pma.isoprod.roc.fr.capgemini.com/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/select.html] inscription_reserviste, inscription_activite, [COUNT(*)|https://pma.isoprod.roc.fr.capgemini.com/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html%23function_count] AS occurrences FROM inscription GROUP BY inscription_reserviste, inscription_activite HAVING [COUNT(*)|https://pma.isoprod.roc.fr.capgemini.com/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html%23function_count] > 1 ORDER BY `inscription`.`inscription_activite` DESC}}
+
+Et simplement visualiser les inscriptions d'un réserviste à une activité :
+
+[SELECT|https://pma.isoprod.roc.fr.capgemini.com/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/select.html] * FROM `inscription` WHERE `inscription_reserviste` = 29514 [AND|https://pma.isoprod.roc.fr.capgemini.com/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/logical-operators.html%23operator_and] `inscription_activite` = 76851
+ 
+
+Cette erreur , générant une 409 gérée côté Front, génère une quantité de logs importante en 409, polluante.
+
+TODO : rajouter peut-être dans les critères un filtre sur la date concernée pour la recherche, un réserviste pouvant être inscrit plusieurs fois à une activité sur plusieurs plages de dates différentes";;
+677983;"03/23/2026 10:38";;"Erreur Tacite Prod";;;"En cours de résolution et de qualification";;"01/20/2026 15:48";;;;;;"DP ROC";;b_poiron_ext;ROC-3062;m_fekete;;;;;;;Majeur;;;V7.5.1;AF;;;4512;"Erreur Tacite PROD
+
+ 
+
+{{[2026-01-08 00:05:50] app.CRITICAL: ========== UNE ERREUR TECHNIQUE EST SURVENUE ========== \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}
+{{[2026-01-08 00:05:50] app.CRITICAL: Message : Call to a member function getUtilisateurEmailIntradefInitial() on null \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}
+{{[2026-01-08 00:05:50] app.CRITICAL: Fichier : /var/www/html/src/Service/ServicesMesDeplacements/DemandeBilletService.php :: ligne 910 \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}
+{{[2026-01-08 00:05:50] app.CRITICAL: Fichier : /var/www/html/src/Exception/WSException.php :: ligne 139 \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}
+{{[2026-01-08 00:05:50] app.CRITICAL: StackTrace : App\Service\ServicesMesDeplacements\DemandeBilletService::gestionErreurTacite() [L.694] <- App\Controller\MesDeplacements\WSDemandeBilletController::actionPatchCommandeBillet() [L.630] <- App\Controller\MesDeplacements\WSDemandeBilletController::wsPatchCommandesBillets() [L.181] <- Symfony\Component\HttpKernel\HttpKernel::handleRaw() [L.76] <- Symfony\Component\HttpKernel\HttpKernel::handle() [L.197] <- Symfony\Component\HttpKernel\Kernel::handle() [L.38] \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}
+{{[2026-01-08 00:05:50] app.CRITICAL: ======================================================= \{""dt.trace_sampled"":""true"",""dt.trace_id"":""942f1f1cd19af31d4081564074c5bfb6"",""dt.span_id"":""ce5a1d5c2701c6df""}}}";;
+672973;"03/23/2026 10:39";;"[ADT] Communication - pas de réception de mail de notification (régression?)";;;"En cours de résolution et de qualification";;"01/13/2026 15:35";;;;;;ADT;;j_saint_julien;ROC-3344;m_fekete;ADT,MN,AAE,SSA,SCA,SEO,DGA,DIRISI;;;Communication;;P2;Majeur;"Poste Intradef";"https://reservistes.intradef.gouv.fr/interne/communication/message/envoye/105 
+ 
+";V7.5.1;"DEL AADS TER";;;105;"Une communication (cf. pj) a été adressée aux PIL et REF et AO de l'armée de Terre. Ces derniers n'ont pas reçu de mail de notification. ";Majeur;"D16970D0.PNG,bug #672973.docx,bug #672973bis.docx"
+648805;"03/23/2026 10:41";;"[Activités] -AF/NP- la disponibilité par période retourne une page de maintenance";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2197;m_fekete;;;;Activités;;;Mineur;;;;AF;;;4512;"'+*Titre :*+ [Activités] -  AF/ NP la disponibilité par période retourne une page de maintenance
+
+*+Configuration:+* détection :PROD v5.4.4 NP avec le rôle AF (sans ISPT)
+
++*URL :*+ [https://www.reservistes.defense.gouv.fr/interne/calendrier/disponibilites-periode|https://www.reservistes.defense.gouv.fr/candidat/processus-candidature]
+
+*Identifiants / rôle :* AF sous NP
+
+ 
+
+*+Descriptif :+*
+ # NP : l'AF se connecte avec succès
+ # cliquer sur Activités/Calendrier - Disponibilités par période : NOK
+
+L'utilisateur spécifiquement sous NP est orienté vers une page de maintenance à cette URL
+[https://www.reservistes.defense.gouv.fr/interne/calendrier/disponibilites-periode] 
+
+ 
+
+{+}{*}Résultat obtenu:{*}
+{+}Une page de maintenance est affichée
+
+*+Résultat attendu:+*
+La page de disponibilité par période doit s'afficher
+
++*Remarques:*+
+Problème absent sous DR
+
+ ";;
+648799;"03/23/2026 10:42";;" Correction requête foreach";;;"En cours de résolution et de qualification";;"12/01/2025 16:42";;;;;;"DP ROC";;b_poiron_ext;ROC-2234;m_fekete;;;;;;;Mineur;;;;AF;;;4512;"Corriger les valeurs en dur dans le fichier suivant afin d’optimiser la mise en cache Doctrine. :
+ * _src/Repository/MesActivites/InscriptionRepository.php#getQBReservisteInscriptionsDates_
+
+Spécifiquement dans le foreach suivant : __ 
+
+foreach ($dates as $date) {
+...
+
+L'ajout de paramètres dans cette partie ajoute des erreurs de type : 
+_Uncaught PHP Exception Doctrine\ORM\Query\QueryException: ""Too few parameters: the query defines 4 parameters but you only bound 2"" at QueryException.php line 53_
+
+- Problème constaté dans le tableau des disponibilités dans Activités/Calendrier > Disponibilités par période
+
+- Création d'activité, à l'étape Réservistes, par profil champ : *Nombre de réservistes concernés* 
+
+Vérifier les autres endroits ou la méthode est utilisée.
+
+ ";;
+635511;"03/23/2026 10:44";;"[AAE] Extraction e-billet incomplète";;;"En attente de prise en compte dans l'usine logicielle";"Non classé,Anomalie fonctionnelle E-billet";"11/07/2025 16:23";;;;;;AF;;a_galleyn;ROC-2821;m_fekete;;;;E-billet;;;Majeur;"Poste Intradef";;v6.3.3;"délégataire MAJ ISMAEL Franck code crédo 01BY0000
+délégataire ADC BURETTE Frédéric code crédo 0AQ8000";;"Demande extraction via module déplacement de l'ensemble des ebillets commandés par le personnel réserviste des unités code crédo 01BY000 et 0AQ8000";4512;"Les extractions demandées pour les codes crédo 0AQ8000 et 01BY000  contiennent la totalité des ebillets commandés par l'ensemble des réservistes de l'AT mais ne contient pas la liste des ebillets commandés pour chacune des unités concernées.";Majeur;"2025_11_07_08h03_extraction_massive_commandes_archivees 01BY000.csv,téléchargement BILLET chez le référent.docx,2025_11_18_15h49_extraction_massive_commandes_archivees code CREDO 01BY000 .csv,Extraction e-billet.docx,2025_11_18_16h04_extraction_massive_commandes_archivees code CREDO 0AQ8000.csv"
+598625;"03/23/2026 11:20";;"[MOE] [Recette] Problème de redirection";;;"En cours de résolution et de qualification";;"10/07/2025 16:06";;;;;;"DP ROC";;b_poiron_ext;ROC-2420;m_fekete;;;7.4;;;;Mineur;;;;AF;;;4512;"[MOE] [Recette] Problème de redirection.
+
+ 
+
+Problème de redirection sur mon poste des que je valide une tuile sur l'engagement ou une autre validation. J'ai une redirection JSON.
+
+ 
+|redirect|""/interne/engager/engagement/processus-candidature/275381""|
+|redirect_blank|false|
+
+ 
+
+ 
+
+!image-2025-10-01-17-36-15-335.png!
+
+!image-2025-10-01-17-35-58-806.png!";;
