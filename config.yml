@@ -1,0 +1,13 @@
+version_en_production: "v8.3.5"
+
+tuleap_status:
+  waiting: "En attente de prise en compte dans l'usine logicielle"
+  in_progress: "En cours de résolution et de qualification"
+  fixed: "Corrigé en production"
+  cancelled: "Annulé"
+
+jira_status:
+  closed: "Clos"
+  cancelled: "Annulée"
+
+ads_value: "DP ROC"
